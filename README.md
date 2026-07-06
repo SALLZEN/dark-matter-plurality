@@ -53,6 +53,28 @@ The intended flow is:
 - `figures/`: final manuscript figure PDFs only
 - `tables/`: final manuscript table fragments only
 
+## Setup
+
+From the repository root, run:
+
+```bash
+./configure_repo.sh
+```
+
+This bootstraps a repo-local Python environment and installs an optional
+repo-local Jupyter kernel for the notebook stages.
+
+If you prefer to run setup manually, the underlying commands are:
+
+```bash
+./bootstrap_python_env.sh
+./install_repo_kernel.sh
+```
+
+`bootstrap_python_env.sh` installs from `code/requirements.lock.txt`
+when that file is present; otherwise it falls back to
+`code/requirements.txt`.
+
 ## Scope
 
 - This public repository is about computational and methodological

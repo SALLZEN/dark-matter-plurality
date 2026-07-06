@@ -1,4 +1,5 @@
 .DS_Store
+.venv/
 __pycache__/
 .ipynb_checkpoints/
 .quarto/
@@ -12,11 +13,19 @@ docs/repo-map_files/
 # Python / notebook build noise
 *.pyc
 *.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
 # R session noise
 .Rhistory
 .RData
 .Rproj.user/
+
+# Local environment files
+.env
+.env.*
+!.env.example
 
 # LaTeX build artefacts
 *.aux
