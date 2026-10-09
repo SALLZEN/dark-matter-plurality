@@ -1,144 +1,149 @@
 ---
-author: "Simon Allzén"
-title: "Repository"
-subtitle: "_Phenomena, Particles, and the Plurality of Dark Matter_"
+title: "Reproduction Bundle"
+subtitle: "_Diverging paths to dark-matter discovery_"
 format:
-  html:
-    theme:
-      dark: darkly
-      light: flatly
-    mermaid:
-      theme: dark
-    mainfont: "Fraunces"
-    fontsize: "10pt"
-    code-fold: true
-    code-summary: "Show the code"
-    tabset: true
-    minimal: true
-    max-width: "1600"
-    smooth-scroll: true
-    page-layout: article
-    df-print: kable
+  gfm:
+    toc: true
+execute:
+  enabled: false
 ---
 
-# Dark Matter Transparency Bundle
+# Reproduction Bundle for “Diverging paths to dark-matter discovery”
 
 [![DOI](https://zenodo.org/badge/1240854446.svg)](https://doi.org/10.5281/zenodo.20241725)
 
-This directory is the public transparency bundle for the **Nature
-Astronomy Analysis** draft, *Phenomena, Particles, and the Plurality of
-Dark Matter*. It is organized around one canonical pipeline, one
-retained ADS provenance snapshot, and one canonical set of final figure
-outputs.
+This repository is the code and data bundle for the preprint *Diverging paths to dark-matter discovery*. It preserves the frozen ADS retrieval, rebuilds the canonical analysis tables, performs robustness and validation analyses, and includes the network analyses and all five main and five supplementary figure assets. The manuscript source and compiled preprint are maintained separately.
 
-## Canonical pipeline
+Version 3.0.0 accompanies the arXiv preprint. The Zenodo badge intentionally uses the concept DOI, [10.5281/zenodo.20241725](https://doi.org/10.5281/zenodo.20241725), which resolves across versions. The exact v3.0.0 version DOI will be added after the connected Zenodo release is minted.
 
-1. `code/001-collect-ads-records.ipynb`
-2. `code/002-build-canonical-data.R`
-3. `code/003-extract-dm-candidates.ipynb`
-4. `code/004-build-lexical-data.ipynb`
-5. `code/005-build-paper-assets.R`
+## Frozen analysis contract
 
-Optional maintenance route:
+- ADS query: full:"dark matter"
+- indexing snapshot: 2026-05-21
+- analysis cutoff: 2025 inclusive
+- 2026 records: excluded everywhere
+- canonical corpus through 2025: 201,627 records
+- papers with arXiv classifications: 143,390
+- random seed: 20250801
+- candidate-divergence bootstrap: 2,000 paper-level resamples per field-year
 
-- `code/001a-update-ads-records.ipynb` mirrors the collection logic in
-  `001` and can be used to append a new year to an existing ADS snapshot
-  without changing the downstream pipeline.
+The machine-readable statistical analysis contract is [data/analysis_manifest.json](data/analysis_manifest.json). It records the canonical inputs and their hashes. The network archives have separate historical manifests and the scope described below.
 
-The intended flow is:
+## Six-stage pipeline
 
-- ADS JSON retrieval and citation histories are written under
-  `code/stage-outputs/001-collect-ads-records/`.
-- In the public repo, the costly retained ADS snapshot is packaged as
-  one zip archive under
-  `code/stage-outputs/001-collect-ads-records/`; extract it before
-  running `002-build-canonical-data.R`.
-- `002-build-canonical-data.R` converts those JSON files into canonical
-  parquets in `data/`.
-- `003-extract-dm-candidates.ipynb` adds candidate-model outputs needed
-  for the manuscript figures.
-- `004-build-lexical-data.ipynb` writes the canonical yearly unigram
-  parquet used by the lexical figure.
-- `005-build-paper-assets.R` rebuilds the final paper figures and table
-  from the canonical parquets only.
+1. code/001-collect-ads-records.ipynb — retained ADS retrieval and provenance
+2. code/002-build-canonical-data.R — canonical papers, classes, and metrics
+3. code/003-extract-dm-candidates.ipynb — candidate mentions
+4. code/004-build-lexical-data.ipynb — lexical data and rankings
+5. code/005-robustness-validation.ipynb — classification sensitivity, validation, divergence, and robustness
+6. code/006-build-paper-assets.R — Figures 1–3 and S1–S4, an auxiliary closure schematic, and a candidate-ranking table
 
-## Canonical directories
+`code/006a-build-paper-assets-stepwise.R` is the readable, stepwise renderer for Figures 1–3. `code/006b-build-si-assets-stepwise.R` provides the corresponding route for Figures S1–S4. Stage 006 invokes both companions, using the same frozen inputs, so the interactive and noninteractive routes share the final rendering code.
 
-- `code/`: notebook-led upstream pipeline and shared helpers
-- `code/stage-outputs/`: stage-local caches, audit tables, and support
-  exports that are not part of the canonical shared data contract. In
-  the public repo, only the retained stage-001 ADS snapshot archive is
-  kept there by default.
-- `data/`: local target directory for canonical machine-readable
-  intermediates rebuilt from the retained ADS snapshot
-- `figures/`: final manuscript figure PDFs only
-- `tables/`: final manuscript table fragments only
+code/001a-update-ads-records.ipynb is retained only as an optional future maintenance route. It is not used for v3.0.0 because the frozen ADS snapshot covers records through the 2025 analysis cutoff.
 
-## Setup
+## Reproduce from the retained archive
 
-From the repository root, run:
+Set up the pinned Python environment:
 
-```bash
-./configure_repo.sh
-```
+    ./configure_repo.sh
 
-This bootstraps a repo-local Python environment and installs an optional
-repo-local Jupyter kernel for the notebook stages.
+Restore the pinned R environment:
 
-If you prefer to run setup manually, the underlying commands are:
+    Rscript -e 'renv::restore()'
 
-```bash
-./bootstrap_python_env.sh
-./install_repo_kernel.sh
-```
+Stage 006 requires the open-source STIX Two Text font to be installed on the system. The renderer resolves the installed regular and italic faces and stops with an explicit error if the font is unavailable.
 
-`bootstrap_python_env.sh` installs from `code/requirements.lock.txt`
-when that file is present; otherwise it falls back to
-`code/requirements.txt`.
+### Regenerate the current main figures only
 
-## Scope
+The compact frozen inputs needed for Figures 1–3 are included, so the revised main figures can be regenerated without rebuilding the large canonical corpus:
 
-- This public repository is about computational and methodological
-  transparency.
-- It contains the code, retained ADS snapshot, generated table
-  fragment, and final figure outputs needed to inspect and reproduce the
-  analysis.
-- The retained ADS provenance snapshot is distributed as a zip archive
-  containing a hydrated-records JSON and a citation-metrics JSON.
-- The manuscript source, manuscript PDF, and bibliography are
-  intentionally kept out of the public repository surface.
+    Rscript code/006a-build-paper-assets-stepwise.R
 
-## Repository metadata
+This writes `figures/primary_dominant.pdf`, `figures/log_ratio.pdf`, and `figures/norm.pdf`. Figure 2 excludes candidate-year cells with fewer than 20 paper mentions.
+
+### Regenerate the SI figures step by step
+
+Open `code/006b-build-si-assets-stepwise.R` in RStudio and run its numbered sections to inspect the source tables, transformations, selected lexical terms, and plot objects for Figures S1–S4. To run the same route noninteractively:
+
+    Rscript code/006b-build-si-assets-stepwise.R
+
+Set `SAVE_OUTPUTS <- FALSE` before running in RStudio to inspect the objects without overwriting the released PDFs.
+
+To regenerate these seven statistical figures, the auxiliary schematic, and the candidate-ranking table from the included frozen analysis products:
+
+    Rscript code/006-build-paper-assets.R
+
+Extract the retained archive:
+
+    unzip code/stage-outputs/001-collect-ads-records/ads_stage_001_snapshots.zip -d code/stage-outputs/001-collect-ads-records/
+
+Run stages 002–006 in order. The notebook stages can be run interactively or executed noninteractively with the pinned environment:
+
+    PYTHON_BIN=.venv/bin/python code/run_frozen_pipeline.sh
+
+The equivalent individual commands are:
+
+    Rscript code/002-build-canonical-data.R
+    .venv/bin/jupyter nbconvert --to notebook --execute --inplace code/003-extract-dm-candidates.ipynb
+    .venv/bin/jupyter nbconvert --to notebook --execute --inplace code/004-build-lexical-data.ipynb
+    .venv/bin/jupyter nbconvert --to notebook --execute --inplace code/005-robustness-validation.ipynb
+    Rscript code/006-build-paper-assets.R
+
+The noninteractive stage-005 analysis core and automated checks are also available directly:
+
+    python code/robustness_analysis.py --bootstrap 2000
+    Rscript code/006-build-paper-assets.R
+    python -m unittest discover -s code/tests -p 'test_*.py' -v
+
+No ADS token or new network retrieval is required. Network access is needed only to rebuild the independent arXiv primary-category audit from scratch; the fixed 500-record output is included.
+
+## Inspect the archived network analyses
+
+The network code reuses the candidate ontology in `code/`.
+
+The network archives preserve the results and saved presentations used in the paper. Their historical manifests record earlier candidate-dictionary and network-code versions. The current code includes later revisions, so rerunning it is not guaranteed to reproduce those archived network results exactly. The archived tables, graphs, and figure assets remain available for inspection. Its frozen event tables, metric tables, graph exports, and saved Gephi layouts are included in `network/canonical-frozen.zip` and `network/wimp-role-networks-frozen.zip`:
+
+    unzip network/canonical-frozen.zip -d network/
+    unzip network/wimp-role-networks-frozen.zip -d network/
+    python -m unittest discover -s network/tests -p 'test_*.py' -v
+    python network/run_pipeline.py --validate-only
+
+After rebuilding the canonical upstream data with stages 002–005, run the current extraction and WIMP-role code with:
+
+    python network/run_pipeline.py
+    python network/build_wimp_role_graphs.py
+
+The saved graph exports and Gephi projects preserve the layouts used in Figure 4 (`graph-01.pdf`) and Figure S5 (`graph_removal.pdf`). Rendering those panels uses the saved Gephi presentation; it is not performed by stage 006. Figure 5 (`fig_table.png`) is the conceptual assessment supplied with the paper. See [network/README.md](network/README.md) for the graph definitions, weights, sensitivity analyses, and interpretation limits.
+
+## Released material
+
+- data/analysis/: yearly classifications, mappings and coverage, candidate divergence, weighting, rarefaction, permutation, document sensitivities, and lexical divergence
+- data/validation/: completed primary-order audit and optional candidate-dictionary audit materials
+- figures/: source-data manifest, alt text, five main figures, and five SI figures
+- tables/: generated candidate-family ranking
+- code/tests/: deterministic weighting, distance, identifier, and candidate-ontology checks
+- network/: ontology extraction, WIMP-role analyses, tests, compact summaries, and a frozen archive of events, metrics, graph exports, and saved Gephi layouts
+- release_manifest.json: release assembly provenance and SHA-256 hashes of the frozen network archives and their members
+
+Two compact figure inputs, `data/dm_model_candidates_long.parquet` and `data/unigram_yearly.parquet`, are included so the paper assets can be regenerated directly. Four large upstream intermediates—`papers.parquet`, `paper_arxiv_classes.parquet`, `paper_metrics_long.parquet`, and `papers_with_dm_models.parquet`—are intentionally omitted and rebuild from the retained 76-MB compressed ADS archive.
+
+## Audit status
+
+The 500-paper ADS/arXiv primary-category audit is complete: agreement is 1.000 with a Wilson 95% interval of 0.992–1.000.
+
+The candidate dictionary measures explicit paper--candidate-family mentions, not endorsements. Repeated occurrences of one family in an abstract count once; explicitly named generic and specific families may each count once when they co-occur, while synonymous tags mapped to one family are collapsed. Its full patterns, context rules, canonical-family mappings, and deterministic regression tests are released with the pipeline. A completed 180-record candidate-enriched development review informed a small set of boundary corrections and is not used to estimate precision or recall. The untouched holdout scaffold is retained in `data/validation/`; it does not affect release status, and no precision or recall value is claimed.
+
+The frozen ontology and regenerated outputs are recorded in `data/validation/candidate_ontology_freeze.json`. Recreate and verify that manifest from the repository root with:
+
+    python code/freeze_candidate_ontology.py
+
+## Citation and archive lineage
 
 - Citation metadata: [CITATION.cff](CITATION.cff)
-- Zenodo archival metadata: [.zenodo.json](.zenodo.json)
-- Archived submission release DOI: [10.5281/zenodo.20241726](https://doi.org/10.5281/zenodo.20241726)
-- Repository license: [LICENSE](LICENSE)
-- Git line-ending and binary-file rules:
-  [.gitattributes](.gitattributes)
-- Git ignore rules: [.gitignore](.gitignore)
+- Zenodo metadata: [.zenodo.json](.zenodo.json)
+- GitHub: [SALLZEN/dark-matter-plurality](https://github.com/SALLZEN/dark-matter-plurality)
+- Zenodo concept DOI: [10.5281/zenodo.20241725](https://doi.org/10.5281/zenodo.20241725)
+- License: [MIT](LICENSE)
 
-## Orientation
-
-- Repo map and process chart source of truth:
-  [docs/repo-map.qmd](docs/repo-map.qmd)
-- GitHub-facing rendered Markdown:
-  [docs/repo-map.md](docs/repo-map.md)
-- Regenerate the GitHub-facing Markdown files from the Quarto sources
-  with `./render-docs.sh`
-
-## Fastest reproduction path
-
-If the curated `data/` files are already present, run:
-
-```bash
-Rscript code/005-build-paper-assets.R
-```
-
-If you need to rebuild from the ADS outputs, run the full canonical
-pipeline in order.
-
-Before running `code/002-build-canonical-data.R` from the retained
-stage-001 archive, extract:
-
-- `code/stage-outputs/001-collect-ads-records/ads_stage_001_snapshots.zip`
+The earlier version DOI 10.5281/zenodo.20241726 identifies an older archive and is not the revised v3.0.0 release.

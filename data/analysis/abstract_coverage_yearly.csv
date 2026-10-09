@@ -1,0 +1,358 @@
+year,arxiv_category,n_papers,n_abstracts,abstract_coverage
+1972,astrophysics,1,1,1.0
+1989,astrophysics,1,1,1.0
+1990,high-energy physics,1,1,1.0
+1991,high-energy physics,3,3,1.0
+1992,astrophysics,12,12,1.0
+1992,condensed matter,1,1,1.0
+1992,general relativity and quantum cosmology,2,2,1.0
+1992,high-energy physics,32,32,1.0
+1993,astrophysics,97,97,1.0
+1993,computer science,1,1,1.0
+1993,condensed matter,1,1,1.0
+1993,general relativity and quantum cosmology,9,9,1.0
+1993,high-energy physics,121,121,1.0
+1994,astrophysics,318,318,1.0
+1994,condensed matter,1,1,1.0
+1994,general relativity and quantum cosmology,20,20,1.0
+1994,high-energy physics,131,131,1.0
+1994,mathematics,1,1,1.0
+1994,nuclear physics,4,4,1.0
+1995,astrophysics,472,472,1.0
+1995,condensed matter,2,2,1.0
+1995,general relativity and quantum cosmology,20,20,1.0
+1995,high-energy physics,212,212,1.0
+1995,nuclear physics,4,4,1.0
+1996,astrophysics,659,659,1.0
+1996,condensed matter,1,1,1.0
+1996,general relativity and quantum cosmology,33,33,1.0
+1996,high-energy physics,219,219,1.0
+1996,nonlinear sciences,1,1,1.0
+1996,nuclear physics,2,2,1.0
+1996,quantum physics,2,2,1.0
+1997,astrophysics,815,814,0.9987730061349693
+1997,condensed matter,1,1,1.0
+1997,general relativity and quantum cosmology,40,40,1.0
+1997,high-energy physics,234,234,1.0
+1997,mathematics,1,1,1.0
+1997,nuclear physics,2,2,1.0
+1997,physics,13,13,1.0
+1997,quantum physics,1,1,1.0
+1998,astrophysics,993,993,1.0
+1998,condensed matter,2,2,1.0
+1998,general relativity and quantum cosmology,53,53,1.0
+1998,high-energy physics,342,341,0.9970760233918129
+1998,nuclear physics,4,4,1.0
+1998,physics,7,7,1.0
+1998,quantum physics,2,2,1.0
+1999,astrophysics,1205,1205,1.0
+1999,condensed matter,3,3,1.0
+1999,general relativity and quantum cosmology,63,63,1.0
+1999,high-energy physics,382,382,1.0
+1999,mathematics,1,1,1.0
+1999,nonlinear sciences,1,1,1.0
+1999,nuclear physics,6,6,1.0
+1999,physics,15,15,1.0
+1999,quantum physics,4,4,1.0
+2000,astrophysics,1199,1199,1.0
+2000,condensed matter,4,4,1.0
+2000,general relativity and quantum cosmology,74,74,1.0
+2000,high-energy physics,350,350,1.0
+2000,mathematics,2,2,1.0
+2000,nonlinear sciences,1,1,1.0
+2000,nuclear physics,6,6,1.0
+2000,physics,18,18,1.0
+2000,quantum physics,3,3,1.0
+2001,astrophysics,1507,1507,1.0
+2001,condensed matter,2,2,1.0
+2001,general relativity and quantum cosmology,79,79,1.0
+2001,high-energy physics,439,439,1.0
+2001,nonlinear sciences,3,3,1.0
+2001,nuclear physics,8,8,1.0
+2001,physics,24,24,1.0
+2001,quantum physics,6,6,1.0
+2002,astrophysics,1438,1438,1.0
+2002,computer science,3,3,1.0
+2002,condensed matter,6,6,1.0
+2002,general relativity and quantum cosmology,80,80,1.0
+2002,high-energy physics,452,452,1.0
+2002,mathematics,1,1,1.0
+2002,nuclear physics,6,6,1.0
+2002,physics,20,20,1.0
+2002,quantum physics,4,4,1.0
+2003,astrophysics,1660,1660,1.0
+2003,condensed matter,6,6,1.0
+2003,general relativity and quantum cosmology,109,109,1.0
+2003,high-energy physics,421,421,1.0
+2003,mathematics,2,2,1.0
+2003,nuclear physics,9,9,1.0
+2003,physics,28,28,1.0
+2003,quantitative biology,1,1,1.0
+2003,quantum physics,2,2,1.0
+2004,astrophysics,1894,1894,1.0
+2004,computer science,2,2,1.0
+2004,condensed matter,13,13,1.0
+2004,general relativity and quantum cosmology,124,124,1.0
+2004,high-energy physics,508,508,1.0
+2004,mathematics,8,8,1.0
+2004,nonlinear sciences,1,1,1.0
+2004,nuclear physics,9,9,1.0
+2004,physics,43,43,1.0
+2004,quantitative biology,1,1,1.0
+2004,quantum physics,3,3,1.0
+2005,astrophysics,1821,1821,1.0
+2005,condensed matter,11,11,1.0
+2005,general relativity and quantum cosmology,135,135,1.0
+2005,high-energy physics,589,589,1.0
+2005,mathematics,8,8,1.0
+2005,nonlinear sciences,3,3,1.0
+2005,nuclear physics,7,7,1.0
+2005,physics,70,70,1.0
+2005,quantitative biology,1,1,1.0
+2005,quantum physics,8,8,1.0
+2006,astrophysics,2075,2074,0.9995180722891567
+2006,computer science,1,1,1.0
+2006,condensed matter,14,14,1.0
+2006,general relativity and quantum cosmology,202,202,1.0
+2006,high-energy physics,677,677,1.0
+2006,mathematics,5,5,1.0
+2006,nuclear physics,14,14,1.0
+2006,physics,69,69,1.0
+2006,quantitative biology,1,1,1.0
+2006,quantum physics,6,6,1.0
+2007,astrophysics,2010,2010,1.0
+2007,computer science,1,1,1.0
+2007,condensed matter,16,16,1.0
+2007,general relativity and quantum cosmology,239,239,1.0
+2007,high-energy physics,851,851,1.0
+2007,mathematics,15,15,1.0
+2007,nonlinear sciences,2,2,1.0
+2007,nuclear physics,19,19,1.0
+2007,physics,103,103,1.0
+2007,quantitative biology,4,4,1.0
+2007,quantum physics,7,7,1.0
+2008,astrophysics,2265,2265,1.0
+2008,computer science,5,5,1.0
+2008,condensed matter,12,12,1.0
+2008,general relativity and quantum cosmology,316,316,1.0
+2008,high-energy physics,921,921,1.0
+2008,mathematics,6,6,1.0
+2008,nonlinear sciences,5,5,1.0
+2008,nuclear physics,21,21,1.0
+2008,physics,114,114,1.0
+2008,quantum physics,4,4,1.0
+2008,statistics,1,1,1.0
+2009,astrophysics,2607,2607,1.0
+2009,computer science,1,1,1.0
+2009,condensed matter,12,12,1.0
+2009,general relativity and quantum cosmology,319,319,1.0
+2009,high-energy physics,1123,1123,1.0
+2009,mathematics,15,15,1.0
+2009,nuclear physics,27,27,1.0
+2009,physics,144,144,1.0
+2009,quantitative biology,1,1,1.0
+2009,quantum physics,12,12,1.0
+2009,statistics,4,4,1.0
+2010,astrophysics,2463,2463,1.0
+2010,computer science,6,6,1.0
+2010,condensed matter,18,18,1.0
+2010,general relativity and quantum cosmology,346,346,1.0
+2010,high-energy physics,1176,1176,1.0
+2010,mathematics,17,17,1.0
+2010,nonlinear sciences,3,3,1.0
+2010,nuclear physics,27,27,1.0
+2010,physics,152,152,1.0
+2010,quantum physics,12,12,1.0
+2010,statistics,1,1,1.0
+2011,astrophysics,2573,2573,1.0
+2011,computer science,6,6,1.0
+2011,condensed matter,13,13,1.0
+2011,general relativity and quantum cosmology,370,370,1.0
+2011,high-energy physics,1192,1192,1.0
+2011,mathematics,23,23,1.0
+2011,nuclear physics,29,29,1.0
+2011,physics,208,208,1.0
+2011,quantitative biology,3,3,1.0
+2011,quantum physics,8,8,1.0
+2011,statistics,2,2,1.0
+2012,astrophysics,2810,2810,1.0
+2012,computer science,11,11,1.0
+2012,condensed matter,21,21,1.0
+2012,general relativity and quantum cosmology,429,429,1.0
+2012,high-energy physics,1455,1455,1.0
+2012,mathematics,24,24,1.0
+2012,nonlinear sciences,3,3,1.0
+2012,nuclear physics,34,34,1.0
+2012,physics,253,252,0.9960474308300395
+2012,quantitative biology,6,6,1.0
+2012,quantum physics,5,5,1.0
+2012,statistics,3,3,1.0
+2013,astrophysics,2748,2748,1.0
+2013,computer science,7,7,1.0
+2013,condensed matter,14,14,1.0
+2013,general relativity and quantum cosmology,421,421,1.0
+2013,high-energy physics,1465,1465,1.0
+2013,mathematics,15,15,1.0
+2013,nonlinear sciences,3,3,1.0
+2013,nuclear physics,24,24,1.0
+2013,physics,307,307,1.0
+2013,quantitative biology,7,7,1.0
+2013,quantum physics,11,11,1.0
+2013,statistics,6,6,1.0
+2014,astrophysics,2804,2804,1.0
+2014,computer science,11,11,1.0
+2014,condensed matter,16,16,1.0
+2014,general relativity and quantum cosmology,456,456,1.0
+2014,high-energy physics,1531,1531,1.0
+2014,mathematics,19,19,1.0
+2014,nonlinear sciences,3,3,1.0
+2014,nuclear physics,26,26,1.0
+2014,physics,219,219,1.0
+2014,quantitative biology,5,5,1.0
+2014,quantitative finance,1,1,1.0
+2014,quantum physics,13,13,1.0
+2014,statistics,6,6,1.0
+2015,astrophysics,2937,2937,1.0
+2015,computer science,16,16,1.0
+2015,condensed matter,14,14,1.0
+2015,general relativity and quantum cosmology,611,611,1.0
+2015,high-energy physics,1696,1696,1.0
+2015,mathematics,18,18,1.0
+2015,nonlinear sciences,3,3,1.0
+2015,nuclear physics,33,33,1.0
+2015,physics,335,335,1.0
+2015,quantitative biology,4,4,1.0
+2015,quantum physics,14,14,1.0
+2015,statistics,4,4,1.0
+2016,astrophysics,2952,2952,1.0
+2016,computer science,23,23,1.0
+2016,condensed matter,20,20,1.0
+2016,general relativity and quantum cosmology,622,622,1.0
+2016,high-energy physics,1798,1798,1.0
+2016,mathematics,23,23,1.0
+2016,nonlinear sciences,4,4,1.0
+2016,nuclear physics,27,27,1.0
+2016,physics,299,299,1.0
+2016,quantitative biology,8,8,1.0
+2016,quantitative finance,2,2,1.0
+2016,quantum physics,21,21,1.0
+2016,statistics,7,7,1.0
+2017,astrophysics,3118,3118,1.0
+2017,computer science,28,28,1.0
+2017,condensed matter,26,26,1.0
+2017,general relativity and quantum cosmology,608,608,1.0
+2017,high-energy physics,1708,1708,1.0
+2017,mathematics,24,24,1.0
+2017,nonlinear sciences,1,1,1.0
+2017,nuclear physics,34,34,1.0
+2017,physics,337,337,1.0
+2017,quantitative biology,7,7,1.0
+2017,quantum physics,30,30,1.0
+2017,statistics,10,10,1.0
+2018,astrophysics,3283,3283,1.0
+2018,computer science,32,32,1.0
+2018,condensed matter,23,23,1.0
+2018,general relativity and quantum cosmology,720,720,1.0
+2018,high-energy physics,1896,1896,1.0
+2018,mathematics,19,19,1.0
+2018,nonlinear sciences,2,2,1.0
+2018,nuclear physics,41,41,1.0
+2018,physics,422,422,1.0
+2018,quantitative biology,7,7,1.0
+2018,quantitative finance,2,2,1.0
+2018,quantum physics,17,17,1.0
+2018,statistics,11,11,1.0
+2019,astrophysics,3673,3673,1.0
+2019,computer science,51,51,1.0
+2019,condensed matter,39,39,1.0
+2019,electrical engineering and systems science,3,3,1.0
+2019,general relativity and quantum cosmology,761,761,1.0
+2019,high-energy physics,1815,1815,1.0
+2019,mathematics,14,14,1.0
+2019,nonlinear sciences,5,5,1.0
+2019,nuclear physics,54,54,1.0
+2019,physics,411,411,1.0
+2019,quantitative biology,5,5,1.0
+2019,quantum physics,36,36,1.0
+2019,statistics,11,11,1.0
+2020,astrophysics,3466,3464,0.9994229659549914
+2020,computer science,59,59,1.0
+2020,condensed matter,43,43,1.0
+2020,general relativity and quantum cosmology,911,911,1.0
+2020,high-energy physics,1880,1880,1.0
+2020,mathematics,24,24,1.0
+2020,nonlinear sciences,4,4,1.0
+2020,nuclear physics,58,58,1.0
+2020,physics,470,470,1.0
+2020,quantitative biology,14,14,1.0
+2020,quantum physics,48,48,1.0
+2020,statistics,9,9,1.0
+2021,astrophysics,3468,3468,1.0
+2021,computer science,80,80,1.0
+2021,condensed matter,53,53,1.0
+2021,economics,1,1,1.0
+2021,electrical engineering and systems science,3,3,1.0
+2021,general relativity and quantum cosmology,926,925,0.9989200863930886
+2021,high-energy physics,2199,2199,1.0
+2021,mathematics,27,26,0.9629629629629629
+2021,nonlinear sciences,5,5,1.0
+2021,nuclear physics,66,66,1.0
+2021,physics,393,392,0.9974554707379135
+2021,quantitative biology,15,15,1.0
+2021,quantum physics,89,89,1.0
+2021,statistics,15,15,1.0
+2022,astrophysics,3547,3539,0.9977445728784888
+2022,computer science,78,78,1.0
+2022,condensed matter,51,50,0.9803921568627451
+2022,electrical engineering and systems science,3,3,1.0
+2022,general relativity and quantum cosmology,894,891,0.9966442953020134
+2022,high-energy physics,2277,2273,0.9982433025911287
+2022,mathematics,19,19,1.0
+2022,nonlinear sciences,4,4,1.0
+2022,nuclear physics,91,91,1.0
+2022,physics,465,463,0.9956989247311828
+2022,quantitative biology,10,10,1.0
+2022,quantum physics,115,115,1.0
+2022,statistics,9,9,1.0
+2023,astrophysics,4173,4053,0.9712437095614666
+2023,computer science,100,100,1.0
+2023,condensed matter,65,65,1.0
+2023,electrical engineering and systems science,4,4,1.0
+2023,general relativity and quantum cosmology,1225,1196,0.976326530612245
+2023,high-energy physics,2639,2545,0.9643804471390678
+2023,mathematics,39,39,1.0
+2023,nonlinear sciences,4,3,0.75
+2023,nuclear physics,88,88,1.0
+2023,physics,446,431,0.9663677130044843
+2023,quantitative biology,10,10,1.0
+2023,quantitative finance,2,2,1.0
+2023,quantum physics,157,148,0.9426751592356688
+2023,statistics,10,10,1.0
+2024,astrophysics,5383,5269,0.9788222180939996
+2024,computer science,125,125,1.0
+2024,condensed matter,93,93,1.0
+2024,economics,2,2,1.0
+2024,electrical engineering and systems science,3,3,1.0
+2024,general relativity and quantum cosmology,1577,1541,0.9771718452758402
+2024,high-energy physics,3030,2985,0.9851485148514851
+2024,mathematics,37,37,1.0
+2024,nonlinear sciences,6,6,1.0
+2024,nuclear physics,97,97,1.0
+2024,physics,476,470,0.9873949579831933
+2024,quantitative biology,22,22,1.0
+2024,quantitative finance,1,1,1.0
+2024,quantum physics,197,197,1.0
+2024,statistics,17,17,1.0
+2025,astrophysics,6226,6226,1.0
+2025,computer science,108,108,1.0
+2025,condensed matter,99,99,1.0
+2025,electrical engineering and systems science,6,6,1.0
+2025,general relativity and quantum cosmology,1874,1874,1.0
+2025,high-energy physics,3426,3426,1.0
+2025,mathematics,34,34,1.0
+2025,nonlinear sciences,3,3,1.0
+2025,nuclear physics,142,142,1.0
+2025,physics,566,566,1.0
+2025,quantitative biology,16,16,1.0
+2025,quantum physics,233,233,1.0
+2025,statistics,53,53,1.0

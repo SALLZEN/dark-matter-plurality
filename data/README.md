@@ -1,32 +1,23 @@
-# Canonical Data Files
+# Data products
 
-This directory is the local target for the canonical machine-readable artifacts used by the manuscript pipeline.
+Large upstream parquet files are rebuilt locally from the retained stage-001 ADS archive:
 
-In the public GitHub repository, these generated data files are not tracked by default. They are rebuilt locally from the retained stage-001 ADS snapshot.
+- papers.parquet
+- paper_arxiv_classes.parquet
+- paper_metrics_long.parquet
+- papers_with_dm_models.parquet
 
-## Canonical inputs for `code/005-build-paper-assets.R`
+These are inputs to the full pipeline and are intentionally not committed.
 
-- `papers.parquet`
-  Purpose: paper-level corpus spine used to recover publication year, abstract, and document type.
+Compact frozen inputs committed for direct figure reproduction:
 
-- `paper_arxiv_classes.parquet`
-  Purpose: paper-to-arXiv-class mapping used to derive the primary class and primary field.
+- dm_model_candidates_long.parquet
+- unigram_yearly.parquet
 
-- `paper_metrics_long.parquet`
-  Purpose: yearly citation-history table used for the composition figure’s impact panels.
+Other small versioned products committed for auditability:
 
-- `dm_model_candidates_long.parquet`
-  Purpose: candidate-level long table produced by `code/003-extract-dm-candidates.ipynb`, used for the candidate figures and table.
+- analysis_manifest.json — hashes, counts, cutoff, exclusions, versions, and seeds
+- analysis/ — yearly classifications, class mappings and coverage, candidate divergence, rarefaction, permutation and weighting sensitivities, document sensitivity, lexical divergence, and figure source data
+- validation/ — completed primary-order audit, completed candidate-ontology development review, untouched optional holdouts, freeze notes, and `candidate_ontology_freeze.json` with source and output SHA-256 hashes
 
-- `unigram_yearly.parquet`
-  Purpose: yearly unigram rates used for `fig_uni_grams_trends.pdf`.
-
-## Additional canonical intermediates
-
-- `papers_with_dm_models.parquet`
-  Purpose: lean paper-level DM model enrichment produced by `code/003-extract-dm-candidates.ipynb`.
-
-## Not canonical
-
-- Raw JSON snapshots and superseded outputs belong in `../archive/`, not here.
-- Support CSV/parquet files produced for inspection by `004-build-lexical-data.ipynb` live under `../code/stage-outputs/004-build-lexical-data/`.
+All products exclude records after 2025.

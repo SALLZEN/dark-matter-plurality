@@ -1,0 +1,67 @@
+{
+  "analysis_years": [2006, 2025],
+  "focal_fields": [
+    "astrophysics",
+    "high-energy physics"
+  ],
+  "rolling_window_years": 5,
+  "stable_periods": [
+    [2006, 2015, "2006-2015"],
+    [2016, 2025, "2016-2025"]
+  ],
+  "primary_wimp_definition": "published_umbrella",
+  "min_edge_papers": {
+    "full": 5,
+    "stable": 5,
+    "rolling": 3
+  },
+  "wimp_definitions": {
+    "explicit_generic": {
+      "label": "Generic WIMP",
+      "node_id": "dm_model:generic_wimp",
+      "collapse_tags": []
+    },
+    "published_umbrella": {
+      "label": "WIMP-related",
+      "node_id": "dm_model:wimp_related",
+      "collapse_tags": [
+        "wimp",
+        "neutralino",
+        "lsp",
+        "higgsino_dm",
+        "gravitino_dm",
+        "sneutrino_dm"
+      ]
+    },
+    "canonical_core": {
+      "label": "Canonical WIMP core",
+      "node_id": "dm_model:wimp_core",
+      "collapse_tags": [
+        "wimp",
+        "neutralino",
+        "lsp",
+        "higgsino_dm",
+        "sneutrino_dm"
+      ]
+    }
+  },
+  "gephi": {
+    "node_size_range": [8.0, 40.0],
+    "label_size_range": [8.0, 24.0],
+    "share_ratio_clip_log10": 1.0,
+    "master_layout_seed": 20260815,
+    "master_layout_iterations": 150,
+    "primary_importance_edge_weight": "cooc_doc_prevalence_candidate_papers",
+    "primary_brokerage_edge_weight": "mean_field_cooc_prevalence"
+  },
+  "brokerage": {
+    "anchor_fold_ratio": 2.0,
+    "removal_top_betweenness_nodes": 25,
+    "removal_include_all_candidates": true
+  },
+  "uncertainty": {
+    "prominence_bootstrap_iterations": 1000,
+    "random_seed": 20260815,
+    "confidence_level": 0.95
+  }
+}

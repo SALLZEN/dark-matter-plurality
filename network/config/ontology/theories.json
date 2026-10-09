@@ -1,0 +1,853 @@
+{
+  "schema_version": "2.0.0",
+  "description": "Concept-resolved theoretical frameworks assembled from the legacy theory dictionary and expanded for dark-matter, gravity, particle-physics, and cosmology coverage.",
+  "source_inventories": [
+    "damadi/lib/python/003-c-theory-plots.ipynb",
+    "user-supplied legacy theory dictionary"
+  ],
+  "entities": [
+    {
+      "id": "theory:standard_model",
+      "label": "Standard Model",
+      "node_type": "theory",
+      "subtype": "particle framework",
+      "domain": "microphysics",
+      "aliases": [
+        {"text": "standard model"}
+      ]
+    },
+    {
+      "id": "theory:standard_model_extension",
+      "label": "Standard-Model extension",
+      "node_type": "theory",
+      "subtype": "particle framework",
+      "domain": "microphysics",
+      "aliases": [
+        {"text": "extended standard model"},
+        {"text": "standard model extension"},
+        {"text": "standard model extensions"},
+        {"text": "beyond the standard model"},
+        {"text": "beyond-standard-model"},
+        {"text": "BSM", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:supersymmetry",
+      "label": "Supersymmetry",
+      "node_type": "theory",
+      "subtype": "supersymmetric framework",
+      "domain": "microphysics",
+      "aliases": [
+        {"text": "supersymmetry"},
+        {"text": "supersymmetric"},
+        {"text": "SUSY", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:mssm",
+      "label": "Minimal Supersymmetric Standard Model",
+      "node_type": "theory",
+      "subtype": "supersymmetric model",
+      "domain": "microphysics",
+      "aliases": [
+        {"text": "minimal supersymmetric standard model"},
+        {"text": "MSSM", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:nmssm",
+      "label": "Next-to-Minimal Supersymmetric Standard Model",
+      "node_type": "theory",
+      "subtype": "supersymmetric model",
+      "domain": "microphysics",
+      "aliases": [
+        {"text": "next-to-minimal supersymmetric standard model"},
+        {"text": "next to minimal supersymmetric standard model"},
+        {"text": "NMSSM", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:pmssm",
+      "label": "Phenomenological MSSM",
+      "node_type": "theory",
+      "subtype": "supersymmetric model",
+      "domain": "microphysics",
+      "aliases": [
+        {"text": "phenomenological minimal supersymmetric standard model"},
+        {"text": "phenomenological MSSM"},
+        {"text": "pMSSM", "case_sensitive": true},
+        {"text": "PMSSM", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:umssm",
+      "label": "U(1)-extended MSSM",
+      "node_type": "theory",
+      "subtype": "supersymmetric model",
+      "domain": "microphysics",
+      "aliases": [
+        {"text": "U(1) extended minimal supersymmetric standard model"},
+        {"text": "U(1)-extended MSSM"},
+        {"text": "UMSSM", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:vmssm",
+      "label": "VMSSM",
+      "node_type": "theory",
+      "subtype": "supersymmetric model",
+      "domain": "microphysics",
+      "aliases": [
+        {"text": "viable minimal supersymmetric standard model"},
+        {"text": "VMSSM", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:split_supersymmetry",
+      "label": "Split supersymmetry",
+      "node_type": "theory",
+      "subtype": "supersymmetric model",
+      "domain": "microphysics",
+      "aliases": [
+        {"text": "split supersymmetry"},
+        {"text": "split SUSY", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:gauge_mediated_supersymmetry_breaking",
+      "label": "Gauge-mediated supersymmetry breaking",
+      "node_type": "theory",
+      "subtype": "supersymmetry-breaking framework",
+      "domain": "microphysics",
+      "aliases": [
+        {"text": "gauge mediated SUSY breaking"},
+        {"text": "gauge-mediated supersymmetry breaking"},
+        {"text": "gauge mediated supersymmetry breaking"},
+        {"text": "GMSB", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:anomaly_mediated_supersymmetry_breaking",
+      "label": "Anomaly-mediated supersymmetry breaking",
+      "node_type": "theory",
+      "subtype": "supersymmetry-breaking framework",
+      "domain": "microphysics",
+      "aliases": [
+        {"text": "anomaly mediated SUSY breaking"},
+        {"text": "anomaly-mediated supersymmetry breaking"},
+        {"text": "anomaly mediated supersymmetry breaking"},
+        {"text": "AMSB", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:gravity_mediated_supersymmetry_breaking",
+      "label": "Gravity-mediated supersymmetry breaking",
+      "node_type": "theory",
+      "subtype": "supersymmetry-breaking framework",
+      "domain": "microphysics",
+      "aliases": [
+        {"text": "gravity mediated SUSY breaking"},
+        {"text": "gravity-mediated supersymmetry breaking"},
+        {"text": "gravity mediated supersymmetry breaking"}
+      ]
+    },
+    {
+      "id": "theory:supergravity",
+      "label": "Supergravity",
+      "node_type": "theory",
+      "subtype": "supersymmetric gravity",
+      "domain": "microphysics",
+      "aliases": [
+        {"text": "supergravity"},
+        {"text": "SUGRA", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:quantum_chromodynamics",
+      "label": "Quantum chromodynamics",
+      "node_type": "theory",
+      "subtype": "quantum field theory",
+      "domain": "microphysics",
+      "aliases": [
+        {"text": "quantum chromodynamics"},
+        {"text": "QCD", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:quantum_field_theory",
+      "label": "Quantum field theory",
+      "node_type": "theory",
+      "subtype": "fundamental framework",
+      "domain": "microphysics",
+      "aliases": [
+        {"text": "quantum field theory"},
+        {"text": "quantum field theories"},
+        {"text": "QFT", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:quantum_mechanics",
+      "label": "Quantum mechanics",
+      "node_type": "theory",
+      "subtype": "fundamental framework",
+      "domain": "microphysics",
+      "aliases": [
+        {"text": "quantum mechanics"},
+        {"text": "quantum mechanical"}
+      ]
+    },
+    {
+      "id": "theory:effective_field_theory",
+      "label": "Effective field theory",
+      "node_type": "theory",
+      "subtype": "particle framework",
+      "domain": "microphysics",
+      "aliases": [
+        {"text": "effective field theory"},
+        {"text": "effective field theories"},
+        {"text": "EFT", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:grand_unified_theory",
+      "label": "Grand unified theory",
+      "node_type": "theory",
+      "subtype": "unification framework",
+      "domain": "microphysics",
+      "aliases": [
+        {"text": "grand unified theory"},
+        {"text": "grand unified theories"},
+        {"text": "grand unification"},
+        {"text": "GUT", "case_sensitive": true},
+        {"text": "GUTs", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:string_theory",
+      "label": "String theory",
+      "node_type": "theory",
+      "subtype": "fundamental framework",
+      "domain": "microphysics",
+      "aliases": [
+        {"text": "string theory"},
+        {"text": "string-theoretic"}
+      ]
+    },
+    {
+      "id": "theory:quantum_gravity",
+      "label": "Quantum gravity",
+      "node_type": "theory",
+      "subtype": "fundamental framework",
+      "domain": "cross-domain",
+      "aliases": [
+        {"text": "quantum gravity"},
+        {"text": "quantum theory of gravity"}
+      ]
+    },
+    {
+      "id": "theory:loop_quantum_gravity",
+      "label": "Loop quantum gravity",
+      "node_type": "theory",
+      "subtype": "quantum-gravity framework",
+      "domain": "cross-domain",
+      "aliases": [
+        {"text": "loop quantum gravity"},
+        {"text": "LQG", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:holographic_principle",
+      "label": "Holographic principle",
+      "node_type": "theory",
+      "subtype": "fundamental principle",
+      "domain": "cross-domain",
+      "aliases": [
+        {"text": "holographic principle"},
+        {"text": "holographic duality"}
+      ]
+    },
+    {
+      "id": "theory:ads_cft",
+      "label": "AdS/CFT correspondence",
+      "node_type": "theory",
+      "subtype": "holographic framework",
+      "domain": "cross-domain",
+      "aliases": [
+        {"text": "AdS/CFT", "case_sensitive": true},
+        {"text": "AdS-CFT", "case_sensitive": true},
+        {"text": "gauge-gravity duality"}
+      ]
+    },
+    {
+      "id": "theory:extra_dimensions",
+      "label": "Extra dimensions",
+      "node_type": "theory",
+      "subtype": "beyond-Standard-Model framework",
+      "domain": "microphysics",
+      "aliases": [
+        {"text": "extra dimension"},
+        {"text": "extra dimensions"},
+        {"text": "universal extra dimension"},
+        {"text": "universal extra dimensions"},
+        {"text": "large extra dimensions"},
+        {"text": "warped extra dimensions"}
+      ]
+    },
+    {
+      "id": "theory:higgs_portal",
+      "label": "Higgs portal",
+      "node_type": "theory",
+      "subtype": "portal framework",
+      "domain": "microphysics",
+      "aliases": [
+        {"text": "Higgs portal"},
+        {"text": "scalar portal"}
+      ]
+    },
+    {
+      "id": "theory:vector_portal",
+      "label": "Vector portal",
+      "node_type": "theory",
+      "subtype": "portal framework",
+      "domain": "microphysics",
+      "aliases": [
+        {"text": "vector portal"},
+        {"text": "dark photon portal"}
+      ]
+    },
+    {
+      "id": "theory:neutrino_portal",
+      "label": "Neutrino portal",
+      "node_type": "theory",
+      "subtype": "portal framework",
+      "domain": "microphysics",
+      "aliases": [
+        {"text": "neutrino portal"},
+        {"text": "fermion portal"}
+      ]
+    },
+    {
+      "id": "theory:general_relativity",
+      "label": "General relativity",
+      "node_type": "theory",
+      "subtype": "gravitational framework",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "general relativity"},
+        {"text": "general relativistic"},
+        {"text": "Einstein gravity"}
+      ]
+    },
+    {
+      "id": "theory:special_relativity",
+      "label": "Special relativity",
+      "node_type": "theory",
+      "subtype": "relativistic framework",
+      "domain": "cross-domain",
+      "aliases": [
+        {"text": "special relativity"},
+        {"text": "special relativistic"}
+      ]
+    },
+    {
+      "id": "theory:newtonian_gravity",
+      "label": "Newtonian gravity",
+      "node_type": "theory",
+      "subtype": "gravitational framework",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "Newtonian gravity"},
+        {"text": "Newtonian dynamics"}
+      ]
+    },
+    {
+      "id": "theory:modified_gravity",
+      "label": "Modified gravity",
+      "node_type": "theory",
+      "subtype": "gravitational framework",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "modified gravity"},
+        {"text": "modified gravity theory"},
+        {"text": "modified gravity theories"},
+        {"text": "modified theories of gravity"},
+        {"text": "modified theory of gravity"},
+        {"text": "alternative gravity theory"},
+        {"text": "alternative theories of gravity"}
+      ]
+    },
+    {
+      "id": "theory:mond",
+      "label": "Modified Newtonian dynamics",
+      "node_type": "theory",
+      "subtype": "modified-gravity framework",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "modified Newtonian dynamics"},
+        {"text": "MOND", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:teves",
+      "label": "Tensor-vector-scalar gravity",
+      "node_type": "theory",
+      "subtype": "relativistic MOND theory",
+      "domain": "macrophysics",
+      "aliases": [
+        {"regex": "(?<![A-Za-z0-9])tensor[-–—\\s]+vector[-–—\\s]+scalar(?:\\s+(?:gravity|theory))?(?![A-Za-z0-9])"},
+        {"text": "TeVeS", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:scalar_tensor_vector_gravity",
+      "label": "Scalar-tensor-vector gravity",
+      "node_type": "theory",
+      "subtype": "modified-gravity theory",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "scalar-tensor-vector gravity"},
+        {"text": "scalar tensor vector gravity"},
+        {"text": "MOG", "case_sensitive": true},
+        {"text": "STVG", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:f_r_gravity",
+      "label": "f(R) gravity",
+      "node_type": "theory",
+      "subtype": "higher-curvature gravity",
+      "domain": "macrophysics",
+      "aliases": [
+        {"regex": "(?<![A-Za-z0-9])f\\s*\\(\\s*R\\s*\\)(?:\\s+(?:gravity|theory|model))?(?![A-Za-z0-9])", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:f_r_t_gravity",
+      "label": "f(R,T) gravity",
+      "node_type": "theory",
+      "subtype": "matter-coupled modified gravity",
+      "domain": "macrophysics",
+      "aliases": [
+        {"regex": "(?<![A-Za-z0-9])f\\s*\\(\\s*R\\s*,\\s*T\\s*\\)(?:\\s+(?:gravity|theory|model))?(?![A-Za-z0-9])", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:scalar_tensor_gravity",
+      "label": "Scalar-tensor gravity",
+      "node_type": "theory",
+      "subtype": "modified-gravity framework",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "scalar-tensor gravity"},
+        {"text": "scalar tensor gravity"},
+        {"text": "scalar-tensor theory"},
+        {"text": "scalar-tensor theories"}
+      ]
+    },
+    {
+      "id": "theory:brans_dicke",
+      "label": "Brans-Dicke theory",
+      "node_type": "theory",
+      "subtype": "scalar-tensor gravity",
+      "domain": "macrophysics",
+      "aliases": [
+        {"regex": "(?<![A-Za-z0-9])Brans[-–—\\s]+Dicke(?:\\s+(?:theory|gravity))?(?![A-Za-z0-9])"}
+      ]
+    },
+    {
+      "id": "theory:horndeski",
+      "label": "Horndeski theory",
+      "node_type": "theory",
+      "subtype": "scalar-tensor gravity",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "Horndeski theory"},
+        {"text": "Horndeski gravity"},
+        {"text": "Horndeski model"},
+        {"text": "Horndeski models"}
+      ]
+    },
+    {
+      "id": "theory:dhost",
+      "label": "DHOST theory",
+      "node_type": "theory",
+      "subtype": "scalar-tensor gravity",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "degenerate higher-order scalar-tensor theory"},
+        {"text": "degenerate higher order scalar tensor theory"},
+        {"text": "DHOST", "case_sensitive": true},
+        {"text": "beyond Horndeski"}
+      ]
+    },
+    {
+      "id": "theory:massive_gravity",
+      "label": "Massive gravity",
+      "node_type": "theory",
+      "subtype": "modified-gravity theory",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "massive gravity"},
+        {"text": "dRGT massive gravity"},
+        {"text": "de Rham-Gabadadze-Tolley gravity"}
+      ]
+    },
+    {
+      "id": "theory:bimetric_gravity",
+      "label": "Bimetric gravity",
+      "node_type": "theory",
+      "subtype": "modified-gravity theory",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "bimetric gravity"},
+        {"text": "bi-metric gravity"},
+        {"text": "bigravity"}
+      ]
+    },
+    {
+      "id": "theory:emergent_gravity",
+      "label": "Emergent gravity",
+      "node_type": "theory",
+      "subtype": "modified-gravity framework",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "emergent gravity"},
+        {"text": "emergent gravity theory"}
+      ]
+    },
+    {
+      "id": "theory:entropic_gravity",
+      "label": "Entropic gravity",
+      "node_type": "theory",
+      "subtype": "modified-gravity framework",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "entropic gravity"},
+        {"text": "entropic force gravity"}
+      ]
+    },
+    {
+      "id": "theory:conformal_gravity",
+      "label": "Conformal gravity",
+      "node_type": "theory",
+      "subtype": "higher-derivative gravity",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "conformal gravity"},
+        {"text": "conformal Weyl gravity"}
+      ]
+    },
+    {
+      "id": "theory:weyl_gravity",
+      "label": "Weyl gravity",
+      "node_type": "theory",
+      "subtype": "higher-derivative gravity",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "Weyl gravity"},
+        {"text": "Weyl geometric gravity"}
+      ]
+    },
+    {
+      "id": "theory:einstein_cartan",
+      "label": "Einstein-Cartan theory",
+      "node_type": "theory",
+      "subtype": "torsion gravity",
+      "domain": "macrophysics",
+      "aliases": [
+        {"regex": "(?<![A-Za-z0-9])Einstein[-–—\\s]+Cartan(?:[-–—\\s]+Sciama[-–—\\s]+Kibble)?(?:\\s+(?:theory|gravity))?(?![A-Za-z0-9])"}
+      ]
+    },
+    {
+      "id": "theory:teleparallel_gravity",
+      "label": "Teleparallel gravity",
+      "node_type": "theory",
+      "subtype": "torsion gravity",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "teleparallel gravity"},
+        {"text": "teleparallel equivalent of general relativity"},
+        {"text": "TEGR", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:f_t_gravity",
+      "label": "f(T) gravity",
+      "node_type": "theory",
+      "subtype": "teleparallel gravity",
+      "domain": "macrophysics",
+      "aliases": [
+        {"regex": "(?<![A-Za-z0-9])f\\s*\\(\\s*T\\s*\\)(?:\\s+(?:gravity|theory|model))?(?![A-Za-z0-9])", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:einstein_aether",
+      "label": "Einstein-aether theory",
+      "node_type": "theory",
+      "subtype": "Lorentz-violating gravity",
+      "domain": "macrophysics",
+      "aliases": [
+        {"regex": "(?<![A-Za-z0-9])Einstein[-–—\\s]+(?:aether|æther)(?:\\s+(?:theory|gravity))?(?![A-Za-z0-9])"}
+      ]
+    },
+    {
+      "id": "theory:horava_lifshitz",
+      "label": "Horava-Lifshitz gravity",
+      "node_type": "theory",
+      "subtype": "Lorentz-violating gravity",
+      "domain": "macrophysics",
+      "aliases": [
+        {"regex": "(?<![A-Za-z0-9])Ho(?:r|ř)ava[-–—\\s]+Lifshitz(?:\\s+(?:gravity|theory))?(?![A-Za-z0-9])"}
+      ]
+    },
+    {
+      "id": "theory:gauss_bonnet_gravity",
+      "label": "Gauss-Bonnet gravity",
+      "node_type": "theory",
+      "subtype": "higher-curvature gravity",
+      "domain": "macrophysics",
+      "aliases": [
+        {"regex": "(?<![A-Za-z0-9])(?:Einstein[-–—\\s]+)?Gauss[-–—\\s]+Bonnet(?:\\s+(?:gravity|theory))?(?![A-Za-z0-9])"}
+      ]
+    },
+    {
+      "id": "theory:lovelock_gravity",
+      "label": "Lovelock gravity",
+      "node_type": "theory",
+      "subtype": "higher-curvature gravity",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "Lovelock gravity"},
+        {"text": "Lovelock theory"}
+      ]
+    },
+    {
+      "id": "theory:metric_affine_gravity",
+      "label": "Metric-affine gravity",
+      "node_type": "theory",
+      "subtype": "geometric gravity",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "metric-affine gravity"},
+        {"text": "metric affine gravity"}
+      ]
+    },
+    {
+      "id": "theory:poincare_gauge_gravity",
+      "label": "Poincare gauge gravity",
+      "node_type": "theory",
+      "subtype": "gauge gravity",
+      "domain": "macrophysics",
+      "aliases": [
+        {"regex": "(?<![A-Za-z0-9])Poincar[eé][-–—\\s]+gauge(?:\\s+(?:theory|gravity))?(?![A-Za-z0-9])"}
+      ]
+    },
+    {
+      "id": "theory:palatini_gravity",
+      "label": "Palatini gravity",
+      "node_type": "theory",
+      "subtype": "metric-affine gravity",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "Palatini gravity"},
+        {"text": "Palatini formulation"},
+        {"text": "Palatini formalism"}
+      ]
+    },
+    {
+      "id": "theory:rastall_gravity",
+      "label": "Rastall gravity",
+      "node_type": "theory",
+      "subtype": "modified-gravity theory",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "Rastall gravity"},
+        {"text": "Rastall theory"}
+      ]
+    },
+    {
+      "id": "theory:eibi_gravity",
+      "label": "Eddington-inspired Born-Infeld gravity",
+      "node_type": "theory",
+      "subtype": "modified-gravity theory",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "Eddington-inspired Born-Infeld gravity"},
+        {"text": "Eddington inspired Born Infeld gravity"},
+        {"text": "EiBI", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:chern_simons_gravity",
+      "label": "Chern-Simons gravity",
+      "node_type": "theory",
+      "subtype": "modified-gravity theory",
+      "domain": "macrophysics",
+      "aliases": [
+        {"regex": "(?<![A-Za-z0-9])(?:dynamical\\s+)?Chern[-–—\\s]+Simons(?:\\s+gravity)?(?![A-Za-z0-9])"}
+      ]
+    },
+    {
+      "id": "theory:lambda_cdm",
+      "label": "Lambda-CDM",
+      "node_type": "theory",
+      "subtype": "cosmological model",
+      "domain": "cosmology",
+      "aliases": [
+        {"regex": "(?<![A-Za-z0-9])(?:Lambda|Λ)[-\\s]?(?:CDM|cold\\s+dark\\s+matter)(?![A-Za-z0-9])"},
+        {"text": "LCDM", "case_sensitive": true},
+        {"text": "standard cosmological model"},
+        {"text": "cosmological concordance model"},
+        {"text": "concordance model"}
+      ]
+    },
+    {
+      "id": "theory:big_bang_cosmology",
+      "label": "Big Bang cosmology",
+      "node_type": "theory",
+      "subtype": "cosmological framework",
+      "domain": "cosmology",
+      "aliases": [
+        {"text": "big bang theory"},
+        {"text": "big bang cosmology"},
+        {"text": "hot big bang"}
+      ]
+    },
+    {
+      "id": "theory:inflation",
+      "label": "Cosmic inflation",
+      "node_type": "theory",
+      "subtype": "early-universe framework",
+      "domain": "cosmology",
+      "aliases": [
+        {"text": "inflationary theory"},
+        {"text": "inflation theory"},
+        {"text": "inflation"},
+        {"text": "cosmic inflation"},
+        {"text": "inflationary cosmology"},
+        {"text": "inflationary model"},
+        {"text": "inflationary models"}
+      ]
+    },
+    {
+      "id": "theory:slow_roll_inflation",
+      "label": "Slow-roll inflation",
+      "node_type": "theory",
+      "subtype": "inflationary model",
+      "domain": "cosmology",
+      "aliases": [
+        {"text": "slow-roll inflation"},
+        {"text": "slow roll inflation"}
+      ]
+    },
+    {
+      "id": "theory:chaotic_inflation",
+      "label": "Chaotic inflation",
+      "node_type": "theory",
+      "subtype": "inflationary model",
+      "domain": "cosmology",
+      "aliases": [
+        {"text": "chaotic inflation"}
+      ]
+    },
+    {
+      "id": "theory:hybrid_inflation",
+      "label": "Hybrid inflation",
+      "node_type": "theory",
+      "subtype": "inflationary model",
+      "domain": "cosmology",
+      "aliases": [
+        {"text": "hybrid inflation"}
+      ]
+    },
+    {
+      "id": "theory:natural_inflation",
+      "label": "Natural inflation",
+      "node_type": "theory",
+      "subtype": "inflationary model",
+      "domain": "cosmology",
+      "aliases": [
+        {"text": "natural inflation"}
+      ]
+    },
+    {
+      "id": "theory:starobinsky_inflation",
+      "label": "Starobinsky inflation",
+      "node_type": "theory",
+      "subtype": "inflationary model",
+      "domain": "cosmology",
+      "aliases": [
+        {"text": "Starobinsky inflation"},
+        {"text": "R2 inflation"},
+        {"text": "R-squared inflation"}
+      ]
+    },
+    {
+      "id": "theory:warm_inflation",
+      "label": "Warm inflation",
+      "node_type": "theory",
+      "subtype": "inflationary model",
+      "domain": "cosmology",
+      "aliases": [
+        {"text": "warm inflation"}
+      ]
+    },
+    {
+      "id": "theory:eternal_inflation",
+      "label": "Eternal inflation",
+      "node_type": "theory",
+      "subtype": "inflationary model",
+      "domain": "cosmology",
+      "aliases": [
+        {"text": "eternal inflation"}
+      ]
+    },
+    {
+      "id": "theory:multiverse",
+      "label": "Multiverse",
+      "node_type": "theory",
+      "subtype": "cosmological framework",
+      "domain": "cosmology",
+      "aliases": [
+        {"text": "multiverse theory"},
+        {"text": "multiverse cosmology"},
+        {"text": "multiverse"}
+      ]
+    },
+    {
+      "id": "theory:dark_matter_theory",
+      "label": "Dark-matter theory (generic)",
+      "node_type": "theory",
+      "subtype": "generic theory reference",
+      "domain": "cross-domain",
+      "aliases": [
+        {"text": "dark matter theory"},
+        {"text": "dark matter theories"}
+      ]
+    },
+    {
+      "id": "theory:dark_energy_theory",
+      "label": "Dark-energy theory (generic)",
+      "node_type": "theory",
+      "subtype": "generic theory reference",
+      "domain": "cosmology",
+      "aliases": [
+        {"text": "dark energy theory"},
+        {"text": "dark energy theories"}
+      ]
+    },
+    {
+      "id": "theory:quintessence",
+      "label": "Quintessence",
+      "node_type": "theory",
+      "subtype": "dynamical dark-energy model",
+      "domain": "cosmology",
+      "aliases": [
+        {"text": "quintessence model"},
+        {"text": "quintessence models"},
+        {"text": "quintessence field"},
+        {"text": "dynamical dark energy"}
+      ]
+    }
+  ]
+}

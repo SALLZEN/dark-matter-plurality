@@ -1,8 +1,8 @@
 {
-  "title": "Transparency Bundle for 'Phenomena, Particles, and the Plurality of Dark Matter'",
+  "title": "Reproduction Bundle for “Diverging paths to dark-matter discovery”",
   "upload_type": "software",
-  "publication_date": "2026-05-16",
-  "description": "Public transparency bundle for the Nature Astronomy Analysis draft 'Phenomena, Particles, and the Plurality of Dark Matter'. The repository contains a five-stage pipeline for ADS record collection, canonical-data construction, dark-matter candidate extraction, lexical-data construction, and final figure generation.",
+  "publication_date": "2026-10-09",
+  "description": "Code and data reproduction bundle for the preprint “Diverging paths to dark-matter discovery”. Includes the frozen ADS snapshot, six-stage statistical pipeline, validation and robustness materials, network ontology and analysis code, frozen network events and metrics, graph exports and saved layouts, and five main and five supplementary figure assets. The analysis cutoff is 2025. Manuscript source and the compiled preprint are maintained separately. Network outputs and presentations are preserved as historical artifacts; exact recreation of them by the current network code is not claimed.",
   "creators": [
     {
       "name": "Allzén, Simon",
@@ -14,21 +14,23 @@
     "bibliometrics",
     "arXiv",
     "NASA ADS",
-    "history and philosophy of physics"
+    "astroparticle physics",
+    "reproducibility"
   ],
   "license": "MIT",
   "access_right": "open",
-  "version": "2.0",
+  "version": "3.0.0",
   "related_identifiers": [
     {
-      "identifier": "https://github.com/SALLZEN/dark-matter-nature-astronomy",
+      "identifier": "https://github.com/SALLZEN/dark-matter-plurality",
       "relation": "isSupplementTo",
       "scheme": "url"
     },
     {
-      "identifier": "10.5281/zenodo.20241726",
-      "relation": "isIdenticalTo",
+      "identifier": "10.5281/zenodo.20241725",
+      "relation": "isVersionOf",
       "scheme": "doi"
     }
-  ]
+  ],
+  "notes": "Version 3.0.0. The version-specific DOI is assigned when this GitHub release is archived by Zenodo. The concept DOI identifies the archive lineage."
 }

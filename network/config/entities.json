@@ -1,0 +1,882 @@
+{
+  "schema_version": "1.0.0",
+  "description": "Curated high-precision ontology for candidate-centred sentence networks.",
+  "entities": [
+    {
+      "id": "theory:standard_model",
+      "label": "Standard Model",
+      "node_type": "theory",
+      "subtype": "particle framework",
+      "domain": "microphysics",
+      "aliases": [
+        {"text": "standard model"},
+        {"text": "SM", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:supersymmetry",
+      "label": "Supersymmetry",
+      "node_type": "theory",
+      "subtype": "particle framework",
+      "domain": "microphysics",
+      "aliases": [
+        {"text": "supersymmetry"},
+        {"text": "supersymmetric"},
+        {"text": "SUSY", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:mssm",
+      "label": "Minimal Supersymmetric Standard Model",
+      "node_type": "theory",
+      "subtype": "particle model",
+      "domain": "microphysics",
+      "aliases": [
+        {"text": "minimal supersymmetric standard model"},
+        {"text": "MSSM", "case_sensitive": true},
+        {"text": "pMSSM", "case_sensitive": true},
+        {"text": "NMSSM", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:supergravity",
+      "label": "Supergravity",
+      "node_type": "theory",
+      "subtype": "particle framework",
+      "domain": "microphysics",
+      "aliases": [
+        {"text": "supergravity"},
+        {"text": "SUGRA", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:qcd",
+      "label": "Quantum chromodynamics",
+      "node_type": "theory",
+      "subtype": "particle framework",
+      "domain": "microphysics",
+      "aliases": [
+        {"text": "quantum chromodynamics"},
+        {"text": "QCD", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:string_theory",
+      "label": "String theory",
+      "node_type": "theory",
+      "subtype": "fundamental framework",
+      "domain": "microphysics",
+      "aliases": [{"text": "string theory"}]
+    },
+    {
+      "id": "theory:quantum_gravity",
+      "label": "Quantum gravity",
+      "node_type": "theory",
+      "subtype": "fundamental framework",
+      "domain": "cross-domain",
+      "aliases": [{"text": "quantum gravity"}]
+    },
+    {
+      "id": "theory:general_relativity",
+      "label": "General relativity",
+      "node_type": "theory",
+      "subtype": "gravitational framework",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "general relativity"},
+        {"text": "general relativistic"}
+      ]
+    },
+    {
+      "id": "theory:modified_gravity",
+      "label": "Modified gravity",
+      "node_type": "theory",
+      "subtype": "gravitational framework",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "modified gravity"},
+        {"text": "modified theories of gravity"}
+      ]
+    },
+    {
+      "id": "theory:mond",
+      "label": "Modified Newtonian dynamics",
+      "node_type": "theory",
+      "subtype": "gravitational framework",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "modified Newtonian dynamics"},
+        {"text": "MOND", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:lambda_cdm",
+      "label": "Lambda-CDM",
+      "node_type": "theory",
+      "subtype": "cosmological model",
+      "domain": "cosmology",
+      "aliases": [
+        {"regex": "(?<![A-Za-z0-9])(?:Lambda|Λ)[-\\s]?(?:CDM|cold\\s+dark\\s+matter)(?![A-Za-z0-9])"},
+        {"text": "LCDM", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:extra_dimensions",
+      "label": "Extra dimensions",
+      "node_type": "theory",
+      "subtype": "particle framework",
+      "domain": "microphysics",
+      "aliases": [
+        {"text": "extra dimension"},
+        {"text": "extra dimensions"},
+        {"text": "universal extra dimensions"}
+      ]
+    },
+    {
+      "id": "theory:higgs_portal",
+      "label": "Higgs portal",
+      "node_type": "theory",
+      "subtype": "portal framework",
+      "domain": "microphysics",
+      "aliases": [{"text": "Higgs portal"}]
+    },
+
+    {
+      "id": "mechanism:thermal_freeze_out",
+      "label": "Thermal freeze-out",
+      "node_type": "mechanism",
+      "subtype": "production",
+      "domain": "cross-domain",
+      "aliases": [
+        {"regex": "(?<![A-Za-z0-9])(?:thermal\\s+)?freeze[-\\s]?out(?![A-Za-z0-9])"},
+        {"text": "thermal relic"}
+      ]
+    },
+    {
+      "id": "mechanism:freeze_in",
+      "label": "Freeze-in",
+      "node_type": "mechanism",
+      "subtype": "production",
+      "domain": "cross-domain",
+      "aliases": [{"regex": "(?<![A-Za-z0-9])freeze[-\\s]?in(?![A-Za-z0-9])"}]
+    },
+    {
+      "id": "mechanism:annihilation",
+      "label": "Dark-matter annihilation",
+      "node_type": "mechanism",
+      "subtype": "interaction",
+      "domain": "cross-domain",
+      "aliases": [
+        {"regex": "(?<![A-Za-z0-9])dark[-\\s]+matter\\s+annihilat(?:ion|ing)(?![A-Za-z0-9])"},
+        {"regex": "(?<![A-Za-z0-9])annihilat(?:ion|ing)\\s+of\\s+dark[-\\s]+matter(?![A-Za-z0-9])"}
+      ]
+    },
+    {
+      "id": "mechanism:decay",
+      "label": "Dark-matter decay",
+      "node_type": "mechanism",
+      "subtype": "interaction",
+      "domain": "cross-domain",
+      "aliases": [
+        {"regex": "(?<![A-Za-z0-9])dark[-\\s]+matter\\s+decay(?:s|ing)?(?![A-Za-z0-9])"},
+        {"regex": "(?<![A-Za-z0-9])decay\\s+of\\s+dark[-\\s]+matter(?![A-Za-z0-9])"}
+      ]
+    },
+    {
+      "id": "mechanism:self_interaction",
+      "label": "Dark-matter self-interaction",
+      "node_type": "mechanism",
+      "subtype": "interaction",
+      "domain": "cross-domain",
+      "aliases": [
+        {"text": "dark matter self-interaction"},
+        {"text": "dark matter self-interactions"},
+        {"text": "self-interaction cross section"}
+      ]
+    },
+
+    {
+      "id": "problem:missing_mass",
+      "label": "Missing mass",
+      "node_type": "problem",
+      "subtype": "dynamical discrepancy",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "missing mass"},
+        {"text": "mass discrepancy"},
+        {"text": "missing matter"}
+      ]
+    },
+    {
+      "id": "problem:relic_abundance",
+      "label": "Relic abundance",
+      "node_type": "problem",
+      "subtype": "cosmological abundance",
+      "domain": "cosmology",
+      "aliases": [
+        {"text": "relic abundance"},
+        {"text": "relic density"},
+        {"text": "cosmological abundance"},
+        {"text": "dark matter abundance"}
+      ]
+    },
+    {
+      "id": "phenomenon:rotation_curves",
+      "label": "Galaxy rotation curves",
+      "node_type": "phenomenon",
+      "subtype": "galactic dynamics",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "galaxy rotation curve"},
+        {"text": "galaxy rotation curves"},
+        {"text": "galactic rotation curve"},
+        {"text": "galactic rotation curves"},
+        {"text": "flat rotation curve"},
+        {"text": "flat rotation curves"}
+      ]
+    },
+    {
+      "id": "phenomenon:velocity_dispersion",
+      "label": "Velocity dispersion",
+      "node_type": "phenomenon",
+      "subtype": "dynamics",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "velocity dispersion"},
+        {"text": "velocity dispersions"}
+      ]
+    },
+    {
+      "id": "phenomenon:gravitational_lensing",
+      "label": "Gravitational lensing",
+      "node_type": "phenomenon",
+      "subtype": "gravitational observation",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "gravitational lensing"},
+        {"text": "strong lensing"},
+        {"text": "weak lensing"}
+      ]
+    },
+    {
+      "id": "phenomenon:cluster_dynamics",
+      "label": "Galaxy-cluster dynamics",
+      "node_type": "phenomenon",
+      "subtype": "cluster dynamics",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "cluster dynamics"},
+        {"text": "dynamics of galaxy clusters"}
+      ]
+    },
+    {
+      "id": "phenomenon:structure_formation",
+      "label": "Cosmic structure formation",
+      "node_type": "phenomenon",
+      "subtype": "cosmological evolution",
+      "domain": "cosmology",
+      "aliases": [
+        {"text": "structure formation"},
+        {"text": "formation of cosmic structure"},
+        {"text": "large-scale structure formation"}
+      ]
+    },
+    {
+      "id": "phenomenon:matter_power_spectrum",
+      "label": "Matter power spectrum",
+      "node_type": "phenomenon",
+      "subtype": "cosmological structure",
+      "domain": "cosmology",
+      "aliases": [
+        {"text": "matter power spectrum"},
+        {"text": "matter power spectra"}
+      ]
+    },
+    {
+      "id": "phenomenon:cmb",
+      "label": "Cosmic microwave background",
+      "node_type": "phenomenon",
+      "subtype": "cosmological observation",
+      "domain": "cosmology",
+      "aliases": [
+        {"text": "cosmic microwave background"},
+        {"text": "CMB", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "phenomenon:bao",
+      "label": "Baryon acoustic oscillations",
+      "node_type": "phenomenon",
+      "subtype": "cosmological observation",
+      "domain": "cosmology",
+      "aliases": [
+        {"text": "baryon acoustic oscillation"},
+        {"text": "baryon acoustic oscillations"},
+        {"text": "BAO", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "problem:small_scale_structure",
+      "label": "Small-scale structure",
+      "node_type": "problem",
+      "subtype": "structure discrepancy",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "small-scale structure"},
+        {"text": "small scale structure"},
+        {"text": "small-scale crisis"},
+        {"text": "small scale crisis"}
+      ]
+    },
+    {
+      "id": "problem:core_cusp",
+      "label": "Core-cusp problem",
+      "node_type": "problem",
+      "subtype": "galactic discrepancy",
+      "domain": "macrophysics",
+      "aliases": [
+        {"regex": "(?<![A-Za-z0-9])(?:core[-\\s]?cusp|cusp[-\\s]?core)\\s+(?:problem|discrepancy)(?![A-Za-z0-9])"},
+        {"text": "central density cusp"}
+      ]
+    },
+    {
+      "id": "problem:missing_satellites",
+      "label": "Missing-satellites problem",
+      "node_type": "problem",
+      "subtype": "galactic discrepancy",
+      "domain": "macrophysics",
+      "aliases": [
+        {"regex": "(?<![A-Za-z0-9])missing[-\\s]+satellites?\\s+(?:problem|discrepancy)(?![A-Za-z0-9])"}
+      ]
+    },
+    {
+      "id": "problem:too_big_to_fail",
+      "label": "Too-big-to-fail problem",
+      "node_type": "problem",
+      "subtype": "galactic discrepancy",
+      "domain": "macrophysics",
+      "aliases": [
+        {"regex": "(?<![A-Za-z0-9])too[-\\s]+big[-\\s]+to[-\\s]+fail(?:\\s+problem)?(?![A-Za-z0-9])"},
+        {"text": "TBTF", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "phenomenon:bullet_cluster",
+      "label": "Bullet Cluster",
+      "node_type": "phenomenon",
+      "subtype": "cluster collision",
+      "domain": "macrophysics",
+      "aliases": [{"text": "Bullet Cluster"}]
+    },
+    {
+      "id": "phenomenon:lyman_alpha",
+      "label": "Lyman-alpha forest",
+      "node_type": "phenomenon",
+      "subtype": "cosmological observation",
+      "domain": "cosmology",
+      "aliases": [
+        {"regex": "(?<![A-Za-z0-9])Lyman[-\\s]?(?:alpha|α)\\s+forest(?![A-Za-z0-9])"},
+        {"text": "Ly-alpha forest"}
+      ]
+    },
+    {
+      "id": "phenomenon:gamma_ray_excess",
+      "label": "Gamma-ray excess",
+      "node_type": "phenomenon",
+      "subtype": "anomalous signal",
+      "domain": "cross-domain",
+      "aliases": [
+        {"regex": "(?<![A-Za-z0-9])gamma[-\\s]?ray\\s+excess(?:es)?(?![A-Za-z0-9])"},
+        {"text": "Galactic Center excess"}
+      ]
+    },
+    {
+      "id": "phenomenon:three_point_five_kev_line",
+      "label": "3.5 keV line",
+      "node_type": "phenomenon",
+      "subtype": "anomalous signal",
+      "domain": "cross-domain",
+      "aliases": [
+        {"regex": "(?<![A-Za-z0-9])3\\.?5\\s*keV\\s+(?:line|signal|feature)(?![A-Za-z0-9])"}
+      ]
+    },
+    {
+      "id": "phenomenon:stellar_cooling",
+      "label": "Stellar cooling",
+      "node_type": "phenomenon",
+      "subtype": "astrophysical constraint",
+      "domain": "cross-domain",
+      "aliases": [
+        {"text": "stellar cooling"},
+        {"text": "cooling of stars"}
+      ]
+    },
+    {
+      "id": "phenomenon:black_hole_superradiance",
+      "label": "Black-hole superradiance",
+      "node_type": "phenomenon",
+      "subtype": "astrophysical constraint",
+      "domain": "cross-domain",
+      "aliases": [
+        {"regex": "(?<![A-Za-z0-9])black[-\\s]+hole\\s+superradiance(?![A-Za-z0-9])"},
+        {"text": "superradiant instability"}
+      ]
+    },
+    {
+      "id": "phenomenon:phase_space_bound",
+      "label": "Phase-space bound",
+      "node_type": "phenomenon",
+      "subtype": "astrophysical constraint",
+      "domain": "cross-domain",
+      "aliases": [
+        {"text": "phase-space bound"},
+        {"text": "phase space bound"},
+        {"text": "Tremaine-Gunn bound"}
+      ]
+    },
+
+    {
+      "id": "method:direct_detection",
+      "label": "Direct detection",
+      "node_type": "method",
+      "subtype": "laboratory search",
+      "domain": "microphysics",
+      "aliases": [
+        {"text": "direct detection"},
+        {"text": "direct-detection experiment"},
+        {"text": "direct-detection search"},
+        {"text": "nuclear recoil search"}
+      ]
+    },
+    {
+      "id": "method:indirect_detection",
+      "label": "Indirect detection",
+      "node_type": "method",
+      "subtype": "astroparticle search",
+      "domain": "cross-domain",
+      "aliases": [
+        {"text": "indirect detection"},
+        {"text": "indirect-detection search"}
+      ]
+    },
+    {
+      "id": "method:collider_search",
+      "label": "Collider search",
+      "node_type": "method",
+      "subtype": "laboratory search",
+      "domain": "microphysics",
+      "aliases": [
+        {"text": "collider search"},
+        {"text": "collider searches"},
+        {"text": "missing-energy search"},
+        {"text": "missing transverse energy"}
+      ]
+    },
+    {
+      "id": "method:microlensing",
+      "label": "Microlensing",
+      "node_type": "method",
+      "subtype": "astronomical observation",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "gravitational microlensing"},
+        {"text": "microlensing survey"},
+        {"text": "microlensing search"}
+      ]
+    },
+    {
+      "id": "method:n_body_simulation",
+      "label": "N-body simulation",
+      "node_type": "method",
+      "subtype": "simulation",
+      "domain": "macrophysics",
+      "aliases": [
+        {"regex": "(?<![A-Za-z0-9])N[-\\s]?body\\s+simulat(?:ion|ions|ed|ing)(?![A-Za-z0-9])"}
+      ]
+    },
+    {
+      "id": "method:hydrodynamic_simulation",
+      "label": "Hydrodynamic simulation",
+      "node_type": "method",
+      "subtype": "simulation",
+      "domain": "macrophysics",
+      "aliases": [
+        {"regex": "(?<![A-Za-z0-9])hydrodynamic(?:al)?\\s+simulat(?:ion|ions|ed|ing)(?![A-Za-z0-9])"}
+      ]
+    },
+    {
+      "id": "method:cosmological_simulation",
+      "label": "Cosmological simulation",
+      "node_type": "method",
+      "subtype": "simulation",
+      "domain": "cosmology",
+      "aliases": [
+        {"regex": "(?<![A-Za-z0-9])cosmological\\s+simulat(?:ion|ions|ed|ing)(?![A-Za-z0-9])"}
+      ]
+    },
+    {
+      "id": "method:stellar_kinematics",
+      "label": "Stellar kinematics",
+      "node_type": "method",
+      "subtype": "dynamical inference",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "stellar kinematics"},
+        {"text": "stellar-kinematic"}
+      ]
+    },
+    {
+      "id": "method:haloscope",
+      "label": "Haloscope",
+      "node_type": "method",
+      "subtype": "laboratory search",
+      "domain": "microphysics",
+      "aliases": [
+        {"text": "axion haloscope"},
+        {"text": "microwave haloscope"},
+        {"text": "haloscope experiment"}
+      ]
+    },
+    {
+      "id": "method:helioscope",
+      "label": "Helioscope",
+      "node_type": "method",
+      "subtype": "laboratory search",
+      "domain": "cross-domain",
+      "aliases": [
+        {"text": "axion helioscope"},
+        {"text": "solar axion helioscope"},
+        {"text": "helioscope experiment"}
+      ]
+    },
+
+    {
+      "id": "apparatus:lux",
+      "label": "LUX",
+      "node_type": "apparatus",
+      "subtype": "detector",
+      "domain": "microphysics",
+      "aliases": [
+        {"text": "LUX", "case_sensitive": true},
+        {"text": "Large Underground Xenon"}
+      ]
+    },
+    {
+      "id": "apparatus:lz",
+      "label": "LUX-ZEPLIN",
+      "node_type": "apparatus",
+      "subtype": "detector",
+      "domain": "microphysics",
+      "aliases": [
+        {"text": "LUX-ZEPLIN"},
+        {"text": "LZ", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:xenon",
+      "label": "XENON",
+      "node_type": "apparatus",
+      "subtype": "detector",
+      "domain": "microphysics",
+      "aliases": [
+        {"regex": "(?<![A-Za-z0-9])XENON(?:10|100|1T|nT)(?![A-Za-z0-9])", "case_sensitive": true},
+        {"text": "XENON experiment", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:pandax",
+      "label": "PandaX",
+      "node_type": "apparatus",
+      "subtype": "detector",
+      "domain": "microphysics",
+      "aliases": [
+        {"regex": "(?<![A-Za-z0-9])PandaX(?:[-\\s]?(?:II|III|4T|xT))?(?![A-Za-z0-9])", "case_sensitive": true},
+        {"text": "Particle and Astrophysical Xenon Detector"}
+      ]
+    },
+    {
+      "id": "apparatus:cdms",
+      "label": "CDMS / SuperCDMS",
+      "node_type": "apparatus",
+      "subtype": "detector",
+      "domain": "microphysics",
+      "aliases": [
+        {"text": "CDMS", "case_sensitive": true},
+        {"text": "SuperCDMS", "case_sensitive": true},
+        {"text": "Cryogenic Dark Matter Search"}
+      ]
+    },
+    {
+      "id": "apparatus:cresst",
+      "label": "CRESST",
+      "node_type": "apparatus",
+      "subtype": "detector",
+      "domain": "microphysics",
+      "aliases": [
+        {"text": "CRESST", "case_sensitive": true},
+        {"text": "Cryogenic Rare Event Search with Superconducting Thermometers"}
+      ]
+    },
+    {
+      "id": "apparatus:dama_libra",
+      "label": "DAMA/LIBRA",
+      "node_type": "apparatus",
+      "subtype": "detector",
+      "domain": "microphysics",
+      "aliases": [
+        {"text": "DAMA/LIBRA", "case_sensitive": true},
+        {"text": "DAMA experiment", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:darkside",
+      "label": "DarkSide",
+      "node_type": "apparatus",
+      "subtype": "detector",
+      "domain": "microphysics",
+      "aliases": [
+        {"regex": "(?<![A-Za-z0-9])DarkSide(?:[-\\s]?20k)?(?![A-Za-z0-9])", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:deap",
+      "label": "DEAP",
+      "node_type": "apparatus",
+      "subtype": "detector",
+      "domain": "microphysics",
+      "aliases": [
+        {"regex": "(?<![A-Za-z0-9])DEAP(?:[-\\s]?3600)?(?![A-Za-z0-9])", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:sensei",
+      "label": "SENSEI",
+      "node_type": "apparatus",
+      "subtype": "detector",
+      "domain": "microphysics",
+      "aliases": [{"text": "SENSEI", "case_sensitive": true}]
+    },
+    {
+      "id": "apparatus:admx",
+      "label": "ADMX",
+      "node_type": "apparatus",
+      "subtype": "detector",
+      "domain": "microphysics",
+      "aliases": [
+        {"text": "ADMX", "case_sensitive": true},
+        {"text": "Axion Dark Matter Experiment"}
+      ]
+    },
+    {
+      "id": "apparatus:haystac",
+      "label": "HAYSTAC",
+      "node_type": "apparatus",
+      "subtype": "detector",
+      "domain": "microphysics",
+      "aliases": [{"text": "HAYSTAC", "case_sensitive": true}]
+    },
+    {
+      "id": "apparatus:cast",
+      "label": "CAST",
+      "node_type": "apparatus",
+      "subtype": "helioscope",
+      "domain": "cross-domain",
+      "aliases": [
+        {"text": "CAST experiment", "case_sensitive": true},
+        {"text": "CERN Axion Solar Telescope"}
+      ]
+    },
+    {
+      "id": "apparatus:iaxo",
+      "label": "IAXO",
+      "node_type": "apparatus",
+      "subtype": "helioscope",
+      "domain": "cross-domain",
+      "aliases": [
+        {"text": "IAXO", "case_sensitive": true},
+        {"text": "International Axion Observatory"}
+      ]
+    },
+    {
+      "id": "apparatus:lhc",
+      "label": "Large Hadron Collider",
+      "node_type": "apparatus",
+      "subtype": "collider",
+      "domain": "microphysics",
+      "aliases": [
+        {"text": "LHC", "case_sensitive": true},
+        {"text": "Large Hadron Collider"}
+      ]
+    },
+    {
+      "id": "apparatus:lep",
+      "label": "Large Electron-Positron Collider",
+      "node_type": "apparatus",
+      "subtype": "collider",
+      "domain": "microphysics",
+      "aliases": [
+        {"text": "LEP", "case_sensitive": true},
+        {"text": "Large Electron-Positron Collider"}
+      ]
+    },
+    {
+      "id": "apparatus:tevatron",
+      "label": "Tevatron",
+      "node_type": "apparatus",
+      "subtype": "collider",
+      "domain": "microphysics",
+      "aliases": [{"text": "Tevatron"}]
+    },
+    {
+      "id": "apparatus:fermi_lat",
+      "label": "Fermi-LAT",
+      "node_type": "apparatus",
+      "subtype": "telescope",
+      "domain": "macrophysics",
+      "aliases": [
+        {"regex": "(?<![A-Za-z0-9])Fermi[-\\s]?(?:LAT|Large\\s+Area\\s+Telescope)(?![A-Za-z0-9])", "case_sensitive": true},
+        {"text": "GLAST", "case_sensitive": true},
+        {"text": "Gamma-ray Large Area Space Telescope", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:chandra",
+      "label": "Chandra X-ray Observatory",
+      "node_type": "apparatus",
+      "subtype": "telescope",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "Chandra X-ray Observatory"},
+        {"text": "Chandra observations"}
+      ]
+    },
+    {
+      "id": "apparatus:xmm_newton",
+      "label": "XMM-Newton",
+      "node_type": "apparatus",
+      "subtype": "telescope",
+      "domain": "macrophysics",
+      "aliases": [{"regex": "(?<![A-Za-z0-9])XMM[-\\s]?Newton(?![A-Za-z0-9])", "case_sensitive": true}]
+    },
+    {
+      "id": "apparatus:planck",
+      "label": "Planck mission",
+      "node_type": "apparatus",
+      "subtype": "telescope",
+      "domain": "cosmology",
+      "aliases": [
+        {"text": "Planck satellite"},
+        {"text": "Planck mission"},
+        {"text": "Planck data"},
+        {"text": "Planck observations"}
+      ]
+    },
+    {
+      "id": "apparatus:euclid",
+      "label": "Euclid mission",
+      "node_type": "apparatus",
+      "subtype": "telescope",
+      "domain": "cosmology",
+      "aliases": [
+        {"text": "Euclid mission"},
+        {"text": "Euclid survey"},
+        {"text": "Euclid satellite"}
+      ]
+    },
+    {
+      "id": "apparatus:rubin_lsst",
+      "label": "Rubin Observatory / LSST",
+      "node_type": "apparatus",
+      "subtype": "telescope",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "Vera C. Rubin Observatory"},
+        {"text": "Rubin Observatory"},
+        {"text": "Legacy Survey of Space and Time"},
+        {"text": "LSST", "case_sensitive": true}
+      ]
+    },
+
+    {
+      "id": "context:galaxy",
+      "label": "Galaxy",
+      "node_type": "context",
+      "subtype": "astronomical system",
+      "domain": "macrophysics",
+      "aliases": [
+        {"regex": "(?<![A-Za-z0-9])galax(?:y|ies)(?![A-Za-z0-9])"}
+      ]
+    },
+    {
+      "id": "context:dwarf_galaxy",
+      "label": "Dwarf galaxy",
+      "node_type": "context",
+      "subtype": "astronomical system",
+      "domain": "macrophysics",
+      "aliases": [
+        {"regex": "(?<![A-Za-z0-9])dwarf\\s+(?:galaxy|galaxies|spheroidal|spheroidals)(?![A-Za-z0-9])"}
+      ]
+    },
+    {
+      "id": "context:galaxy_cluster",
+      "label": "Galaxy cluster",
+      "node_type": "context",
+      "subtype": "astronomical system",
+      "domain": "macrophysics",
+      "aliases": [
+        {"regex": "(?<![A-Za-z0-9])(?:galaxy|galactic)\\s+clusters?(?![A-Za-z0-9])"}
+      ]
+    },
+    {
+      "id": "context:milky_way",
+      "label": "Milky Way",
+      "node_type": "context",
+      "subtype": "astronomical system",
+      "domain": "macrophysics",
+      "aliases": [{"text": "Milky Way"}]
+    },
+    {
+      "id": "context:galactic_center",
+      "label": "Galactic Center",
+      "node_type": "context",
+      "subtype": "astronomical region",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "Galactic Center"},
+        {"text": "Galactic Centre"}
+      ]
+    },
+    {
+      "id": "context:neutron_star",
+      "label": "Neutron star",
+      "node_type": "context",
+      "subtype": "stellar object",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "neutron star"},
+        {"text": "neutron stars"}
+      ]
+    },
+    {
+      "id": "context:black_hole",
+      "label": "Black hole",
+      "node_type": "context",
+      "subtype": "compact object",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "black hole"},
+        {"text": "black holes"}
+      ]
+    },
+    {
+      "id": "context:star",
+      "label": "Star",
+      "node_type": "context",
+      "subtype": "stellar object",
+      "domain": "macrophysics",
+      "aliases": [
+        {"regex": "(?<![A-Za-z0-9])stars?(?![A-Za-z0-9])"}
+      ]
+    }
+  ]
+}

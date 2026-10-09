@@ -1,0 +1,112 @@
+{
+  "annotation_convention": {
+    "generic_and_specific": "both retained when both are explicit",
+    "repeated_mentions": "collapse within paper and family",
+    "stance": "support, comparison, criticism, constraint, and exclusion all count",
+    "synonymous_tags": "collapse to one canonical family"
+  },
+  "candidate_output": {
+    "rows": 28439,
+    "unique_families": 36,
+    "unique_papers": 22875
+  },
+  "frozen_at_utc": "2026-09-08T21:16:09.189906+00:00",
+  "measurement_unit": "one row per paper-candidate-family pair",
+  "output_sha256": {
+    "data/analysis/abstract_coverage_yearly.csv": "fcf01869c9e5d621c52084f98cd9917a131171a2c82ab5bda5bf455e53ff67fd",
+    "data/analysis/abstract_coverage_yearly.parquet": "a08a5cb66ed418f90e37d9177f9be712ec566360eeb6086352434882943e4892",
+    "data/analysis/analysis_summary.json": "dccbbea66add868ce75c1b8d7ff6ae78f4b2207004b8fecb7ab0388a071412f3",
+    "data/analysis/arxiv_class_mapping.csv": "d7e5770a12d44ec0e733905ebe9c0d62a83296bacf52b9056bfb931cb0f5d701",
+    "data/analysis/arxiv_class_mapping.parquet": "c9be5f293d7231cff6a30c216f1f4a8b40dba2ef02b8a5ea2b696b2d1a0e0ed7",
+    "data/analysis/candidate_bias_sensitivity_summary.csv": "50a0837b383e10052c594a7b7a68d445b63546eee000b3e5a901f305228cdf46",
+    "data/analysis/candidate_bias_sensitivity_summary.parquet": "9b7c375403754156c9d731a84190d2549e0ceccc1464b00968d651dbc5f59314",
+    "data/analysis/candidate_divergence_contrast.csv": "fd7bca8ab5e8f647f74021b4a080352dfa2b41fe5d86cdc221db683f1276efad",
+    "data/analysis/candidate_divergence_contrast.parquet": "c1e789f9eb9df3866521d3ea28226243649cc98c7b6532b798a65b256d884477",
+    "data/analysis/candidate_divergence_document_sensitivity.csv": "7c23d0632053b6bd572e5a4406e25c30ce37f304687407fee3766705d2c381a8",
+    "data/analysis/candidate_divergence_document_sensitivity.parquet": "f95a14758bced32fc00a089656d6b1090bf7b5c637e0788fc0a09ded0767760f",
+    "data/analysis/candidate_divergence_yearly.csv": "47e606c53010b18f58b07e005e0a8f69c7c3f7c83b4382a90c3290d4a055ee80",
+    "data/analysis/candidate_divergence_yearly.parquet": "6b1b92924f8e5e9c30788050a7f8079f9d5cb9c127f2680d1c471316af8cbf9e",
+    "data/analysis/candidate_document_type_flow.csv": "75942fcb2281c0e5542f7206fb5908e5de60dec1f4acc515b0c6ab17f559ace9",
+    "data/analysis/candidate_document_type_flow.parquet": "3c0c908158b5961536afa5af1c8cfb0cc81d14e511ac489c6030855f01345731",
+    "data/analysis/candidate_family_selection_sensitivity.csv": "5c3cf8b126c43f03bdbb8a1a867d2306b5c5fa91e0581e96e2657aa014f6d3c9",
+    "data/analysis/candidate_family_selection_sensitivity.parquet": "04555613f36e2c0e2f12af5e8677a7d63adb50dcc1bc3ca6c36fad5e7db2e6fc",
+    "data/analysis/candidate_field_yearly.csv": "d7146e4f13ac542d48fb551e219b8473e68379ca608613b12e454312aaf0bfce",
+    "data/analysis/candidate_field_yearly.parquet": "e283b32a64e0b8ffefeed578953b5e905f3a73742d28b40951d12fb0a6b5b5db",
+    "data/analysis/candidate_permutation_yearly.csv": "b1ef08e3107c002d63f0381b234ef9e3d03e9b7055f37148aad365f86680fb16",
+    "data/analysis/candidate_permutation_yearly.parquet": "9a59ec323cf24f75766d9d8177af9000dc3b3b5e8752c950e5f56054e36b7766",
+    "data/analysis/candidate_rarefaction_yearly.csv": "131483817cffcb55c9afe7bd726f36c30209843968a242e95e311c2811d9f95a",
+    "data/analysis/candidate_rarefaction_yearly.parquet": "b3dfe874d90f9efc203cb7c56ee1bd69a0f9af932d7bb6faa1214a1d3d48420e",
+    "data/analysis/candidate_specification_sensitivity.csv": "309c7c17faa60bbd2624d943bb7700066915cf016c316a7689a47f095670b9e4",
+    "data/analysis/candidate_specification_sensitivity.parquet": "a2bb6c2966f6b56cf9b7229e82a790ff4b1c21e824929531b2487c0ec90db5de",
+    "data/analysis/classification_assignment_yearly.csv": "4906fd6609e0c8f350ee74e8c92e2592fa3c117c0a7c13e05ccaaf1448cad2cb",
+    "data/analysis/classification_assignment_yearly.parquet": "305cbfb06fc9a479fc0a1f8307be5804a6eb47f80379ced6c47aaf3174afa45a",
+    "data/analysis/classification_coverage_doctype.csv": "cfe56cc4af88ef27b90da9bdf6eb7f8d8bfe1f118b3ffb259c214677fd0c6a12",
+    "data/analysis/classification_coverage_doctype.parquet": "d87c3b265ed164a48f22e6b80ee3866c0d75a3b168244339939ebc316fe8ba0f",
+    "data/analysis/classification_coverage_yearly.csv": "81b654f46fef10ca699f0e356ac30552265f1a11cef5f19a95e038ab4ba12d20",
+    "data/analysis/classification_coverage_yearly.parquet": "a05edfd64fffd0e277971ee58438dcab3a16c490dd608312309b43b575d11393",
+    "data/analysis/classification_crosslisting_yearly.csv": "84f53baa009d4eec169f6cb731c7213136fa957abf775afd80f35405b360b590",
+    "data/analysis/classification_crosslisting_yearly.parquet": "0e34894280d392082d49586eabd980d114c598efd95a31af7a04afbdeb1fa47d",
+    "data/analysis/classification_primary_yearly.csv": "792f22388947a91cb253ba8cd29d03ddc883d6871208eaebadf32ab93d702895",
+    "data/analysis/classification_primary_yearly.parquet": "171d8926a287cfea9f41bb61cde2ea3cb5f756cb0f7f181f2489921d77fa0b6e",
+    "data/analysis/field_bigram_rankings.csv": "2db9ff1c5101849d0b1e2d3d832c34022007db2deaeff603873986dee7d2fe1b",
+    "data/analysis/field_unigram_rankings.csv": "772752dab5f0d25d9b787080b5d2f0ed5c8ce34014f72811387ebe00bd1a9318",
+    "data/analysis/keyness_bigrams.csv": "d8f8e307bf069a1f2ea487e932db8b3ad50ab3557fe95577712dab17ef887433",
+    "data/analysis/keyness_unigrams.csv": "477ae8c0486b3b23c1578b0b9127d51ee326c182ed19c3c1aaee75f2df768a86",
+    "data/analysis/lexical_divergence_yearly.csv": "8e047fdc45daa71e848087432a092c830d66fdbbdc9510833c0dfec4abdb2705",
+    "data/analysis/lexical_divergence_yearly.parquet": "c14e5c5eea5911b6d34b9f0275e9cf17c03f2f502a2d0a659418ea35e483d698",
+    "data/analysis/paper_volume_yearly.csv": "ee58c3d1c73efe9d58abc352fda149f7f405bd1690bb9f85159b06bbc46b889b",
+    "data/analysis/paper_volume_yearly.parquet": "20e2bdf1902cb375d91449f6b481e710331de8ebd3c3ff75123aa4426783e669",
+    "data/analysis/tracked_candidate_species.txt": "086993ae87d992b2166cdd54c252bfa7c2f5b071fdcbe0308cedffc9884289d6",
+    "data/analysis_manifest.json": "3ec230207444988f18940d949f51f604ba3cefcb1487e12c147734afe1592f02",
+    "data/dm_model_candidates_long.parquet": "174653a9d1faf17b51097c98605177e258262108eb1034b43815f599872e2be5",
+    "data/validation/candidate_validation_system_key.csv": "d46805a403eefca8cfd75d954660e8f675aa6dc17c2520f210def3d8b80b0f22",
+    "figures/fig4_closure_conditions.pdf": "bd9557ba1a6a022d04ee5abf9840731844795a4b6809f3e2c0b9c94d6a57e504",
+    "figures/figS1_classification_sensitivity.pdf": "c06289a9010d3c8a25c402d2b91aa89c373e49f35e8d1e76cc12c3399c667653",
+    "figures/figS2_candidate_raw_counts.pdf": "4db0658ea660f39a0142e031df6c8fa9841320eb31913d8299e817d4a6d16e65",
+    "figures/figS3_candidate_distances.pdf": "e96019f3db223b677684f1735630c867b4f213af04a82b03b22dd8fee5b5b131",
+    "figures/figS4_lexical_divergence.pdf": "6d571323715439f63beb8b323678de8d66f4b7518e4bb4a35321706f68776002",
+    "figures/log_ratio.pdf": "f98c65c5c725e513adc072d930611893e9b2d7c1ba52e5f2afe0d763fb5a7c45",
+    "figures/norm.pdf": "ad5cac9d3792279b1d72569b18fa461961a79c34fb07c6649ff254ef4d78da21",
+    "figures/primary_dominant.pdf": "e8d9315edcc5d0de8e413505546b81b4f0fed9d3b17a537b0d446b058202e357"
+  },
+  "schema_version": 1,
+  "source_sha256": {
+    "code/003-extract-dm-candidates.ipynb": "8075effe47e53620342d6f6f2c88a0d3ab88f05bc4e122e75164a84e7dbeaef9",
+    "code/dm_term_normalization/candidate_ontology.py": "2ececbef06708d85bc36d342c52f26b4c1b0111e207fb38bda2df80f412c8730",
+    "code/dm_term_normalization/normalization.py": "aa48db465efa0a40ac1f9b62e47e845babf01959a55d66a5c09034628d020c49",
+    "code/robustness_analysis.py": "611c5a9227fe952e594a63f2d26a1769d518830cf7965d5ed6f8c86f5952d40d",
+    "code/tests/test_candidate_ontology.py": "033186ca809385ff77eba3e09d4bdbdaa091e02578c374a82ec5da8a3ff8048b",
+    "data/validation/candidate_ontology_freeze_notes.md": "fc75253107cc58f94f8a0d5c1116a8dccd5177995a5cb385e1c9362188676823",
+    "data/validation/candidate_validation_codebook.md": "64aaef02b37433fe3ff4c77ec353f5c682fd37370749889408c12a45dc256909"
+  },
+  "status": "ontology frozen after development review; holdouts untouched",
+  "system_key": {
+    "positive_holdout_predicted_any": 180,
+    "positive_holdout_records": 180,
+    "records": 840
+  },
+  "tests": {
+    "command": "python3 -m unittest discover -s code/tests -p 'test_*.py' -v",
+    "tests_passed": 19
+  },
+  "validation": {
+    "development": {
+      "completed_gold_any": 180,
+      "rows": 180,
+      "rows_with_other_annotation_text": 179,
+      "sample_design_sha256": "a9374f0e1fe141bf8596950ba8d1c4c45cbf46614c4b0237d233794d3b6510d9"
+    },
+    "holdout_population": {
+      "completed_gold_any": 0,
+      "rows": 480,
+      "rows_with_other_annotation_text": 0,
+      "sample_design_sha256": "d31e7d8220267626f7c186dc135c39d71ecea02646e33b67e7aaebd039200477"
+    },
+    "holdout_positive": {
+      "completed_gold_any": 0,
+      "rows": 180,
+      "rows_with_other_annotation_text": 0,
+      "sample_design_sha256": "2b0855be25bd396b387b498d78d3dd1d773255f372014fea47486a0e13429976"
+    }
+  }
+}

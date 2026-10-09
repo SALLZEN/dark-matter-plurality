@@ -1,0 +1,809 @@
+{
+  "schema_version": "2.0.0",
+  "description": "Concept-resolved empirical and gravitational phenomena. This module replaces stellar-object/context vertices; objects appear only when they name an empirically studied phenomenon or system.",
+  "source_inventories": [
+    "damadi/lib/python/003-i-gravity-plots.ipynb",
+    "user-supplied GRAV_PHENOMENA dictionary"
+  ],
+  "entities": [
+    {
+      "id": "phenomenon:gravitational_lensing",
+      "label": "Gravitational lensing",
+      "node_type": "phenomenon",
+      "subtype": "gravitational observation",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "gravitational lensing"},
+        {"text": "lensing phenomenon"},
+        {"text": "lensing phenomena"}
+      ]
+    },
+    {
+      "id": "phenomenon:strong_lensing",
+      "label": "Strong gravitational lensing",
+      "node_type": "phenomenon",
+      "subtype": "gravitational observation",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "strong lensing"},
+        {"text": "strong gravitational lensing"},
+        {"text": "strong-lensing"}
+      ]
+    },
+    {
+      "id": "phenomenon:weak_lensing",
+      "label": "Weak gravitational lensing",
+      "node_type": "phenomenon",
+      "subtype": "gravitational observation",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "weak lensing"},
+        {"text": "weak gravitational lensing"},
+        {"text": "weak-lensing"}
+      ]
+    },
+    {
+      "id": "phenomenon:microlensing_event",
+      "label": "Gravitational microlensing event",
+      "node_type": "phenomenon",
+      "subtype": "gravitational observation",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "microlensing event"},
+        {"text": "microlensing events"},
+        {"text": "gravitational microlensing event"},
+        {"text": "gravitational microlensing events"}
+      ]
+    },
+    {
+      "id": "phenomenon:einstein_ring",
+      "label": "Einstein ring",
+      "node_type": "phenomenon",
+      "subtype": "gravitational observation",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "Einstein ring"},
+        {"text": "Einstein rings"},
+        {"text": "Einstein lens"},
+        {"text": "Einstein lenses"}
+      ]
+    },
+    {
+      "id": "phenomenon:cosmic_shear",
+      "label": "Cosmic shear",
+      "node_type": "phenomenon",
+      "subtype": "weak-lensing observation",
+      "domain": "cosmology",
+      "aliases": [
+        {"text": "cosmic shear"},
+        {"text": "galaxy-galaxy lensing"}
+      ]
+    },
+    {
+      "id": "phenomenon:black_holes",
+      "label": "Black-hole systems",
+      "node_type": "phenomenon",
+      "subtype": "relativistic system",
+      "domain": "macrophysics",
+      "exclude_with_candidates": ["dm_model:pbh"],
+      "aliases": [
+        {"text": "black hole"},
+        {"text": "black holes"},
+        {"text": "Kerr black hole"},
+        {"text": "Kerr black holes"},
+        {"text": "Schwarzschild black hole"},
+        {"text": "Schwarzschild black holes"}
+      ]
+    },
+    {
+      "id": "phenomenon:event_horizon",
+      "label": "Event horizon",
+      "node_type": "phenomenon",
+      "subtype": "relativistic phenomenon",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "event horizon"},
+        {"text": "event horizons"},
+        {"text": "Schwarzschild radius"}
+      ]
+    },
+    {
+      "id": "phenomenon:gravitational_time_dilation",
+      "label": "Gravitational time dilation",
+      "node_type": "phenomenon",
+      "subtype": "relativistic phenomenon",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "gravitational time dilation"},
+        {"text": "relativistic time dilation"}
+      ]
+    },
+    {
+      "id": "phenomenon:frame_dragging",
+      "label": "Frame dragging",
+      "node_type": "phenomenon",
+      "subtype": "relativistic phenomenon",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "frame dragging"},
+        {"text": "frame-dragging"},
+        {"text": "dragging of inertial frames"},
+        {"text": "Lense-Thirring effect"}
+      ]
+    },
+    {
+      "id": "phenomenon:hawking_radiation",
+      "label": "Hawking radiation",
+      "node_type": "phenomenon",
+      "subtype": "black-hole phenomenon",
+      "domain": "cross-domain",
+      "aliases": [
+        {"text": "Hawking radiation"},
+        {"text": "Hawking evaporation"},
+        {"text": "black hole evaporation"}
+      ]
+    },
+    {
+      "id": "phenomenon:penrose_process",
+      "label": "Penrose process",
+      "node_type": "phenomenon",
+      "subtype": "black-hole phenomenon",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "Penrose process"}
+      ]
+    },
+    {
+      "id": "phenomenon:wormholes",
+      "label": "Wormholes",
+      "node_type": "phenomenon",
+      "subtype": "relativistic spacetime",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "wormhole"},
+        {"text": "wormholes"},
+        {"text": "Einstein-Rosen bridge"},
+        {"text": "Einstein-Rosen bridges"}
+      ]
+    },
+    {
+      "id": "phenomenon:black_hole_superradiance",
+      "label": "Black-hole superradiance",
+      "node_type": "phenomenon",
+      "subtype": "black-hole phenomenon",
+      "domain": "cross-domain",
+      "aliases": [
+        {"regex": "(?<![A-Za-z0-9])black[-\\s]+hole\\s+superradiance(?![A-Za-z0-9])"},
+        {"text": "superradiant instability"},
+        {"text": "black-hole bomb"}
+      ]
+    },
+    {
+      "id": "phenomenon:gravitational_waves",
+      "label": "Gravitational waves",
+      "node_type": "phenomenon",
+      "subtype": "relativistic radiation",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "gravitational wave"},
+        {"text": "gravitational waves"},
+        {"text": "gravitational-wave signal"},
+        {"text": "gravitational-wave signals"},
+        {"text": "gravitational wave background"},
+        {"text": "gravitational wave backgrounds"}
+      ]
+    },
+    {
+      "id": "phenomenon:gravitational_collapse",
+      "label": "Gravitational collapse",
+      "node_type": "phenomenon",
+      "subtype": "dynamical phenomenon",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "gravitational collapse"},
+        {"text": "stellar collapse"},
+        {"text": "stellar collapses"}
+      ]
+    },
+    {
+      "id": "phenomenon:rotation_curves",
+      "label": "Galaxy rotation curves",
+      "node_type": "phenomenon",
+      "subtype": "galactic dynamics",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "rotation curve"},
+        {"text": "rotation curves"},
+        {"text": "galaxy rotation curve"},
+        {"text": "galaxy rotation curves"},
+        {"text": "galactic rotation curve"},
+        {"text": "galactic rotation curves"},
+        {"text": "flat rotation curve"},
+        {"text": "flat rotation curves"}
+      ]
+    },
+    {
+      "id": "phenomenon:tidal_stripping",
+      "label": "Tidal stripping",
+      "node_type": "phenomenon",
+      "subtype": "gravitational dynamics",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "tidal stripping"},
+        {"text": "tidally stripped"}
+      ]
+    },
+    {
+      "id": "phenomenon:tidal_forces",
+      "label": "Tidal forces",
+      "node_type": "phenomenon",
+      "subtype": "gravitational dynamics",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "tidal force"},
+        {"text": "tidal forces"},
+        {"text": "tidal effect"},
+        {"text": "tidal effects"}
+      ]
+    },
+    {
+      "id": "phenomenon:escape_velocity",
+      "label": "Escape velocity",
+      "node_type": "phenomenon",
+      "subtype": "gravitational dynamics",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "escape velocity"},
+        {"text": "escape velocities"},
+        {"text": "escape speed"}
+      ]
+    },
+    {
+      "id": "phenomenon:dynamical_friction",
+      "label": "Dynamical friction",
+      "node_type": "phenomenon",
+      "subtype": "gravitational dynamics",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "dynamical friction"},
+        {"text": "Chandrasekhar friction"}
+      ]
+    },
+    {
+      "id": "phenomenon:gravitational_clustering",
+      "label": "Gravitational clustering",
+      "node_type": "phenomenon",
+      "subtype": "structure growth",
+      "domain": "cosmology",
+      "aliases": [
+        {"text": "gravitational clustering"},
+        {"text": "nonlinear gravitational clustering"},
+        {"text": "mass clustering"}
+      ]
+    },
+    {
+      "id": "phenomenon:gravitational_redshift",
+      "label": "Gravitational redshift",
+      "node_type": "phenomenon",
+      "subtype": "relativistic phenomenon",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "gravitational redshift"},
+        {"text": "gravitational redshifts"}
+      ]
+    },
+    {
+      "id": "phenomenon:gravitational_potential",
+      "label": "Gravitational potential",
+      "node_type": "phenomenon",
+      "subtype": "gravitational dynamics",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "gravitational potential"},
+        {"text": "gravitational potentials"},
+        {"text": "potential well"},
+        {"text": "potential wells"}
+      ]
+    },
+    {
+      "id": "phenomenon:free_streaming",
+      "label": "Free streaming",
+      "node_type": "phenomenon",
+      "subtype": "structure suppression",
+      "domain": "cosmology",
+      "aliases": [
+        {"text": "free streaming"},
+        {"text": "free-streaming"},
+        {"text": "free-streaming length"},
+        {"text": "free streaming length"},
+        {"text": "free-streaming scale"}
+      ]
+    },
+    {
+      "id": "phenomenon:mass_concentration_relation",
+      "label": "Mass-concentration relation",
+      "node_type": "phenomenon",
+      "subtype": "halo structure",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "mass-concentration relation"},
+        {"text": "mass concentration relation"},
+        {"text": "concentration-mass relation"}
+      ]
+    },
+    {
+      "id": "phenomenon:ram_pressure",
+      "label": "Ram-pressure effects",
+      "node_type": "phenomenon",
+      "subtype": "environmental dynamics",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "ram pressure"},
+        {"text": "ram-pressure stripping"},
+        {"text": "ram-pressure truncation"}
+      ]
+    },
+    {
+      "id": "phenomenon:cosmological_anisotropy",
+      "label": "Cosmological anisotropy",
+      "node_type": "phenomenon",
+      "subtype": "cosmological observation",
+      "domain": "cosmology",
+      "aliases": [
+        {"text": "cosmological anisotropy"},
+        {"text": "cosmological anisotropies"},
+        {"text": "large-scale anisotropy"},
+        {"text": "large-scale anisotropies"}
+      ]
+    },
+    {
+      "id": "phenomenon:geodetic_precession",
+      "label": "Geodetic precession",
+      "node_type": "phenomenon",
+      "subtype": "relativistic phenomenon",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "geodetic effect"},
+        {"text": "geodetic precession"},
+        {"text": "de Sitter precession"}
+      ]
+    },
+    {
+      "id": "phenomenon:post_newtonian_effects",
+      "label": "Post-Newtonian effects",
+      "node_type": "phenomenon",
+      "subtype": "relativistic phenomenon",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "post-Newtonian effects"},
+        {"text": "post-Newtonian effect"},
+        {"text": "post-Newtonian corrections"},
+        {"text": "post-Newtonian approximation"}
+      ]
+    },
+    {
+      "id": "phenomenon:bao",
+      "label": "Baryon acoustic oscillations",
+      "node_type": "phenomenon",
+      "subtype": "large-scale structure",
+      "domain": "cosmology",
+      "aliases": [
+        {"text": "baryon acoustic oscillation"},
+        {"text": "baryon acoustic oscillations"},
+        {"text": "baryonic acoustic oscillation"},
+        {"text": "baryonic acoustic oscillations"},
+        {"text": "BAO", "case_sensitive": true},
+        {"text": "BAO scale", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "phenomenon:cmb",
+      "label": "Cosmic microwave background",
+      "node_type": "phenomenon",
+      "subtype": "cosmological radiation",
+      "domain": "cosmology",
+      "aliases": [
+        {"text": "cosmic microwave background"},
+        {"text": "CMB", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "phenomenon:cmb_lensing",
+      "label": "CMB lensing",
+      "node_type": "phenomenon",
+      "subtype": "cosmological observation",
+      "domain": "cosmology",
+      "aliases": [
+        {"text": "CMB lensing", "case_sensitive": true},
+        {"text": "gravitational lensing of the CMB", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "phenomenon:cmb_anisotropy",
+      "label": "CMB anisotropy",
+      "node_type": "phenomenon",
+      "subtype": "cosmological observation",
+      "domain": "cosmology",
+      "aliases": [
+        {"text": "CMB anisotropy", "case_sensitive": true},
+        {"text": "CMB anisotropies", "case_sensitive": true},
+        {"text": "microwave background anisotropy"},
+        {"text": "microwave background anisotropies"}
+      ]
+    },
+    {
+      "id": "phenomenon:cmb_polarization",
+      "label": "CMB polarization",
+      "node_type": "phenomenon",
+      "subtype": "cosmological observation",
+      "domain": "cosmology",
+      "aliases": [
+        {"text": "CMB polarization", "case_sensitive": true},
+        {"text": "E-mode polarization"},
+        {"text": "B-mode polarization"},
+        {"text": "CMB E modes", "case_sensitive": true},
+        {"text": "CMB B modes", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "phenomenon:sachs_wolfe_effect",
+      "label": "Sachs-Wolfe effect",
+      "node_type": "phenomenon",
+      "subtype": "CMB phenomenon",
+      "domain": "cosmology",
+      "aliases": [
+        {"text": "Sachs-Wolfe effect"},
+        {"text": "ordinary Sachs-Wolfe effect"},
+        {"text": "integrated Sachs-Wolfe effect"},
+        {"text": "ISW effect", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "phenomenon:cmb_power_spectrum",
+      "label": "CMB power spectrum",
+      "node_type": "phenomenon",
+      "subtype": "cosmological observation",
+      "domain": "cosmology",
+      "aliases": [
+        {"text": "CMB power spectrum", "case_sensitive": true},
+        {"text": "CMB power spectra", "case_sensitive": true},
+        {"text": "acoustic peaks"}
+      ]
+    },
+    {
+      "id": "phenomenon:mass_to_light_ratio",
+      "label": "Mass-to-light ratio",
+      "node_type": "phenomenon",
+      "subtype": "dynamical discrepancy",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "mass-to-light ratio"},
+        {"text": "mass to light ratio"},
+        {"text": "mass-to-light ratios"},
+        {"text": "M/L ratio", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "phenomenon:mass_distribution",
+      "label": "Dark-matter mass distribution",
+      "node_type": "phenomenon",
+      "subtype": "mass mapping",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "dark matter mass distribution"},
+        {"text": "dark matter distribution"},
+        {"text": "distribution of dark matter"}
+      ]
+    },
+    {
+      "id": "phenomenon:virial_mass",
+      "label": "Virial mass",
+      "node_type": "phenomenon",
+      "subtype": "dynamical measure",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "virial mass"},
+        {"text": "virial masses"}
+      ]
+    },
+    {
+      "id": "phenomenon:virial_radius",
+      "label": "Virial radius",
+      "node_type": "phenomenon",
+      "subtype": "halo measure",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "virial radius"},
+        {"text": "virial radii"}
+      ]
+    },
+    {
+      "id": "phenomenon:virial_equilibrium",
+      "label": "Virial equilibrium",
+      "node_type": "phenomenon",
+      "subtype": "dynamical state",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "virial equilibrium"},
+        {"text": "virialized system"},
+        {"text": "virialized systems"},
+        {"text": "virialised system"},
+        {"text": "virialised systems"}
+      ]
+    },
+    {
+      "id": "phenomenon:velocity_dispersion",
+      "label": "Velocity dispersion",
+      "node_type": "phenomenon",
+      "subtype": "dynamical observation",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "velocity dispersion"},
+        {"text": "velocity dispersions"},
+        {"text": "line-of-sight velocity dispersion"}
+      ]
+    },
+    {
+      "id": "phenomenon:velocity_distribution",
+      "label": "Velocity distribution",
+      "node_type": "phenomenon",
+      "subtype": "dynamical observation",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "velocity distribution"},
+        {"text": "velocity distributions"},
+        {"text": "galaxy velocity"},
+        {"text": "galaxy velocities"}
+      ]
+    },
+    {
+      "id": "phenomenon:peculiar_velocity",
+      "label": "Peculiar velocities",
+      "node_type": "phenomenon",
+      "subtype": "large-scale dynamics",
+      "domain": "cosmology",
+      "aliases": [
+        {"text": "peculiar velocity"},
+        {"text": "peculiar velocities"},
+        {"text": "bulk flow"},
+        {"text": "bulk flows"}
+      ]
+    },
+    {
+      "id": "phenomenon:galaxy_mergers",
+      "label": "Galaxy mergers",
+      "node_type": "phenomenon",
+      "subtype": "structure evolution",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "galaxy merger"},
+        {"text": "galaxy mergers"},
+        {"text": "merging galaxies"}
+      ]
+    },
+    {
+      "id": "phenomenon:cluster_mergers",
+      "label": "Galaxy-cluster mergers",
+      "node_type": "phenomenon",
+      "subtype": "structure evolution",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "cluster merger"},
+        {"text": "cluster mergers"},
+        {"text": "merging galaxy clusters"}
+      ]
+    },
+    {
+      "id": "phenomenon:dark_matter_halo",
+      "label": "Dark-matter halos",
+      "node_type": "phenomenon",
+      "subtype": "inferred mass structure",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "dark matter halo"},
+        {"text": "dark matter halos"},
+        {"text": "dark-matter halo"},
+        {"text": "dark-matter halos"}
+      ]
+    },
+    {
+      "id": "phenomenon:halo_substructure",
+      "label": "Halo substructure",
+      "node_type": "phenomenon",
+      "subtype": "halo structure",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "halo substructure"},
+        {"text": "dark matter substructure"},
+        {"text": "dark matter subhalo"},
+        {"text": "dark matter subhalos"},
+        {"text": "dark-matter subhalo"},
+        {"text": "dark-matter subhalos"}
+      ]
+    },
+    {
+      "id": "phenomenon:halo_merger",
+      "label": "Halo mergers",
+      "node_type": "phenomenon",
+      "subtype": "halo evolution",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "halo merger"},
+        {"text": "halo mergers"},
+        {"text": "merger of dark matter halos"}
+      ]
+    },
+    {
+      "id": "phenomenon:halo_concentration",
+      "label": "Halo concentration",
+      "node_type": "phenomenon",
+      "subtype": "halo structure",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "halo concentration"},
+        {"text": "halo concentrations"},
+        {"text": "dark matter concentration"}
+      ]
+    },
+    {
+      "id": "phenomenon:halo_mass_function",
+      "label": "Halo mass function",
+      "node_type": "phenomenon",
+      "subtype": "large-scale structure",
+      "domain": "cosmology",
+      "aliases": [
+        {"text": "halo mass function"},
+        {"text": "halo mass functions"},
+        {"text": "subhalo mass function"}
+      ]
+    },
+    {
+      "id": "phenomenon:relaxation",
+      "label": "Gravitational relaxation",
+      "node_type": "phenomenon",
+      "subtype": "dynamical process",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "relaxation time"},
+        {"text": "two-body relaxation"},
+        {"text": "relaxed clusters"}
+      ]
+    },
+    {
+      "id": "phenomenon:galaxy_clustering",
+      "label": "Galaxy clustering",
+      "node_type": "phenomenon",
+      "subtype": "large-scale structure",
+      "domain": "cosmology",
+      "aliases": [
+        {"text": "galaxy clustering"},
+        {"text": "clustering of galaxies"},
+        {"text": "galaxy correlation function"}
+      ]
+    },
+    {
+      "id": "phenomenon:bullet_cluster",
+      "label": "Bullet Cluster",
+      "node_type": "phenomenon",
+      "subtype": "colliding-cluster observation",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "Bullet Cluster", "case_sensitive": true},
+        {"text": "1E 0657-56", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "phenomenon:cluster_dynamics",
+      "label": "Galaxy-cluster dynamics",
+      "node_type": "phenomenon",
+      "subtype": "cluster dynamics",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "cluster dynamics"},
+        {"text": "dynamics of galaxy clusters"},
+        {"text": "galaxy cluster dynamics"}
+      ]
+    },
+    {
+      "id": "phenomenon:structure_formation",
+      "label": "Cosmic structure formation",
+      "node_type": "phenomenon",
+      "subtype": "structure growth",
+      "domain": "cosmology",
+      "aliases": [
+        {"text": "structure formation"},
+        {"text": "formation of cosmic structure"},
+        {"text": "large-scale structure formation"},
+        {"text": "growth of structure"},
+        {"text": "structure growth"}
+      ]
+    },
+    {
+      "id": "phenomenon:matter_power_spectrum",
+      "label": "Matter power spectrum",
+      "node_type": "phenomenon",
+      "subtype": "large-scale structure",
+      "domain": "cosmology",
+      "aliases": [
+        {"text": "matter power spectrum"},
+        {"text": "matter power spectra"},
+        {"text": "linear power spectrum"},
+        {"text": "nonlinear matter power spectrum"}
+      ]
+    },
+    {
+      "id": "phenomenon:redshift_space_distortions",
+      "label": "Redshift-space distortions",
+      "node_type": "phenomenon",
+      "subtype": "large-scale structure",
+      "domain": "cosmology",
+      "aliases": [
+        {"text": "redshift-space distortion"},
+        {"text": "redshift-space distortions"},
+        {"text": "redshift space distortion"},
+        {"text": "redshift space distortions"},
+        {"text": "RSD", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "phenomenon:lyman_alpha_forest",
+      "label": "Lyman-alpha forest",
+      "node_type": "phenomenon",
+      "subtype": "intergalactic absorption",
+      "domain": "cosmology",
+      "aliases": [
+        {"regex": "(?<![A-Za-z0-9])Ly(?:man)?[-–—\\s]?(?:alpha|α)\\s+forest(?![A-Za-z0-9])"},
+        {"text": "Ly-alpha forest"}
+      ]
+    },
+    {
+      "id": "phenomenon:gamma_ray_excess",
+      "label": "Gamma-ray excess",
+      "node_type": "phenomenon",
+      "subtype": "high-energy excess",
+      "domain": "macrophysics",
+      "aliases": [
+        {"regex": "(?<![A-Za-z0-9])gamma[-–—\\s]+ray\\s+excess(?:es)?(?![A-Za-z0-9])"},
+        {"text": "Galactic Center excess"},
+        {"text": "Galactic Centre excess"},
+        {"text": "GCE", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "phenomenon:three_point_five_kev_line",
+      "label": "3.5 keV line",
+      "node_type": "phenomenon",
+      "subtype": "X-ray line",
+      "domain": "macrophysics",
+      "aliases": [
+        {"regex": "(?<![A-Za-z0-9])3(?:\\.5|·5)\\s*keV\\s+(?:line|feature|signal)(?![A-Za-z0-9])"}
+      ]
+    },
+    {
+      "id": "phenomenon:stellar_cooling",
+      "label": "Stellar cooling",
+      "node_type": "phenomenon",
+      "subtype": "stellar-energy loss",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "stellar cooling"},
+        {"text": "cooling of stars"},
+        {"text": "white dwarf cooling"},
+        {"text": "red giant cooling"}
+      ]
+    },
+    {
+      "id": "phenomenon:phase_space_bound",
+      "label": "Phase-space bound",
+      "node_type": "phenomenon",
+      "subtype": "dynamical constraint",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "phase-space bound"},
+        {"text": "phase space bound"},
+        {"text": "Tremaine-Gunn bound"},
+        {"text": "Tremaine Gunn bound"}
+      ]
+    }
+  ]
+}

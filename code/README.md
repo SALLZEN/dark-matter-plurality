@@ -1,210 +1,38 @@
-# Repository
-Simon Allzén
+# Code pipeline
 
-------------------------------------------------------------------------
-
-# Code Pipeline
-
-This directory contains the canonical notebook-led pipeline for the
-manuscript.
-
-`stage-outputs/` is intentionally separate from `../data/`:
-
-- `../data/` contains the canonical shared files that later stages are
-  allowed to depend on.
-- `./stage-outputs/` contains stage-local caches, audit tables, and
-  support exports that help a stage run or be inspected, but are not
-  part of the canonical pipeline contract.
-- In the public repository, stage `001` is retained as a single zip
-  archive containing the hydrated-records JSON and the citation-metrics
-  JSON; the other stage outputs are local/regenerable and ignored by
-  default.
+This directory contains the self-contained six-stage pipeline for the preprint.
 
 ## Run order
 
-1.  `001-collect-ads-records.ipynb`
-2.  `002-build-canonical-data.R`
-3.  `003-extract-dm-candidates.ipynb`
-4.  `004-build-lexical-data.ipynb`
-5.  `005-build-paper-assets.R`
+1. 001-collect-ads-records.ipynb
+2. 002-build-canonical-data.R
+3. 003-extract-dm-candidates.ipynb
+4. 004-build-lexical-data.ipynb
+5. 005-robustness-validation.ipynb
+6. 006-build-paper-assets.R
 
-Optional maintenance route:
+The retained stage-001 archive contains hydrated ADS records and citation histories. Extract it before stage 002. Stages 002–004 write canonical parquet files to ../data/. Stage 005 validates input hashes, excludes all records after 2025, writes analysis_manifest.json, verifies the completed primary-order audit, and calculates classification, candidate-divergence, rarefaction, permutation, weighting, lexical, and document sensitivities. Candidate extraction counts each paper--candidate-family pair once; generic and specific families may both be retained when explicit, while synonymous tags assigned to one family are collapsed. The candidate-dictionary manual-audit scaffold is optional and can be prepared with `--prepare-candidate-validation`; the completed development split may inform rules, but only untouched holdouts can estimate performance. Stage 006 writes Figures 1–3 and S1–S4, an auxiliary closure schematic, and a candidate-ranking table in STIX Two Text; the font must be installed on the system. The companion `006a-build-paper-assets-stepwise.R` is the inspectable route for Figures 1–3, while `006b-build-si-assets-stepwise.R` is the inspectable route for Figures S1–S4. Stage 006 invokes both companions.
 
-- `001a-update-ads-records.ipynb` is a yearly update notebook. It
-  mirrors `001-collect-ads-records.ipynb`, writes to
-  `stage-outputs/001a-update-ads-records/`, and is useful when you want
-  to append a new year without rebuilding the entire ADS snapshot from
-  scratch.
+The noninteractive stage-005 implementation is robustness_analysis.py. Run its unit tests with:
 
-<br>
+    python -m unittest discover -s code/tests -p 'test_*.py' -v
 
-## Sequence summary
+The optional blinded candidate audit has a dependency-free local browser interface:
 
-### 001-collect-ads-records.ipynb
+    python code/candidate_validation_app.py
 
-<br>
+Complete the development sample before freezing the ontology, then annotate the two holdouts. The app autosaves safely and never loads the system key. Freeze the reviewed ontology, refresh the blinded system key, and record source and output hashes with:
 
-**Purpose:**
+    python code/freeze_candidate_ontology.py
 
-- Query NASA ADS for records containing the phrase `"dark matter"`.
-- Hydrate missing abstracts.
-- Fetch citation histories from `v1/metrics/detail` with
-  `types=["citations"]`.
+Score the optional completed holdouts without rebuilding other stages with:
 
-**Writes:**
+    python code/robustness_analysis.py --score-candidate-validation-only
 
-1.  `stage-outputs/001-collect-ads-records/ads_search_all_years.json`
-2.  `stage-outputs/001-collect-ads-records/ads_search_all_years_with_abstracts.json`
-3.  `stage-outputs/001-collect-ads-records/ads_search_all_years_metrics_citations.json`
-4.  `stage-outputs/001-collect-ads-records/ads_stage_001_snapshots.zip`
+Python dependencies are pinned in requirements.lock.txt; R dependencies are pinned by the repository-level renv.lock. No external shared-assets directory is used.
 
-*Public repo note:*
+The optional 001a-update-ads-records.ipynb is not part of the frozen v3.0.0 run.
 
-- The public bundle retains one zip archive containing the hydrated
-  records JSON and the citation-metrics JSON - the extracted JSONs and
-  the raw `ads_search_all_years.json` snapshot are local-only and can be
-  regenerated
+For a complete noninteractive run from the retained archive, execute `PYTHON_BIN=.venv/bin/python code/run_frozen_pipeline.sh` from the repository root.
 
-  <br>
-
-  ------------------------------------------------------------------------
-
-  ##### **$\rightarrow$ 001a-update-ads-records.ipynb**
-
-  **Purpose:**
-
-  - Update an existing canonical ADS snapshot year by year without
-    changing the downstream pipeline.
-  - Mirror the collection, hydration, and citation-history logic used by
-    `001-collect-ads-records.ipynb`.
-
-  **Writes:**
-
-  - Staged append outputs under `stage-outputs/001a-update-ads-records/`
-
-<br>
-
-------------------------------------------------------------------------
-
-### 002-build-canonical-data.R
-
-<br>
-
-**Purpose:**
-
-- Convert the staged ADS JSON outputs into the canonical parquet files
-  used downstream.
-
-  **Writes:**
-
-  1.  `../data/papers.parquet`
-  2.  `../data/paper_arxiv_classes.parquet`
-  3.  `../data/paper_metrics_long.parquet`
-
-*Public repo note:*
-
-- If the extracted stage-001 JSON files are absent, unzip
-  `stage-outputs/001-collect-ads-records/ads_stage_001_snapshots.zip`
-  before running this stage
-
-<br>
-
-------------------------------------------------------------------------
-
-### 003-extract-dm-candidates.ipynb
-
-<br>
-
-**Purpose:**
-
-- Clean abstracts for candidate extraction.
-- Build the paper-level and candidate-level DM model outputs used by the
-  manuscript figures.
-
-**Reads:**
-
-1.  `../data/papers.parquet`
-2.  `../data/paper_arxiv_classes.parquet`
-
-**Writes:**
-
-1.  `../data/papers_with_dm_models.parquet`
-2.  `../data/dm_model_candidates_long.parquet`
-3.  `stage-outputs/003-extract-dm-candidates/dm_model_mentions.parquet`
-4.  `stage-outputs/003-extract-dm-candidates/dm_model_counts_by_year.parquet`
-
-*Public repo note:*
-
-- The mention-level and yearly audit outputs are local inspection files
-  and are not tracked in the public bundle
-
-<br>
-
-------------------------------------------------------------------------
-
-### 004-build-lexical-data.ipynb
-
-<br>
-
-**Purpose:**
-
-1.  Build the cleaned abstract corpus for lexical comparison.
-2.  Produce support TF-IDF and keyness tables.
-3.  Write the canonical yearly unigram parquet used by the manuscript
-    figure pipeline.
-
-**Reads:**
-
-1.  `../data/papers.parquet`
-2.  `../data/paper_arxiv_classes.parquet`
-
-**Writes:**
-
-1.  `../data/unigram_yearly.parquet`
-2.  support outputs under
-    `stage-outputs/004-build-lexical-data/support/`
-3.  cached cleaned corpus under
-    `stage-outputs/004-build-lexical-data/cache/`
-
-*Public repo note:*
-
-- The support CSV/parquet files and lexical caches are local/regenerable
-  and are not tracked in the public bundle.
-
-<br> <br>
-
-## Shared helpers
-
-- `shared/ads_api.py`: ADS query, hydration, citation-metrics, and JSON
-  helpers
-- `shared/normalization.py`: shared text normalization utilities
-- `shared/project_paths.py`: project-local path helpers
-- `tfidf/`: local preprocessing and TF-IDF configuration
-
-## Environment
-
-##### Python
-
-The notebooks expect a Python environment with:
-
-- `beautifulsoup4`
-- `matplotlib`
-- `numpy`
-- `pandas`
-- `plotly`
-- `pyarrow`
-- `requests`
-- `scikit-learn`
-- `tqdm`
-
-##### R
-
-The merger script expects an R environment with:
-
-- `arrow`
-- `dplyr`
-- `jsonlite`
-- `purrr`
-- `stringr`
-- `tibble`
-- `tidyr`
+The network analyses for Figures 4 and S5 are implemented separately in `../network/`. Figure 5 is a supplied conceptual assessment. See the repository README for extraction and rendering instructions.

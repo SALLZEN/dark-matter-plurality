@@ -1,0 +1,150 @@
+arxiv_class,arxiv_category,n_papers
+astro-ph,astrophysics,24078
+astro-ph.CO,astrophysics,45828
+astro-ph.EP,astrophysics,714
+astro-ph.GA,astrophysics,26186
+astro-ph.HE,astrophysics,11498
+astro-ph.IM,astrophysics,5312
+astro-ph.SR,astrophysics,2549
+cs.AI,computer science,296
+cs.AR,computer science,10
+cs.CC,computer science,10
+cs.CE,computer science,28
+cs.CG,computer science,20
+cs.CL,computer science,140
+cs.CR,computer science,23
+cs.CV,computer science,226
+cs.CY,computer science,89
+cs.DB,computer science,14
+cs.DC,computer science,121
+cs.DL,computer science,32
+cs.DM,computer science,8
+cs.DS,computer science,14
+cs.ET,computer science,6
+cs.FL,computer science,1
+cs.GL,computer science,5
+cs.GR,computer science,33
+cs.HC,computer science,44
+cs.IR,computer science,29
+cs.IT,computer science,32
+cs.LG,computer science,556
+cs.LO,computer science,7
+cs.MA,computer science,11
+cs.MM,computer science,4
+cs.MS,computer science,9
+cs.NA,computer science,11
+cs.NE,computer science,29
+cs.NI,computer science,13
+cs.OH,computer science,5
+cs.PF,computer science,19
+cs.PL,computer science,9
+cs.RO,computer science,32
+cs.SC,computer science,7
+cs.SD,computer science,6
+cs.SE,computer science,26
+cs.SI,computer science,24
+cs.SY,computer science,4
+cond-mat,condensed matter,59
+cond-mat.dis-nn,condensed matter,27
+cond-mat.mes-hall,condensed matter,353
+cond-mat.mtrl-sci,condensed matter,247
+cond-mat.other,condensed matter,174
+cond-mat.quant-gas,condensed matter,241
+cond-mat.soft,condensed matter,52
+cond-mat.stat-mech,condensed matter,403
+cond-mat.str-el,condensed matter,163
+cond-mat.supr-con,condensed matter,265
+econ.EM,economics,1
+econ.GN,economics,3
+econ.TH,economics,1
+eess.AS,electrical engineering and systems science,7
+eess.IV,electrical engineering and systems science,32
+eess.SP,electrical engineering and systems science,18
+eess.SY,electrical engineering and systems science,10
+gr-qc,general relativity and quantum cosmology,26961
+hep-ex,high-energy physics,12031
+hep-lat,high-energy physics,951
+hep-ph,high-energy physics,44527
+hep-th,high-energy physics,17402
+math-ph,mathematics,1059
+math.AG,mathematics,18
+math.AP,mathematics,97
+math.AT,mathematics,29
+math.CA,mathematics,15
+math.CO,mathematics,14
+math.CT,mathematics,1
+math.CV,mathematics,4
+math.DG,mathematics,109
+math.DS,mathematics,47
+math.FA,mathematics,7
+math.GM,mathematics,19
+math.GR,mathematics,8
+math.GT,mathematics,10
+math.HO,mathematics,14
+math.IT,mathematics,5
+math.LO,mathematics,8
+math.MG,mathematics,4
+math.MP,mathematics,30
+math.NA,mathematics,38
+math.NT,mathematics,5
+math.OA,mathematics,9
+math.OC,mathematics,13
+math.PR,mathematics,18
+math.QA,mathematics,15
+math.RA,mathematics,11
+math.RT,mathematics,16
+math.SG,mathematics,3
+math.SP,mathematics,6
+math.ST,mathematics,26
+nlin.AO,nonlinear sciences,17
+nlin.CD,nonlinear sciences,127
+nlin.PS,nonlinear sciences,144
+nlin.SI,nonlinear sciences,40
+nucl-ex,nuclear physics,1822
+nucl-th,nuclear physics,1872
+physics.acc-ph,physics,254
+physics.ao-ph,physics,29
+physics.app-ph,physics,215
+physics.atm-clus,physics,22
+physics.atom-ph,physics,1072
+physics.bio-ph,physics,47
+physics.chem-ph,physics,121
+physics.class-ph,physics,148
+physics.comp-ph,physics,385
+physics.data-an,physics,442
+physics.ed-ph,physics,140
+physics.flu-dyn,physics,158
+physics.gen-ph,physics,1801
+physics.geo-ph,physics,71
+physics.hist-ph,physics,459
+physics.ins-det,physics,4213
+physics.med-ph,physics,25
+physics.optics,physics,484
+physics.plasm-ph,physics,231
+physics.pop-ph,physics,229
+physics.soc-ph,physics,110
+physics.space-ph,physics,264
+q-bio,quantitative biology,2
+q-bio.BM,quantitative biology,31
+q-bio.CB,quantitative biology,3
+q-bio.GN,quantitative biology,51
+q-bio.MN,quantitative biology,12
+q-bio.NC,quantitative biology,41
+q-bio.OT,quantitative biology,16
+q-bio.PE,quantitative biology,30
+q-bio.QM,quantitative biology,51
+q-bio.SC,quantitative biology,4
+q-bio.TO,quantitative biology,3
+q-fin.CP,quantitative finance,1
+q-fin.GN,quantitative finance,4
+q-fin.MF,quantitative finance,2
+q-fin.PM,quantitative finance,2
+q-fin.RM,quantitative finance,1
+q-fin.ST,quantitative finance,4
+q-fin.TR,quantitative finance,1
+quant-ph,quantum physics,2162
+stat.AP,statistics,140
+stat.CO,statistics,41
+stat.ME,statistics,79
+stat.ML,statistics,319
+stat.OT,statistics,4

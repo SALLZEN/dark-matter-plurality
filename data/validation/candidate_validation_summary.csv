@@ -1,0 +1,3 @@
+component,estimand,status,n_required,n_completed,family_tp,family_fp,family_fn,micro_precision,precision_low,precision_high,micro_recall,recall_low,recall_high,micro_f1,f1_low,f1_high,abstract_tp,abstract_fp,abstract_tn,abstract_fn,abstract_precision,abstract_recall,abstract_f1,abstract_accuracy,abstract_false_positive_rate,abstract_false_negative_rate
+system-positive holdout,candidate-enriched precision and family-level performance; not population prevalence,pending manual annotation,180,0,,,,,,,,,,,,,,,,,,,,,,
+population holdout,unweighted performance in the stratified field-by-period population sample,pending manual annotation,480,0,,,,,,,,,,,,,,,,,,,,,,

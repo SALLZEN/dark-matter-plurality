@@ -1,0 +1,11 @@
+{
+  "schema_version": "2.0.0",
+  "description": "Expanded problem, mechanism, method, and apparatus modules supplementing the retained high-precision v1 entries.",
+  "includes": [
+    "concepts.json",
+    "apparatus.json",
+    "coverage_theories.json",
+    "coverage_concepts.json",
+    "coverage_apparatus.json"
+  ]
+}

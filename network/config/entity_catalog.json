@@ -1,0 +1,22 @@
+{
+  "schema_version": "2.1.0",
+  "description": "Expanded concept-resolved ontology catalog. The conservative v1 file supplies retained mechanisms, problems, methods, and apparatus; theories, phenomena, and stellar-object contexts are replaced by audited modules, including the 2026-08 source and corpus coverage audit.",
+  "vertex_classes": [
+    "dm_model",
+    "theory",
+    "phenomenon",
+    "problem",
+    "method",
+    "apparatus",
+    "mechanism"
+  ],
+  "includes": [
+    {
+      "path": "entities.json",
+      "exclude_node_types": ["theory", "phenomenon", "context"]
+    },
+    "ontology/theories.json",
+    "ontology/phenomena.json",
+    "ontology/extensions.json"
+  ]
+}

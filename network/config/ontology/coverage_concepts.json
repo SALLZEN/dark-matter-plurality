@@ -1,0 +1,940 @@
+{
+  "schema_version": "2.1.0",
+  "description": "Source-verified phenomenon, problem, mechanism, and method gaps identified by the 2026-08 ontology coverage audit.",
+  "source_inventories": [
+    "Particle Data Group, Dark Matter review (2024)",
+    "Snowmass 2021 Cosmic Probes of Dark Matter report, arXiv:2209.08215",
+    "Snowmass 2021 low-threshold direct-detection report, arXiv:2203.08297",
+    "Snowmass 2021 Observational Facilities to Study Dark Matter, arXiv:2203.06200",
+    "corpus audit of candidate-bearing abstracts"
+  ],
+  "entities": [
+    {
+      "id": "phenomenon:stellar_streams", "label": "Stellar streams", "node_type": "phenomenon",
+      "subtype": "halo-substructure tracer", "domain": "macrophysics",
+      "aliases": [
+        {"text": "stellar stream"}, {"text": "stellar streams"},
+        {"text": "stellar-stream gap"}, {"text": "stellar-stream gaps"},
+        {"text": "stream-gap perturbation"}, {"text": "stream-gap perturbations"}
+      ]
+    },
+    {
+      "id": "phenomenon:lensing_flux_ratio_anomalies", "label": "Lensing flux-ratio anomalies", "node_type": "phenomenon",
+      "subtype": "strong-lensing substructure signal", "domain": "macrophysics",
+      "aliases": [
+        {"text": "flux-ratio anomaly"}, {"text": "flux-ratio anomalies"},
+        {"text": "flux ratio anomaly"}, {"text": "flux ratio anomalies"},
+        {"text": "lensing flux anomaly"}, {"text": "lensing flux anomalies"}
+      ]
+    },
+    {
+      "id": "phenomenon:radial_acceleration_relation", "label": "Radial acceleration relation", "node_type": "phenomenon",
+      "subtype": "galaxy scaling relation", "domain": "macrophysics",
+      "aliases": [
+        {"text": "radial acceleration relation"},
+        {"text": "mass-discrepancy-acceleration relation"},
+        {"text": "mass discrepancy acceleration relation"},
+        {"regex": "(?<![A-Za-z0-9])RAR\\s+(?:relation|data|measurement|measurements)(?![A-Za-z0-9])", "case_sensitive": true},
+        {"text": "MDAR", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "phenomenon:baryonic_tully_fisher_relation", "label": "Baryonic Tully-Fisher relation", "node_type": "phenomenon",
+      "subtype": "galaxy scaling relation", "domain": "macrophysics",
+      "aliases": [
+        {"text": "baryonic Tully-Fisher relation"},
+        {"text": "baryonic Tully Fisher relation"},
+        {"text": "baryonic Tully-Fisher law"},
+        {"text": "BTFR", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "phenomenon:dark_acoustic_oscillations", "label": "Dark acoustic oscillations", "node_type": "phenomenon",
+      "subtype": "dark-sector structure signal", "domain": "cross-domain",
+      "aliases": [
+        {"text": "dark acoustic oscillation"},
+        {"text": "dark acoustic oscillations"},
+        {"regex": "(?<![A-Za-z0-9])DAO\\s+(?:scale|feature|features|signal|signals)(?![A-Za-z0-9])", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "phenomenon:twenty_one_cm_signal", "label": "21-cm signal", "node_type": "phenomenon",
+      "subtype": "neutral-hydrogen cosmological signal", "domain": "cosmology",
+      "aliases": [
+        {"regex": "(?<![A-Za-z0-9])21[-–—\\s]?cm\\s+(?:signal|absorption|line|power\\s+spectrum|brightness\\s+temperature)(?![A-Za-z0-9])"},
+        {"text": "global 21-cm signal"},
+        {"text": "global 21 cm signal"}
+      ]
+    },
+    {
+      "id": "phenomenon:cosmic_dawn", "label": "Cosmic dawn", "node_type": "phenomenon",
+      "subtype": "early-universe epoch", "domain": "cosmology",
+      "aliases": [
+        {"text": "cosmic dawn"},
+        {"text": "dark ages 21-cm signal"},
+        {"text": "dark ages 21 cm signal"}
+      ]
+    },
+    {
+      "id": "phenomenon:reionization", "label": "Cosmic reionization", "node_type": "phenomenon",
+      "subtype": "structure-formation epoch", "domain": "cosmology",
+      "aliases": [
+        {"text": "cosmic reionization"},
+        {"text": "epoch of reionization"},
+        {"text": "reionization history"}
+      ]
+    },
+    {
+      "id": "phenomenon:dark_matter_spikes", "label": "Dark-matter density spikes", "node_type": "phenomenon",
+      "subtype": "compact-object halo structure", "domain": "macrophysics",
+      "aliases": [
+        {"text": "dark matter spike"}, {"text": "dark matter spikes"},
+        {"text": "dark-matter spike"}, {"text": "dark-matter spikes"},
+        {"text": "dark matter density spike"}, {"text": "dark matter density spikes"}
+      ]
+    },
+    {
+      "id": "phenomenon:dark_matter_caustics", "label": "Dark-matter caustics", "node_type": "phenomenon",
+      "subtype": "phase-space structure", "domain": "macrophysics",
+      "aliases": [
+        {"text": "dark matter caustic"}, {"text": "dark matter caustics"},
+        {"text": "dark-matter caustic"}, {"text": "dark-matter caustics"},
+        {"text": "caustic ring model"}
+      ]
+    },
+    {
+      "id": "phenomenon:gravothermal_collapse", "label": "Gravothermal collapse", "node_type": "phenomenon",
+      "subtype": "self-interacting-halo evolution", "domain": "macrophysics",
+      "aliases": [
+        {"text": "gravothermal collapse"},
+        {"text": "gravothermal core collapse"},
+        {"text": "gravothermal catastrophe"}
+      ]
+    },
+    {
+      "id": "phenomenon:solitonic_core", "label": "Solitonic halo core", "node_type": "phenomenon",
+      "subtype": "wave-dark-matter halo structure", "domain": "macrophysics",
+      "aliases": [
+        {"text": "solitonic core"}, {"text": "solitonic cores"},
+        {"text": "soliton-like core"}, {"text": "soliton core"},
+        {"text": "solitonic density profile"}
+      ]
+    },
+    {
+      "id": "phenomenon:black_hole_shadow", "label": "Black-hole shadow", "node_type": "phenomenon",
+      "subtype": "strong-gravity observation", "domain": "macrophysics",
+      "aliases": [
+        {"text": "black-hole shadow"}, {"text": "black-hole shadows"},
+        {"text": "black hole shadow"}, {"text": "black hole shadows"}
+      ]
+    },
+    {
+      "id": "phenomenon:stochastic_gravitational_wave_background", "label": "Stochastic gravitational-wave background", "node_type": "phenomenon",
+      "subtype": "gravitational-wave signal", "domain": "macrophysics",
+      "aliases": [
+        {"text": "stochastic gravitational-wave background"},
+        {"text": "stochastic gravitational wave background"},
+        {"text": "stochastic GW background", "case_sensitive": true},
+        {"text": "SGWB", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "phenomenon:positron_excess", "label": "Cosmic-ray positron excess", "node_type": "phenomenon",
+      "subtype": "cosmic-ray excess", "domain": "cross-domain",
+      "aliases": [
+        {"text": "positron excess"},
+        {"text": "cosmic-ray positron excess"},
+        {"text": "cosmic ray positron excess"}
+      ]
+    },
+    {
+      "id": "phenomenon:antiproton_excess", "label": "Cosmic-ray antiproton excess", "node_type": "phenomenon",
+      "subtype": "cosmic-ray excess", "domain": "cross-domain",
+      "aliases": [
+        {"text": "antiproton excess"},
+        {"text": "cosmic-ray antiproton excess"},
+        {"text": "cosmic ray antiproton excess"}
+      ]
+    },
+    {
+      "id": "phenomenon:five_hundred_eleven_kev_line", "label": "511-keV line", "node_type": "phenomenon",
+      "subtype": "gamma-ray line", "domain": "cross-domain",
+      "aliases": [
+        {"regex": "(?<![A-Za-z0-9])511\\s*keV\\s+(?:line|emission|signal)(?![A-Za-z0-9])"},
+        {"text": "Galactic 511 keV emission"}
+      ]
+    },
+    {
+      "id": "phenomenon:gamma_ray_line", "label": "Gamma-ray spectral line", "node_type": "phenomenon",
+      "subtype": "indirect-detection signature", "domain": "cross-domain",
+      "aliases": [
+        {"text": "gamma-ray line"}, {"text": "gamma-ray lines"},
+        {"text": "gamma ray line"}, {"text": "gamma ray lines"},
+        {"text": "monoenergetic gamma-ray signal"}
+      ]
+    },
+    {
+      "id": "phenomenon:edges_absorption_feature", "label": "EDGES absorption feature", "node_type": "phenomenon",
+      "subtype": "21-cm anomaly", "domain": "cosmology",
+      "aliases": [
+        {"text": "EDGES absorption feature", "case_sensitive": true},
+        {"text": "EDGES signal", "case_sensitive": true},
+        {"text": "EDGES anomaly", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "phenomenon:dama_modulation_signal", "label": "DAMA annual-modulation signal", "node_type": "phenomenon",
+      "subtype": "direct-detection anomaly", "domain": "microphysics",
+      "aliases": [
+        {"text": "DAMA annual modulation signal", "case_sensitive": true},
+        {"text": "DAMA/LIBRA annual modulation", "case_sensitive": true},
+        {"text": "DAMA modulation signal", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "phenomenon:xenon1t_low_energy_excess", "label": "XENON1T low-energy excess", "node_type": "phenomenon",
+      "subtype": "direct-detection anomaly", "domain": "microphysics",
+      "aliases": [
+        {"text": "XENON1T low-energy excess", "case_sensitive": true},
+        {"text": "XENON1T excess", "case_sensitive": true},
+        {"text": "XENON1T anomaly", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "phenomenon:nuclear_recoil", "label": "Nuclear recoil", "node_type": "phenomenon",
+      "subtype": "detector signature", "domain": "microphysics",
+      "aliases": [
+        {"text": "nuclear recoil"}, {"text": "nuclear recoils"},
+        {"text": "nuclear-recoil event"}, {"text": "nuclear-recoil events"}
+      ]
+    },
+    {
+      "id": "phenomenon:electron_recoil", "label": "Electron recoil", "node_type": "phenomenon",
+      "subtype": "detector signature", "domain": "microphysics",
+      "aliases": [
+        {"text": "electron recoil"}, {"text": "electron recoils"},
+        {"text": "electronic recoil"}, {"text": "electronic recoils"}
+      ]
+    },
+    {
+      "id": "phenomenon:migdal_effect", "label": "Migdal effect", "node_type": "phenomenon",
+      "subtype": "atomic recoil effect", "domain": "microphysics",
+      "aliases": [
+        {"text": "Migdal effect"},
+        {"text": "Migdal ionization"},
+        {"text": "Migdal excitation"}
+      ]
+    },
+    {
+      "id": "phenomenon:diurnal_modulation", "label": "Diurnal modulation", "node_type": "phenomenon",
+      "subtype": "directional-detection signature", "domain": "microphysics",
+      "aliases": [
+        {"text": "diurnal modulation"},
+        {"text": "daily modulation signal"},
+        {"text": "sidereal-day modulation"}
+      ]
+    },
+    {
+      "id": "phenomenon:local_dark_matter_density", "label": "Local dark-matter density", "node_type": "phenomenon",
+      "subtype": "Galactic dark-matter distribution", "domain": "macrophysics",
+      "aliases": [
+        {"text": "local dark matter density"},
+        {"text": "local dark-matter density"},
+        {"text": "local DM density", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "phenomenon:local_dark_matter_velocity_distribution", "label": "Local dark-matter velocity distribution", "node_type": "phenomenon",
+      "subtype": "Galactic dark-matter distribution", "domain": "macrophysics",
+      "aliases": [
+        {"text": "local dark matter velocity distribution"},
+        {"text": "local dark-matter velocity distribution"},
+        {"text": "local DM velocity distribution", "case_sensitive": true},
+        {"text": "local dark matter velocity"}
+      ]
+    },
+    {
+      "id": "phenomenon:halo_shape", "label": "Dark-matter halo shape", "node_type": "phenomenon",
+      "subtype": "halo morphology", "domain": "macrophysics",
+      "aliases": [
+        {"text": "dark matter halo shape"}, {"text": "dark matter halo shapes"},
+        {"text": "halo ellipticity"}, {"text": "halo triaxiality"},
+        {"text": "shape of the dark matter halo"}
+      ]
+    },
+    {
+      "id": "phenomenon:halo_density_profile", "label": "Halo density profile", "node_type": "phenomenon",
+      "subtype": "halo structure", "domain": "macrophysics",
+      "aliases": [
+        {"text": "halo density profile"}, {"text": "halo density profiles"},
+        {"text": "dark matter density profile"}, {"text": "dark matter density profiles"},
+        {"text": "dark-matter density profile"}, {"text": "dark-matter density profiles"}
+      ]
+    },
+    {
+      "id": "phenomenon:dwarf_satellite_population", "label": "Dwarf-satellite population", "node_type": "phenomenon",
+      "subtype": "small-scale halo population", "domain": "macrophysics",
+      "aliases": [
+        {"text": "dwarf satellite population"},
+        {"text": "dwarf satellite galaxies"},
+        {"text": "Milky Way satellite population"},
+        {"text": "satellite luminosity function"}
+      ]
+    },
+    {
+      "id": "phenomenon:cosmic_birefringence", "label": "Cosmic birefringence", "node_type": "phenomenon",
+      "subtype": "polarization-rotation signal", "domain": "cross-domain",
+      "aliases": [
+        {"text": "cosmic birefringence"},
+        {"text": "cosmic polarization rotation"},
+        {"text": "CMB polarization rotation", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "phenomenon:cmb_spectral_distortion", "label": "CMB spectral distortion", "node_type": "phenomenon",
+      "subtype": "cosmological radiation signal", "domain": "cosmology",
+      "aliases": [
+        {"text": "CMB spectral distortion", "case_sensitive": true},
+        {"text": "CMB spectral distortions", "case_sensitive": true},
+        {"text": "cosmic microwave background spectral distortion"},
+        {"text": "cosmic microwave background spectral distortions"}
+      ]
+    },
+    {
+      "id": "phenomenon:sunyaev_zeldovich_effect", "label": "Sunyaev-Zeldovich effect", "node_type": "phenomenon",
+      "subtype": "CMB scattering phenomenon", "domain": "cosmology",
+      "aliases": [
+        {"text": "Sunyaev-Zeldovich effect"},
+        {"text": "Sunyaev Zeldovich effect"},
+        {"text": "kinetic Sunyaev-Zeldovich effect"},
+        {"text": "thermal Sunyaev-Zeldovich effect"}
+      ]
+    },
+    {
+      "id": "phenomenon:isocurvature_perturbations", "label": "Isocurvature perturbations", "node_type": "phenomenon",
+      "subtype": "primordial perturbation mode", "domain": "cosmology",
+      "aliases": [
+        {"text": "isocurvature perturbation"}, {"text": "isocurvature perturbations"},
+        {"text": "isocurvature mode"}, {"text": "isocurvature modes"}
+      ]
+    },
+
+    {
+      "id": "problem:neutrino_floor", "label": "Neutrino floor or fog", "node_type": "problem",
+      "subtype": "direct-detection sensitivity limit", "domain": "microphysics",
+      "aliases": [
+        {"text": "neutrino floor"}, {"text": "neutrino fog"},
+        {"text": "neutrino background floor"},
+        {"text": "irreducible neutrino background"}
+      ]
+    },
+    {
+      "id": "problem:little_hierarchy_problem", "label": "Little-hierarchy problem", "node_type": "problem",
+      "subtype": "particle-theory problem", "domain": "microphysics",
+      "aliases": [
+        {"text": "little hierarchy problem"},
+        {"text": "little-hierarchy problem"},
+        {"text": "little hierarchy tension"}
+      ]
+    },
+    {
+      "id": "problem:gravitino_problem", "label": "Gravitino problem", "node_type": "problem",
+      "subtype": "supersymmetric cosmology problem", "domain": "cross-domain",
+      "aliases": [
+        {"text": "gravitino problem"},
+        {"text": "gravitino overproduction problem"},
+        {"text": "gravitino overclosure problem"},
+        {"text": "cosmological gravitino problem"}
+      ]
+    },
+    {
+      "id": "problem:domain_wall_problem", "label": "Domain-wall problem", "node_type": "problem",
+      "subtype": "topological-defect problem", "domain": "cross-domain",
+      "aliases": [
+        {"text": "domain wall problem"},
+        {"text": "domain-wall problem"},
+        {"text": "axion domain wall problem"}
+      ]
+    },
+    {
+      "id": "problem:axion_quality_problem", "label": "Axion-quality problem", "node_type": "problem",
+      "subtype": "axion-model problem", "domain": "microphysics",
+      "aliases": [
+        {"text": "axion quality problem"},
+        {"text": "axion-quality problem"},
+        {"text": "Peccei-Quinn quality problem"}
+      ]
+    },
+    {
+      "id": "problem:axion_isocurvature_problem", "label": "Axion-isocurvature problem", "node_type": "problem",
+      "subtype": "axion-cosmology problem", "domain": "cross-domain",
+      "aliases": [
+        {"text": "axion isocurvature problem"},
+        {"text": "axion isocurvature constraint"},
+        {"text": "axion isocurvature constraints"}
+      ]
+    },
+    {
+      "id": "problem:moduli_problem", "label": "Cosmological moduli problem", "node_type": "problem",
+      "subtype": "early-universe problem", "domain": "cross-domain",
+      "aliases": [
+        {"text": "cosmological moduli problem"},
+        {"text": "cosmological moduli problems"},
+        {"text": "moduli problem"},
+        {"text": "moduli problems"}
+      ]
+    },
+    {
+      "id": "problem:lithium_problem", "label": "Cosmological lithium problem", "node_type": "problem",
+      "subtype": "big-bang-nucleosynthesis problem", "domain": "cosmology",
+      "aliases": [
+        {"text": "cosmological lithium problem"},
+        {"text": "primordial lithium problem"},
+        {"text": "lithium-7 problem"},
+        {"text": "lithium problem"}
+      ]
+    },
+    {
+      "id": "problem:monopole_problem", "label": "Monopole problem", "node_type": "problem",
+      "subtype": "early-universe problem", "domain": "cross-domain",
+      "aliases": [
+        {"text": "monopole problem"},
+        {"text": "cosmological monopole problem"},
+        {"text": "magnetic monopole problem"}
+      ]
+    },
+    {
+      "id": "problem:muon_g_minus_two_anomaly", "label": "Muon g-2 anomaly", "node_type": "problem",
+      "subtype": "precision-particle anomaly", "domain": "microphysics",
+      "aliases": [
+        {"text": "muon g-2 anomaly"},
+        {"text": "muon g minus 2 anomaly"},
+        {"text": "muon anomalous magnetic moment discrepancy"}
+      ]
+    },
+    {
+      "id": "problem:flavor_anomalies", "label": "Flavor anomalies", "node_type": "problem",
+      "subtype": "particle-physics anomaly", "domain": "microphysics",
+      "aliases": [
+        {"text": "flavor anomalies"},
+        {"text": "flavour anomalies"},
+        {"text": "B-meson anomalies"},
+        {"text": "B meson anomalies"}
+      ]
+    },
+    {
+      "id": "problem:w_boson_mass_anomaly", "label": "W-boson mass anomaly", "node_type": "problem",
+      "subtype": "precision-particle anomaly", "domain": "microphysics",
+      "aliases": [
+        {"text": "W-boson mass anomaly"},
+        {"text": "W boson mass anomaly"},
+        {"text": "W-boson mass discrepancy"},
+        {"text": "W mass tension", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "problem:short_baseline_neutrino_anomalies", "label": "Short-baseline neutrino anomalies", "node_type": "problem",
+      "subtype": "neutrino anomaly", "domain": "microphysics",
+      "aliases": [
+        {"text": "short-baseline neutrino anomaly"},
+        {"text": "short-baseline neutrino anomalies"},
+        {"text": "short baseline neutrino anomaly"},
+        {"text": "short baseline anomalies"}
+      ]
+    },
+    {
+      "id": "problem:reactor_antineutrino_anomaly", "label": "Reactor-antineutrino anomaly", "node_type": "problem",
+      "subtype": "neutrino anomaly", "domain": "microphysics",
+      "aliases": [
+        {"text": "reactor antineutrino anomaly"},
+        {"text": "reactor neutrino anomaly"},
+        {"text": "reactor-anomaly"}
+      ]
+    },
+    {
+      "id": "problem:gallium_anomaly", "label": "Gallium anomaly", "node_type": "problem",
+      "subtype": "neutrino anomaly", "domain": "microphysics",
+      "aliases": [
+        {"text": "gallium anomaly"},
+        {"text": "gallium anomalies"},
+        {"text": "gallium-source anomaly"}
+      ]
+    },
+    {
+      "id": "problem:solar_neutrino_problem", "label": "Solar-neutrino problem", "node_type": "problem",
+      "subtype": "historical neutrino problem", "domain": "cross-domain",
+      "aliases": [
+        {"text": "solar neutrino problem"},
+        {"text": "solar-neutrino problem"}
+      ]
+    },
+    {
+      "id": "problem:neutrino_mass_problem", "label": "Neutrino-mass problem", "node_type": "problem",
+      "subtype": "particle-theory problem", "domain": "microphysics",
+      "aliases": [
+        {"text": "neutrino mass problem"},
+        {"text": "small neutrino mass problem"},
+        {"text": "origin of neutrino mass"},
+        {"text": "origin of neutrino masses"}
+      ]
+    },
+    {
+      "id": "problem:disk_halo_degeneracy", "label": "Disk-halo degeneracy", "node_type": "problem",
+      "subtype": "galactic mass-model degeneracy", "domain": "macrophysics",
+      "aliases": [
+        {"text": "disk-halo degeneracy"},
+        {"text": "disc-halo degeneracy"},
+        {"text": "disk halo degeneracy"}
+      ]
+    },
+    {
+      "id": "problem:mass_sheet_degeneracy", "label": "Mass-sheet degeneracy", "node_type": "problem",
+      "subtype": "gravitational-lensing degeneracy", "domain": "macrophysics",
+      "aliases": [
+        {"text": "mass-sheet degeneracy"},
+        {"text": "mass sheet degeneracy"},
+        {"text": "mass-sheet transformation"}
+      ]
+    },
+
+    {
+      "id": "mechanism:seesaw", "label": "Seesaw mechanism", "node_type": "mechanism",
+      "subtype": "neutrino-mass generation", "domain": "microphysics",
+      "aliases": [
+        {"text": "seesaw mechanism"},
+        {"text": "see-saw mechanism"},
+        {"text": "seesaw model"},
+        {"text": "seesaw models"}
+      ]
+    },
+    {
+      "id": "mechanism:type_i_seesaw", "label": "Type-I seesaw", "node_type": "mechanism",
+      "subtype": "neutrino-mass generation", "domain": "microphysics",
+      "aliases": [
+        {"text": "type-I seesaw"},
+        {"text": "type I seesaw"},
+        {"text": "type-1 seesaw"}
+      ]
+    },
+    {
+      "id": "mechanism:type_ii_seesaw", "label": "Type-II seesaw", "node_type": "mechanism",
+      "subtype": "neutrino-mass generation", "domain": "microphysics",
+      "aliases": [
+        {"text": "type-II seesaw"},
+        {"text": "type II seesaw"},
+        {"text": "type-2 seesaw"}
+      ]
+    },
+    {
+      "id": "mechanism:type_iii_seesaw", "label": "Type-III seesaw", "node_type": "mechanism",
+      "subtype": "neutrino-mass generation", "domain": "microphysics",
+      "aliases": [
+        {"text": "type-III seesaw"},
+        {"text": "type III seesaw"},
+        {"text": "type-3 seesaw"}
+      ]
+    },
+    {
+      "id": "mechanism:inverse_seesaw", "label": "Inverse seesaw", "node_type": "mechanism",
+      "subtype": "neutrino-mass generation", "domain": "microphysics",
+      "aliases": [
+        {"text": "inverse seesaw mechanism"},
+        {"text": "inverse seesaw model"},
+        {"text": "inverse seesaw"}
+      ]
+    },
+    {
+      "id": "mechanism:radiative_seesaw", "label": "Radiative seesaw", "node_type": "mechanism",
+      "subtype": "neutrino-mass generation", "domain": "microphysics",
+      "aliases": [
+        {"text": "radiative seesaw mechanism"},
+        {"text": "radiative seesaw model"},
+        {"text": "radiative seesaw"}
+      ]
+    },
+    {
+      "id": "mechanism:kinetic_mixing", "label": "Kinetic mixing", "node_type": "mechanism",
+      "subtype": "portal interaction", "domain": "microphysics",
+      "aliases": [
+        {"text": "kinetic mixing"},
+        {"text": "photon-dark-photon mixing"},
+        {"text": "photon dark photon mixing"}
+      ]
+    },
+    {
+      "id": "mechanism:sommerfeld_enhancement", "label": "Sommerfeld enhancement", "node_type": "mechanism",
+      "subtype": "nonrelativistic interaction enhancement", "domain": "microphysics",
+      "aliases": [
+        {"text": "Sommerfeld enhancement"},
+        {"text": "Sommerfeld-enhanced annihilation"},
+        {"text": "Sommerfeld effect"}
+      ]
+    },
+    {
+      "id": "mechanism:bound_state_formation", "label": "Dark-sector bound-state formation", "node_type": "mechanism",
+      "subtype": "nonperturbative interaction", "domain": "microphysics",
+      "aliases": [
+        {"text": "dark matter bound-state formation"},
+        {"text": "dark-matter bound-state formation"},
+        {"text": "dark-sector bound-state formation"},
+        {"text": "DM bound-state formation", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "mechanism:affleck_dine", "label": "Affleck-Dine mechanism", "node_type": "mechanism",
+      "subtype": "asymmetry generation", "domain": "cross-domain",
+      "aliases": [
+        {"text": "Affleck-Dine mechanism"},
+        {"text": "Affleck Dine mechanism"},
+        {"text": "Affleck-Dine baryogenesis"},
+        {"text": "Affleck-Dine condensate"}
+      ]
+    },
+    {
+      "id": "mechanism:thermal_production", "label": "Thermal production", "node_type": "mechanism",
+      "subtype": "relic-production mechanism", "domain": "cosmology",
+      "aliases": [
+        {"text": "thermal dark matter production"},
+        {"text": "thermal production mechanism"},
+        {"text": "thermally produced dark matter"},
+        {"text": "thermal axion production"}
+      ]
+    },
+    {
+      "id": "mechanism:nonthermal_production", "label": "Nonthermal production", "node_type": "mechanism",
+      "subtype": "relic-production mechanism", "domain": "cosmology",
+      "aliases": [
+        {"text": "nonthermal dark matter production"},
+        {"text": "non-thermal dark matter production"},
+        {"text": "nonthermal production mechanism"},
+        {"text": "non-thermal production mechanism"}
+      ]
+    },
+    {
+      "id": "mechanism:resonant_production", "label": "Resonant production", "node_type": "mechanism",
+      "subtype": "relic-production mechanism", "domain": "cosmology",
+      "aliases": [
+        {"text": "resonant dark matter production"},
+        {"text": "resonant particle production"},
+        {"text": "resonant axion production"},
+        {"text": "resonant dark-photon production"}
+      ]
+    },
+    {
+      "id": "mechanism:cascade_decay", "label": "Cascade decay", "node_type": "mechanism",
+      "subtype": "particle-decay mechanism", "domain": "microphysics",
+      "aliases": [
+        {"text": "cascade decay"},
+        {"text": "cascade decays"},
+        {"text": "dark-sector cascade decay"}
+      ]
+    },
+    {
+      "id": "mechanism:dark_shower", "label": "Dark shower and hadronization", "node_type": "mechanism",
+      "subtype": "dark-sector fragmentation", "domain": "microphysics",
+      "aliases": [
+        {"text": "dark shower"}, {"text": "dark showers"},
+        {"text": "dark-sector shower"}, {"text": "dark-sector showers"},
+        {"text": "dark hadronization"}, {"text": "dark hadronisation"}
+      ]
+    },
+    {
+      "id": "mechanism:axioelectric_effect", "label": "Axioelectric effect", "node_type": "mechanism",
+      "subtype": "axion absorption", "domain": "microphysics",
+      "aliases": [
+        {"text": "axioelectric effect"},
+        {"text": "axio-electric effect"},
+        {"text": "axion photoelectric effect"}
+      ]
+    },
+    {
+      "id": "mechanism:fifth_force", "label": "Fifth force", "node_type": "mechanism",
+      "subtype": "new long-range interaction", "domain": "cross-domain",
+      "aliases": [
+        {"text": "fifth force"},
+        {"text": "fifth-force interaction"},
+        {"text": "dark fifth force"}
+      ]
+    },
+
+    {
+      "id": "method:beam_dump_search", "label": "Beam-dump search", "node_type": "method",
+      "subtype": "accelerator search", "domain": "microphysics",
+      "aliases": [
+        {"text": "beam-dump search"}, {"text": "beam-dump searches"},
+        {"text": "beam dump search"}, {"text": "beam dump experiment"},
+        {"text": "beam-dump experiment"}
+      ]
+    },
+    {
+      "id": "method:missing_momentum_search", "label": "Missing-momentum search", "node_type": "method",
+      "subtype": "accelerator search", "domain": "microphysics",
+      "aliases": [
+        {"text": "missing-momentum search"},
+        {"text": "missing momentum search"},
+        {"text": "missing-momentum technique"},
+        {"text": "missing energy-momentum search"}
+      ]
+    },
+    {
+      "id": "method:light_shining_through_walls", "label": "Light-shining-through-walls search", "node_type": "method",
+      "subtype": "laboratory conversion search", "domain": "microphysics",
+      "aliases": [
+        {"text": "light-shining-through-walls"},
+        {"text": "light shining through walls"},
+        {"text": "light-shining-through-a-wall"},
+        {"text": "light shining through a wall"},
+        {"text": "LSW experiment", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "method:atom_interferometry", "label": "Atom interferometry", "node_type": "method",
+      "subtype": "precision quantum sensing", "domain": "cross-domain",
+      "aliases": [
+        {"text": "atom interferometry"},
+        {"text": "atom-interferometric search"},
+        {"text": "atomic interferometer search"}
+      ]
+    },
+    {
+      "id": "method:atomic_clock_search", "label": "Atomic-clock search", "node_type": "method",
+      "subtype": "precision quantum sensing", "domain": "cross-domain",
+      "aliases": [
+        {"text": "atomic clock search"},
+        {"text": "atomic clock searches"},
+        {"text": "atomic-clock network"},
+        {"text": "atomic clock network"}
+      ]
+    },
+    {
+      "id": "method:comagnetometry", "label": "Comagnetometry", "node_type": "method",
+      "subtype": "precision spin sensing", "domain": "microphysics",
+      "aliases": [
+        {"text": "comagnetometry"},
+        {"text": "comagnetometer search"},
+        {"text": "comagnetometer experiment"},
+        {"text": "co-magnetometry"}
+      ]
+    },
+    {
+      "id": "method:torsion_balance", "label": "Torsion-balance experiment", "node_type": "method",
+      "subtype": "precision force search", "domain": "cross-domain",
+      "aliases": [
+        {"text": "torsion-balance experiment"},
+        {"text": "torsion balance experiment"},
+        {"text": "torsion-balance search"},
+        {"text": "torsion balance search"}
+      ]
+    },
+    {
+      "id": "method:halo_independent_analysis", "label": "Halo-independent analysis", "node_type": "method",
+      "subtype": "direct-detection inference", "domain": "microphysics",
+      "aliases": [
+        {"text": "halo-independent analysis"},
+        {"text": "halo independent analysis"},
+        {"text": "halo-independent method"},
+        {"text": "halo-independent approach"}
+      ]
+    },
+    {
+      "id": "method:nested_sampling", "label": "Nested sampling", "node_type": "method",
+      "subtype": "Bayesian computation", "domain": "cross-domain",
+      "aliases": [
+        {"text": "nested sampling"},
+        {"text": "nested-sampling algorithm"},
+        {"text": "MultiNest", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "method:machine_learning", "label": "Machine learning", "node_type": "method",
+      "subtype": "computational inference", "domain": "cross-domain",
+      "aliases": [
+        {"text": "machine learning"},
+        {"text": "machine-learning method"},
+        {"text": "machine-learning analysis"},
+        {"text": "neural-network analysis"}
+      ]
+    },
+    {
+      "id": "method:mono_x_search", "label": "Mono-X collider search", "node_type": "method",
+      "subtype": "collider search", "domain": "microphysics",
+      "aliases": [
+        {"text": "monojet search"}, {"text": "monojet searches"},
+        {"text": "mono-jet search"}, {"text": "monophoton search"},
+        {"text": "mono-photon search"}, {"text": "mono-X search", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "method:twenty_one_cm_tomography", "label": "21-cm tomography", "node_type": "method",
+      "subtype": "cosmological observation", "domain": "cosmology",
+      "aliases": [
+        {"text": "21-cm tomography"},
+        {"text": "21 cm tomography"},
+        {"text": "21-cm intensity mapping"},
+        {"text": "21 cm intensity mapping"}
+      ]
+    },
+    {
+      "id": "method:cmb_spectral_distortion_measurement", "label": "CMB spectral-distortion measurement", "node_type": "method",
+      "subtype": "cosmological observation", "domain": "cosmology",
+      "aliases": [
+        {"text": "CMB spectral-distortion measurement", "case_sensitive": true},
+        {"text": "CMB spectral distortion measurement", "case_sensitive": true},
+        {"text": "CMB spectral distortion probe", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "phenomenon:extra_radiation_density", "label": "Extra radiation density", "node_type": "phenomenon",
+      "subtype": "early-universe radiation component", "domain": "cosmology",
+      "aliases": [
+        {"text": "dark radiation"}, {"text": "extra radiation density"},
+        {"text": "extra relativistic degrees of freedom"},
+        {"regex": "(?<![A-Za-z0-9])(?:Delta|delta|Δ)\\s*N[_\\s-]?(?:eff|effective)(?![A-Za-z0-9])"}
+      ]
+    },
+    {
+      "id": "phenomenon:early_matter_dominated_era", "label": "Early matter-dominated era", "node_type": "phenomenon",
+      "subtype": "early-universe epoch", "domain": "cosmology",
+      "aliases": [
+        {"text": "early matter-dominated era"}, {"text": "early matter dominated era"},
+        {"text": "early matter domination"}, {"text": "early matter-dominated epoch"}
+      ]
+    },
+    {
+      "id": "mechanism:baryogenesis", "label": "Baryogenesis", "node_type": "mechanism",
+      "subtype": "matter-asymmetry generation", "domain": "cross-domain",
+      "aliases": [{"text": "baryogenesis"}, {"text": "baryon asymmetry generation"}]
+    },
+    {
+      "id": "mechanism:electroweak_baryogenesis", "label": "Electroweak baryogenesis", "node_type": "mechanism",
+      "subtype": "matter-asymmetry generation", "domain": "cross-domain",
+      "aliases": [{"text": "electroweak baryogenesis"}, {"text": "electroweak-scale baryogenesis"}]
+    },
+    {
+      "id": "mechanism:leptogenesis", "label": "Leptogenesis", "node_type": "mechanism",
+      "subtype": "lepton-asymmetry generation", "domain": "cross-domain",
+      "aliases": [
+        {"text": "leptogenesis"}, {"text": "thermal leptogenesis"},
+        {"text": "resonant leptogenesis"}, {"text": "two-sector leptogenesis"}
+      ]
+    },
+    {
+      "id": "mechanism:dark_visible_cogenesis", "label": "Dark-visible cogenesis", "node_type": "mechanism",
+      "subtype": "linked visible-dark asymmetry generation", "domain": "cross-domain",
+      "aliases": [
+        {"text": "cogenesis"}, {"text": "co-genesis"},
+        {"text": "dark matter cogenesis"}, {"text": "dark-matter cogenesis"},
+        {"text": "dark-visible cogenesis"}, {"text": "dark-visible co-genesis"},
+        {"text": "WIMP cogenesis", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "mechanism:first_order_cosmological_phase_transition", "label": "First-order cosmological phase transition", "node_type": "mechanism",
+      "subtype": "early-universe transition", "domain": "cross-domain",
+      "aliases": [
+        {"text": "first-order cosmological phase transition"},
+        {"text": "cosmological first-order phase transition"},
+        {"text": "first order cosmological phase transition"},
+        {"text": "electroweak phase transition"},
+        {"text": "dark-sector phase transition"}, {"text": "dark sector phase transition"},
+        {"text": "dark phase transition"}
+      ]
+    },
+    {
+      "id": "mechanism:bubble_nucleation", "label": "Cosmological bubble nucleation", "node_type": "mechanism",
+      "subtype": "phase-transition process", "domain": "cosmology",
+      "aliases": [
+        {"text": "cosmological bubble nucleation"}, {"text": "bubble nucleation rate"},
+        {"text": "bubble nucleation during the phase transition"}
+      ]
+    },
+    {
+      "id": "mechanism:spontaneous_symmetry_breaking", "label": "Spontaneous symmetry breaking", "node_type": "mechanism",
+      "subtype": "field-theoretic mechanism", "domain": "microphysics",
+      "aliases": [{"text": "spontaneous symmetry breaking"}, {"text": "spontaneously broken symmetry"}]
+    },
+    {
+      "id": "mechanism:stueckelberg", "label": "Stueckelberg mechanism", "node_type": "mechanism",
+      "subtype": "gauge-boson mass generation", "domain": "microphysics",
+      "aliases": [
+        {"text": "Stueckelberg mechanism"}, {"text": "Stueckelberg mass mechanism"},
+        {"text": "Stuckelberg mechanism"}, {"text": "Stückelberg mechanism"}
+      ]
+    },
+    {
+      "id": "mechanism:dark_recombination", "label": "Dark-sector recombination", "node_type": "mechanism",
+      "subtype": "dark-sector thermal history", "domain": "cross-domain",
+      "aliases": [{"text": "dark recombination"}, {"text": "dark-sector recombination"}, {"text": "dark sector recombination"}]
+    },
+    {
+      "id": "mechanism:reheating", "label": "Cosmological reheating", "node_type": "mechanism",
+      "subtype": "post-inflationary thermalization", "domain": "cosmology",
+      "aliases": [
+        {"text": "reheating"}, {"text": "cosmological reheating"}, {"text": "reheating temperature"},
+        {"text": "post-inflationary reheating"}, {"text": "postinflationary reheating"}
+      ]
+    },
+    {
+      "id": "mechanism:preheating", "label": "Cosmological preheating", "node_type": "mechanism",
+      "subtype": "post-inflationary particle production", "domain": "cosmology",
+      "aliases": [
+        {"text": "preheating"}, {"text": "cosmological preheating"}, {"text": "inflationary preheating"},
+        {"text": "preheating after inflation"}, {"text": "instant preheating"}
+      ]
+    },
+    {
+      "id": "mechanism:forbidden_channel_annihilation", "label": "Forbidden-channel annihilation", "node_type": "mechanism",
+      "subtype": "relic-production process", "domain": "microphysics",
+      "aliases": [
+        {"text": "forbidden-channel annihilation"}, {"text": "forbidden channel annihilation"},
+        {"text": "forbidden dark matter annihilation"}, {"text": "forbidden dark matter freeze-out"}
+      ]
+    },
+    {
+      "id": "mechanism:coscattering", "label": "Co-scattering", "node_type": "mechanism",
+      "subtype": "relic-production process", "domain": "microphysics",
+      "aliases": [{"text": "co-scattering"}, {"text": "coscattering"}, {"text": "co-scattering freeze-out"}]
+    },
+    {
+      "id": "method:press_schechter", "label": "Press-Schechter formalism", "node_type": "method",
+      "subtype": "halo-abundance calculation", "domain": "cosmology",
+      "aliases": [
+        {"text": "Press-Schechter formalism"}, {"text": "Press-Schechter theory"},
+        {"text": "Press-Schechter approach"}, {"text": "extended Press-Schechter"}
+      ]
+    },
+    {
+      "id": "method:spherical_collapse", "label": "Spherical-collapse calculation", "node_type": "method",
+      "subtype": "structure-formation calculation", "domain": "cosmology",
+      "aliases": [
+        {"text": "spherical-collapse calculation"}, {"text": "spherical collapse calculation"},
+        {"text": "spherical-collapse model"}, {"text": "spherical collapse model"}
+      ]
+    },
+    {
+      "id": "phenomenon:wide_binary_survival", "label": "Wide-binary survival and disruption", "node_type": "phenomenon",
+      "subtype": "compact-object constraint", "domain": "macrophysics",
+      "aliases": [
+        {"text": "wide binaries"}, {"text": "wide-binary disruption"},
+        {"text": "wide binary disruption"}, {"text": "survival of wide binaries"},
+        {"text": "halo wide binaries"}
+      ]
+    },
+    {
+      "id": "phenomenon:stellar_heating", "label": "Dark-matter-induced stellar heating", "node_type": "phenomenon",
+      "subtype": "astrophysical energy deposition", "domain": "macrophysics",
+      "aliases": [
+        {"text": "stellar heating"}, {"text": "dark matter heating"},
+        {"text": "dark-matter heating"}, {"text": "dark matter induced heating"}
+      ]
+    },
+    {
+      "id": "phenomenon:dynamical_heating", "label": "Dynamical heating", "node_type": "phenomenon",
+      "subtype": "gravitational process", "domain": "macrophysics",
+      "aliases": [
+        {"text": "dynamical heating"}, {"text": "dynamical-heating process"},
+        {"text": "dynamical heating of stars"}, {"text": "dynamical heating of stellar systems"}
+      ]
+    }
+  ]
+}

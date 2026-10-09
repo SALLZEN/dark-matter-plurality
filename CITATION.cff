@@ -1,34 +1,29 @@
 cff-version: 1.2.0
-message: "If you use this repository, please cite the manuscript and this transparency bundle."
-title: "Transparency Bundle for 'Phenomena, Particles, and the Plurality of Dark Matter'"
+message: If you use this repository, please cite this reproduction bundle and the
+  accompanying preprint.
+title: Reproduction Bundle for 'Diverging paths to dark-matter discovery'
 type: software
-version: "2.0"
-date-released: 2026-05-16
-license: "MIT"
-repository-code: "https://github.com/SALLZEN/dark-matter-nature-astronomy"
-url: "https://github.com/SALLZEN/dark-matter-nature-astronomy"
-doi: "10.5281/zenodo.20241726"
+version: 3.0.0
+date-released: '2026-10-09'
+license: MIT
+repository-code: https://github.com/SALLZEN/dark-matter-plurality
+url: https://github.com/SALLZEN/dark-matter-plurality
+doi: 10.5281/zenodo.20241725
 authors:
-  - family-names: "Allzén"
-    given-names: "Simon"
-    affiliation: "Stockholm University; University of Amsterdam"
-abstract: >-
-  Public transparency bundle for the Nature Astronomy Analysis draft
-  'Phenomena, Particles, and the Plurality of Dark Matter'. The repository
-  contains a five-stage pipeline for ADS record collection, canonical-data
-  construction, dark-matter candidate extraction, lexical-data construction,
-  and final figure generation.
+- family-names: Allzén
+  given-names: Simon
+  affiliation: Stockholm University; University of Amsterdam
+abstract: Code and data reproduction bundle for the preprint “Diverging paths to dark-matter
+  discovery”. Includes the frozen ADS snapshot, six-stage statistical pipeline, validation
+  and robustness materials, network ontology and analysis code, frozen network events
+  and metrics, graph exports and saved layouts, and five main and five supplementary
+  figure assets. The analysis cutoff is 2025. Manuscript source and the compiled preprint
+  are maintained separately. Network outputs and presentations are preserved as historical
+  artifacts; exact recreation of them by the current network code is not claimed.
 keywords:
-  - dark matter
-  - bibliometrics
-  - arXiv
-  - NASA ADS
-  - history and philosophy of physics
-preferred-citation:
-  type: article
-  authors:
-    - family-names: "Allzén"
-      given-names: "Simon"
-  title: "Phenomena, Particles, and the Plurality of Dark Matter"
-  journal: "Nature Astronomy"
-  status: "manuscript in preparation"
+- dark matter
+- bibliometrics
+- arXiv
+- NASA ADS
+- astroparticle physics
+- reproducibility

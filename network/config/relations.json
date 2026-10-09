@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0.0",
+  "description": "Conservative sentence-level relation cues. Direction in exports is focal model to associated entity, not grammatical direction.",
+  "relations": [
+    {
+      "id": "explanation_claim",
+      "label": "explanation claim",
+      "base_polarity": "positive",
+      "allowed_target_types": ["problem", "phenomenon"],
+      "patterns": [
+        "\\bexplain(?:s|ed|ing)?\\b",
+        "\\baccount(?:s|ed|ing)?\\s+for\\b",
+        "\\bresolve(?:s|d|ing)?\\b",
+        "\\bsolution\\s+to\\b"
+      ]
+    },
+    {
+      "id": "prediction_claim",
+      "label": "prediction claim",
+      "base_polarity": "neutral",
+      "allowed_target_types": ["problem", "phenomenon"],
+      "patterns": [
+        "\\bpredict(?:s|ed|ing|ion|ions)?\\b",
+        "\\bgive(?:s)?\\s+rise\\s+to\\b"
+      ]
+    },
+    {
+      "id": "constraint_claim",
+      "label": "constraint claim",
+      "base_polarity": "neutral",
+      "allowed_target_types": ["problem", "phenomenon", "method", "apparatus"],
+      "patterns": [
+        "\\bconstrain(?:s|ed|ing|t)?\\b",
+        "\\bplace(?:s|d)?\\s+(?:an?\\s+)?(?:upper|lower)?\\s*bound\\b",
+        "\\bbound(?:s|ed|ing)?\\b",
+        "\\blimit(?:s|ed|ing)?\\b",
+        "\\brestrict(?:s|ed|ing)?\\b"
+      ]
+    },
+    {
+      "id": "exclusion_claim",
+      "label": "exclusion or challenge claim",
+      "base_polarity": "negative",
+      "allowed_target_types": ["problem", "phenomenon", "method", "apparatus"],
+      "patterns": [
+        "\\bexclude(?:s|d|ing)?\\b",
+        "\\brule(?:s|d|ing)?\\s+out\\b",
+        "\\bdisfavou?r(?:s|ed|ing)?\\b",
+        "\\binconsistent\\s+with\\b",
+        "\\bchallenge(?:s|d|ing)?\\b"
+      ]
+    },
+    {
+      "id": "consistency_claim",
+      "label": "consistency or support claim",
+      "base_polarity": "positive",
+      "allowed_target_types": ["problem", "phenomenon"],
+      "patterns": [
+        "\\bconsistent\\s+with\\b",
+        "\\bsupport(?:s|ed|ing)?\\b",
+        "\\bfavou?r(?:s|ed|ing)?\\b",
+        "\\bevidence\\s+for\\b"
+      ]
+    },
+    {
+      "id": "search_claim",
+      "label": "search or probe claim",
+      "base_polarity": "neutral",
+      "allowed_target_types": ["method", "apparatus"],
+      "patterns": [
+        "\\bsearch(?:es|ed|ing)?\\s+for\\b",
+        "\\bprobe(?:s|d|ing)?\\b",
+        "\\btest(?:s|ed|ing)?\\b",
+        "\\btarget(?:s|ed|ing)?\\b",
+        "\\bsensitiv(?:e|ity)\\s+to\\b"
+      ]
+    },
+    {
+      "id": "detection_claim",
+      "label": "detection or measurement claim",
+      "base_polarity": "positive",
+      "allowed_target_types": ["method", "apparatus", "phenomenon"],
+      "patterns": [
+        "\\bdetect(?:s|ed|ing|ion)?\\b",
+        "\\bobserve(?:s|d|ing|ation)?\\b",
+        "\\bmeasure(?:s|d|ing|ment)?\\b"
+      ]
+    }
+  ]
+}

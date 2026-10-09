@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "renderer": "R/ggplot2 statistical figures; saved Gephi presentations for network panels; supplied conceptual assessment",
+  "cutoff_year": 2025,
+  "figures": [
+    {
+      "file": "primary_dominant.pdf",
+      "data": [
+        "classification_primary_yearly",
+        "classification_assignment_yearly"
+      ]
+    },
+    {
+      "file": "log_ratio.pdf",
+      "data": "candidate_field_yearly"
+    },
+    {
+      "file": "norm.pdf",
+      "data": "dm_model_candidates_long"
+    },
+    {
+      "file": "fig4_closure_conditions.pdf",
+      "data": "schematic synthesis",
+      "role": "auxiliary schematic, not a numbered figure in the current preprint"
+    },
+    {
+      "file": "figS1_classification_sensitivity.pdf",
+      "data": [
+        "paper_volume_yearly",
+        "classification_assignment_yearly",
+        "classification_crosslisting_yearly"
+      ]
+    },
+    {
+      "file": "figS2_candidate_raw_counts.pdf",
+      "data": "dm_model_candidates_long"
+    },
+    {
+      "file": "figS3_candidate_distances.pdf",
+      "data": "candidate_divergence_yearly"
+    },
+    {
+      "file": "figS4_lexical_divergence.pdf",
+      "data": [
+        "lexical_divergence_yearly",
+        "unigram_yearly"
+      ]
+    },
+    {
+      "file": "graph-01.pdf",
+      "figure": "4",
+      "data": "network/outputs/wimp-role-networks/03_cross_field_brokerage/",
+      "renderer": "saved Gephi project, published_umbrella, 2006–2015 and 2016–2025"
+    },
+    {
+      "file": "fig_table.png",
+      "figure": "5",
+      "data": "conceptual assessment; no empirical source table"
+    },
+    {
+      "file": "graph_removal.pdf",
+      "figure": "S5",
+      "data": "network/outputs/wimp-role-networks/03_cross_field_brokerage/canonical/node_removal_metrics.csv",
+      "renderer": "saved Gephi node-removal presentation"
+    }
+  ]
+}

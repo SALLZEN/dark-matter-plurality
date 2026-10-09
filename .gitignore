@@ -45,6 +45,14 @@ docs/repo-map_files/
 # Local scratch outputs
 Rplots.pdf
 missfont.log
+data/validation/.annotation-backups/
+data/validation/*.csv.bak
+
+# Large canonical products rebuilt from the retained ADS archive
+data/papers.parquet
+data/paper_arxiv_classes.parquet
+data/paper_metrics_long.parquet
+data/papers_with_dm_models.parquet
 
 # Local-only manuscript and archive material
 archive/
@@ -73,3 +81,7 @@ code/stage-outputs/004-build-lexical-data/cache/*
 !code/stage-outputs/004-build-lexical-data/support/
 code/stage-outputs/004-build-lexical-data/support/*
 !code/stage-outputs/004-build-lexical-data/support/.gitkeep
+
+# Extracted network outputs are retained in the versioned archive.
+network/outputs/
+.playwright-cli/

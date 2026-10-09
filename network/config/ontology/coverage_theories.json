@@ -1,0 +1,520 @@
+{
+  "schema_version": "2.1.0",
+  "description": "Source-verified theory and model-family gaps identified by the 2026-08 ontology coverage audit.",
+  "source_inventories": [
+    "Particle Data Group, Dark Matter review (2024)",
+    "Snowmass 2021 Cosmic Probes of Dark Matter report, arXiv:2209.08215",
+    "Snowmass 2021 accelerator-based dark-sector facilities report, arXiv:2206.04220",
+    "corpus audit of candidate-bearing abstracts"
+  ],
+  "entities": [
+    {
+      "id": "theory:cmssm", "label": "Constrained MSSM", "node_type": "theory",
+      "subtype": "supersymmetric model", "domain": "microphysics",
+      "aliases": [
+        {"text": "constrained minimal supersymmetric standard model"},
+        {"text": "constrained MSSM"},
+        {"text": "CMSSM", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:msugra", "label": "Minimal supergravity", "node_type": "theory",
+      "subtype": "supersymmetric model", "domain": "microphysics",
+      "aliases": [
+        {"text": "minimal supergravity"},
+        {"text": "mSUGRA", "case_sensitive": true},
+        {"text": "MSUGRA", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:nuhm", "label": "Non-universal Higgs-mass model", "node_type": "theory",
+      "subtype": "supersymmetric model", "domain": "microphysics",
+      "aliases": [
+        {"text": "non-universal Higgs mass model"},
+        {"text": "non-universal Higgs masses"},
+        {"regex": "(?<![A-Za-z0-9])NUHM(?:1|2)?(?![A-Za-z0-9])", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:r_parity_violating_supersymmetry", "label": "R-parity-violating supersymmetry", "node_type": "theory",
+      "subtype": "supersymmetric framework", "domain": "microphysics",
+      "aliases": [
+        {"text": "R-parity-violating supersymmetry"},
+        {"text": "R-parity violating supersymmetry"},
+        {"text": "R-parity violation"},
+        {"regex": "(?<![A-Za-z0-9])RPV\\s+(?:SUSY|supersymmetry)(?![A-Za-z0-9])", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:blssm", "label": "B-L supersymmetric Standard Model", "node_type": "theory",
+      "subtype": "supersymmetric model", "domain": "microphysics",
+      "aliases": [
+        {"text": "B-L supersymmetric standard model"},
+        {"text": "BLSSM", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:mrssm", "label": "Minimal R-symmetric supersymmetric Standard Model", "node_type": "theory",
+      "subtype": "supersymmetric model", "domain": "microphysics",
+      "aliases": [
+        {"text": "minimal R-symmetric supersymmetric standard model"},
+        {"text": "MRSSM", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:gnmssm", "label": "Generalized NMSSM", "node_type": "theory",
+      "subtype": "supersymmetric model", "domain": "microphysics",
+      "aliases": [
+        {"text": "generalized NMSSM"},
+        {"text": "general NMSSM"},
+        {"text": "GNMSSM", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:e6ssm", "label": "Exceptional supersymmetric Standard Model", "node_type": "theory",
+      "subtype": "supersymmetric model", "domain": "microphysics",
+      "aliases": [
+        {"text": "exceptional supersymmetric standard model"},
+        {"text": "E6SSM", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:little_higgs", "label": "Little Higgs theory", "node_type": "theory",
+      "subtype": "electroweak framework", "domain": "microphysics",
+      "aliases": [
+        {"text": "little Higgs theory"},
+        {"text": "little Higgs model"},
+        {"text": "little Higgs models"},
+        {"text": "littlest Higgs model"}
+      ]
+    },
+    {
+      "id": "theory:composite_higgs", "label": "Composite Higgs theory", "node_type": "theory",
+      "subtype": "composite framework", "domain": "microphysics",
+      "aliases": [
+        {"text": "composite Higgs theory"},
+        {"text": "composite Higgs model"},
+        {"text": "composite Higgs models"}
+      ]
+    },
+    {
+      "id": "theory:technicolor", "label": "Technicolor", "node_type": "theory",
+      "subtype": "dynamical electroweak theory", "domain": "microphysics",
+      "aliases": [
+        {"text": "technicolor theory"},
+        {"text": "technicolor model"},
+        {"text": "technicolor models"},
+        {"text": "technicolor"}
+      ]
+    },
+    {
+      "id": "theory:two_higgs_doublet_model", "label": "Two-Higgs-doublet model", "node_type": "theory",
+      "subtype": "extended Higgs sector", "domain": "microphysics",
+      "aliases": [
+        {"text": "two-Higgs-doublet model"},
+        {"text": "two Higgs doublet model"},
+        {"text": "2HDM", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:left_right_symmetric_model", "label": "Left-right symmetric model", "node_type": "theory",
+      "subtype": "gauge extension", "domain": "microphysics",
+      "aliases": [
+        {"text": "left-right symmetric model"},
+        {"text": "left right symmetric model"},
+        {"text": "left-right symmetry"},
+        {"text": "LRSM", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:pati_salam", "label": "Pati-Salam model", "node_type": "theory",
+      "subtype": "unification framework", "domain": "microphysics",
+      "aliases": [
+        {"text": "Pati-Salam model"},
+        {"text": "Pati Salam model"},
+        {"text": "Pati-Salam theory"}
+      ]
+    },
+    {
+      "id": "theory:so_10_gut", "label": "SO(10) grand unification", "node_type": "theory",
+      "subtype": "grand-unified theory", "domain": "microphysics",
+      "aliases": [
+        {"regex": "(?<![A-Za-z0-9])SO\\s*\\(\\s*10\\s*\\)(?:\\s+(?:GUT|grand[-\\s]+unified\\s+(?:theory|model)))?(?![A-Za-z0-9])", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:su_5_gut", "label": "SU(5) grand unification", "node_type": "theory",
+      "subtype": "grand-unified theory", "domain": "microphysics",
+      "aliases": [
+        {"regex": "(?<![A-Za-z0-9])SU\\s*\\(\\s*5\\s*\\)(?:\\s+(?:GUT|grand[-\\s]+unified\\s+(?:theory|model)))?(?![A-Za-z0-9])", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:u_1_b_minus_l", "label": "U(1) B-L model", "node_type": "theory",
+      "subtype": "gauge extension", "domain": "microphysics",
+      "aliases": [
+        {"regex": "(?<![A-Za-z0-9])U\\s*\\(\\s*1\\s*\\)\\s*[_-]?\\s*B\\s*[-−]\\s*L(?:\\s+(?:model|extension|symmetry))?(?![A-Za-z0-9])", "case_sensitive": true},
+        {"regex": "(?<![A-Za-z0-9])(?:gauged|local)\\s+B\\s*[-−]\\s*L(?:\\s+(?:model|extension|symmetry))?(?![A-Za-z0-9])"},
+        {"regex": "(?<![A-Za-z0-9])B\\s*[-−]\\s*L\\s+(?:model|extension|symmetry)(?![A-Za-z0-9])", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:randall_sundrum", "label": "Randall-Sundrum model", "node_type": "theory",
+      "subtype": "extra-dimensional model", "domain": "microphysics",
+      "aliases": [
+        {"text": "Randall-Sundrum model"},
+        {"text": "Randall Sundrum model"},
+        {"text": "Randall-Sundrum scenario"}
+      ]
+    },
+    {
+      "id": "theory:braneworld", "label": "Braneworld cosmology", "node_type": "theory",
+      "subtype": "extra-dimensional framework", "domain": "cross-domain",
+      "aliases": [
+        {"text": "braneworld cosmology"},
+        {"text": "braneworld model"},
+        {"text": "braneworld models"},
+        {"text": "brane-world cosmology"},
+        {"text": "brane-world model"},
+        {"text": "brane-world models"}
+      ]
+    },
+    {
+      "id": "theory:dgp_braneworld", "label": "DGP braneworld", "node_type": "theory",
+      "subtype": "modified-gravity braneworld", "domain": "cross-domain",
+      "aliases": [
+        {"text": "Dvali-Gabadadze-Porrati model"},
+        {"text": "Dvali-Gabadadze-Porrati gravity"},
+        {"text": "DGP braneworld"},
+        {"text": "DGP model", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:hidden_valley", "label": "Hidden Valley framework", "node_type": "theory",
+      "subtype": "dark-sector framework", "domain": "microphysics",
+      "aliases": [
+        {"text": "Hidden Valley model"},
+        {"text": "Hidden Valley models"},
+        {"text": "Hidden Valley scenario"},
+        {"text": "Hidden Valley framework"}
+      ]
+    },
+    {
+      "id": "theory:dark_qcd", "label": "Dark QCD", "node_type": "theory",
+      "subtype": "dark-sector gauge theory", "domain": "microphysics",
+      "aliases": [
+        {"text": "dark QCD"},
+        {"text": "hidden QCD"},
+        {"text": "dark quantum chromodynamics"}
+      ]
+    },
+    {
+      "id": "theory:ethos", "label": "Effective Theory of Structure Formation", "node_type": "theory",
+      "subtype": "dark-sector structure framework", "domain": "cross-domain",
+      "aliases": [
+        {"text": "effective theory of structure formation"},
+        {"text": "ETHOS", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:dark_matter_simplified_model", "label": "Dark-matter simplified model", "node_type": "theory",
+      "subtype": "phenomenological framework", "domain": "microphysics",
+      "aliases": [
+        {"text": "dark matter simplified model"},
+        {"text": "dark matter simplified models"},
+        {"text": "DM simplified model", "case_sensitive": true},
+        {"text": "DM simplified models", "case_sensitive": true},
+        {"text": "simplified dark matter model"},
+        {"text": "simplified dark matter models"}
+      ]
+    },
+    {
+      "id": "theory:standard_halo_model", "label": "Standard Halo Model", "node_type": "theory",
+      "subtype": "Galactic halo model", "domain": "macrophysics",
+      "aliases": [
+        {"text": "Standard Halo Model"},
+        {"regex": "(?<![A-Za-z0-9])SHM\\s+(?:velocity|halo|distribution)(?![A-Za-z0-9])", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:nfw_profile", "label": "Navarro-Frenk-White profile", "node_type": "theory",
+      "subtype": "halo-profile model", "domain": "macrophysics",
+      "aliases": [
+        {"text": "Navarro-Frenk-White profile"},
+        {"text": "Navarro Frenk White profile"},
+        {"regex": "(?<![A-Za-z0-9])NFW\\s+(?:profile|halo|model)(?![A-Za-z0-9])", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:einasto_profile", "label": "Einasto profile", "node_type": "theory",
+      "subtype": "halo-profile model", "domain": "macrophysics",
+      "aliases": [
+        {"text": "Einasto profile"},
+        {"text": "Einasto halo"},
+        {"text": "Einasto model"}
+      ]
+    },
+    {
+      "id": "theory:burkert_profile", "label": "Burkert profile", "node_type": "theory",
+      "subtype": "halo-profile model", "domain": "macrophysics",
+      "aliases": [
+        {"text": "Burkert profile"},
+        {"text": "Burkert halo"},
+        {"text": "Burkert model"}
+      ]
+    },
+    {
+      "id": "theory:isothermal_halo_model", "label": "Isothermal halo model", "node_type": "theory",
+      "subtype": "halo-profile model", "domain": "macrophysics",
+      "aliases": [
+        {"text": "isothermal halo model"},
+        {"text": "isothermal halo profile"},
+        {"text": "pseudo-isothermal halo"},
+        {"text": "pseudo-isothermal profile"},
+        {"text": "isothermal sphere model"}
+      ]
+    },
+    {
+      "id": "theory:f_q_gravity", "label": "f(Q) gravity", "node_type": "theory",
+      "subtype": "symmetric-teleparallel gravity", "domain": "macrophysics",
+      "aliases": [
+        {"regex": "(?<![A-Za-z0-9])f\\s*\\(\\s*Q\\s*\\)(?:\\s+(?:gravity|theory|model))?(?![A-Za-z0-9])", "case_sensitive": true},
+        {"text": "symmetric teleparallel gravity"}
+      ]
+    },
+    {
+      "id": "theory:mimetic_gravity", "label": "Mimetic gravity", "node_type": "theory",
+      "subtype": "modified-gravity theory", "domain": "cross-domain",
+      "aliases": [
+        {"text": "mimetic gravity"},
+        {"text": "mimetic dark matter model"},
+        {"text": "mimetic dark matter theory"}
+      ]
+    },
+    {
+      "id": "theory:galileon", "label": "Galileon theory", "node_type": "theory",
+      "subtype": "scalar-tensor theory", "domain": "macrophysics",
+      "aliases": [
+        {"text": "Galileon theory"},
+        {"text": "Galileon gravity"},
+        {"text": "Galileon model"},
+        {"text": "covariant Galileon"}
+      ]
+    },
+    {
+      "id": "theory:early_dark_energy", "label": "Early dark energy", "node_type": "theory",
+      "subtype": "dark-energy model", "domain": "cosmology",
+      "aliases": [
+        {"text": "early dark energy"},
+        {"text": "early dark energy model"},
+        {"text": "early dark energy models"},
+        {"text": "EDE model", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:interacting_dark_energy", "label": "Interacting dark energy", "node_type": "theory",
+      "subtype": "dark-energy model", "domain": "cosmology",
+      "aliases": [
+        {"text": "interacting dark energy"},
+        {"text": "interacting dark energy model"},
+        {"text": "coupled dark energy model"},
+        {"text": "coupled dark energy models"}
+      ]
+    },
+    {
+      "id": "theory:chaplygin_gas", "label": "Chaplygin-gas cosmology", "node_type": "theory",
+      "subtype": "unified-dark-sector model", "domain": "cosmology",
+      "aliases": [
+        {"text": "Chaplygin gas"},
+        {"text": "Chaplygin gas model"},
+        {"text": "generalized Chaplygin gas"},
+        {"text": "generalised Chaplygin gas"}
+      ]
+    },
+    {
+      "id": "theory:axion_inflation", "label": "Axion inflation", "node_type": "theory",
+      "subtype": "inflationary model", "domain": "cosmology",
+      "aliases": [
+        {"text": "axion inflation"},
+        {"text": "axion inflation model"},
+        {"text": "axion-driven inflation"}
+      ]
+    },
+    {
+      "id": "theory:thermal_inflation", "label": "Thermal inflation", "node_type": "theory",
+      "subtype": "inflationary model", "domain": "cosmology",
+      "aliases": [
+        {"text": "thermal inflation"},
+        {"text": "thermal inflation model"}
+      ]
+    },
+    {
+      "id": "theory:ultra_slow_roll_inflation", "label": "Ultra-slow-roll inflation", "node_type": "theory",
+      "subtype": "inflationary model", "domain": "cosmology",
+      "aliases": [
+        {"text": "ultra-slow-roll inflation"},
+        {"text": "ultra slow roll inflation"},
+        {"text": "USR inflation", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:multifield_inflation", "label": "Multifield inflation", "node_type": "theory",
+      "subtype": "inflationary model", "domain": "cosmology",
+      "aliases": [
+        {"text": "multifield inflation"},
+        {"text": "multi-field inflation"},
+        {"text": "multiple-field inflation"}
+      ]
+    },
+    {
+      "id": "theory:curvaton", "label": "Curvaton scenario", "node_type": "theory",
+      "subtype": "early-universe scenario", "domain": "cosmology",
+      "aliases": [
+        {"text": "curvaton scenario"},
+        {"text": "curvaton model"},
+        {"text": "curvaton mechanism"}
+      ]
+    },
+    {
+      "id": "theory:fibre_inflation", "label": "Fibre inflation", "node_type": "theory",
+      "subtype": "string-inflation model", "domain": "cosmology",
+      "aliases": [
+        {"text": "fibre inflation"},
+        {"text": "fiber inflation"}
+      ]
+    },
+    {
+      "id": "theory:ksvz_axion_model", "label": "KSVZ axion model", "node_type": "theory",
+      "subtype": "axion model", "domain": "microphysics",
+      "aliases": [
+        {"text": "KSVZ axion"},
+        {"text": "KSVZ model", "case_sensitive": true},
+        {"text": "KSVZ models", "case_sensitive": true},
+        {"text": "Kim-Shifman-Vainshtein-Zakharov model"}
+      ]
+    },
+    {
+      "id": "theory:dfsz_axion_model", "label": "DFSZ axion model", "node_type": "theory",
+      "subtype": "axion model", "domain": "microphysics",
+      "aliases": [
+        {"text": "DFSZ axion"},
+        {"text": "DFSZ model", "case_sensitive": true},
+        {"text": "DFSZ models", "case_sensitive": true},
+        {"text": "Dine-Fischler-Srednicki-Zhitnitsky model"}
+      ]
+    },
+    {
+      "id": "theory:peccei_quinn", "label": "Peccei-Quinn framework", "node_type": "theory",
+      "subtype": "strong-CP solution", "domain": "microphysics",
+      "aliases": [
+        {"text": "Peccei-Quinn symmetry"},
+        {"text": "Peccei Quinn symmetry"},
+        {"text": "Peccei-Quinn mechanism"},
+        {"text": "Peccei Quinn mechanism"},
+        {"text": "Peccei-Quinn solution"},
+        {"text": "PQ symmetry", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:smash_model", "label": "SMASH model", "node_type": "theory",
+      "subtype": "axion-seesaw-inflation framework", "domain": "cross-domain",
+      "aliases": [
+        {"text": "SMASH model", "case_sensitive": true},
+        {"text": "SMASH framework", "case_sensitive": true},
+        {"text": "Standard Model Axion Seesaw Higgs portal inflation"}
+      ]
+    },
+    {
+      "id": "theory:kklt", "label": "KKLT construction", "node_type": "theory",
+      "subtype": "string-compactification framework", "domain": "microphysics",
+      "aliases": [
+        {"text": "KKLT construction", "case_sensitive": true},
+        {"text": "KKLT scenario", "case_sensitive": true},
+        {"text": "KKLT compactification", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:large_volume_scenario", "label": "Large Volume Scenario", "node_type": "theory",
+      "subtype": "string-compactification framework", "domain": "microphysics",
+      "aliases": [
+        {"text": "Large Volume Scenario"},
+        {"text": "Large Volume Scenarios"},
+        {"regex": "(?<![A-Za-z0-9])LVS\\s+(?:model|scenario|compactification)(?![A-Za-z0-9])", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:higgs_inflation", "label": "Higgs inflation", "node_type": "theory",
+      "subtype": "inflationary model", "domain": "cross-domain",
+      "aliases": [{"text": "Higgs inflation"}, {"text": "Higgs-inflation model"}]
+    },
+    {
+      "id": "theory:hilltop_inflation", "label": "Hilltop inflation", "node_type": "theory",
+      "subtype": "inflationary model", "domain": "cosmology",
+      "aliases": [{"text": "hilltop inflation"}, {"text": "hilltop inflationary model"}, {"text": "hilltop model of inflation"}]
+    },
+    {
+      "id": "theory:d_brane_inflation", "label": "D-brane inflation", "node_type": "theory",
+      "subtype": "string-inflation model", "domain": "cosmology",
+      "aliases": [{"text": "D-brane inflation"}, {"text": "D brane inflation"}, {"text": "brane inflation"}]
+    },
+    {
+      "id": "theory:alpha_attractor_inflation", "label": "Alpha-attractor inflation", "node_type": "theory",
+      "subtype": "inflationary model", "domain": "cosmology",
+      "aliases": [
+        {"text": "alpha-attractor inflation"}, {"text": "alpha attractor inflation"},
+        {"text": "alpha-attractor model"}, {"text": "alpha-attractor models"},
+        {"text": "α-attractor model"}, {"text": "α-attractor models"}
+      ]
+    },
+    {
+      "id": "theory:power_law_inflation", "label": "Power-law inflation", "node_type": "theory",
+      "subtype": "inflationary model", "domain": "cosmology",
+      "aliases": [{"text": "power-law inflation"}, {"text": "power law inflation"}]
+    },
+    {
+      "id": "theory:d_term_inflation", "label": "D-term inflation", "node_type": "theory",
+      "subtype": "supersymmetric inflationary model", "domain": "cross-domain",
+      "aliases": [{"text": "D-term inflation"}, {"text": "D term inflation"}]
+    },
+    {
+      "id": "theory:f_term_inflation", "label": "F-term inflation", "node_type": "theory",
+      "subtype": "supersymmetric inflationary model", "domain": "cross-domain",
+      "aliases": [{"text": "F-term inflation"}, {"text": "F term inflation"}]
+    },
+    {
+      "id": "theory:quintessential_inflation", "label": "Quintessential inflation", "node_type": "theory",
+      "subtype": "inflation-dark-energy model", "domain": "cosmology",
+      "aliases": [{"text": "quintessential inflation"}, {"text": "quintessential-inflation model"}]
+    },
+    {
+      "id": "theory:running_vacuum_model", "label": "Running-vacuum model", "node_type": "theory",
+      "subtype": "dynamical-vacuum cosmology", "domain": "cosmology",
+      "aliases": [
+        {"text": "running vacuum model"}, {"text": "running-vacuum model"},
+        {"text": "running vacuum cosmology"},
+        {"regex": "(?<![A-Za-z0-9])RVM\\s+(?:cosmology|model|scenario)(?![A-Za-z0-9])", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:holographic_dark_energy", "label": "Holographic dark energy", "node_type": "theory",
+      "subtype": "dark-energy model", "domain": "cosmology",
+      "aliases": [
+        {"text": "holographic dark energy"}, {"text": "holographic dark-energy model"},
+        {"regex": "(?<![A-Za-z0-9])HDE\\s+(?:model|scenario|cosmology)(?![A-Za-z0-9])", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "theory:asymptotic_safety", "label": "Asymptotic safety", "node_type": "theory",
+      "subtype": "quantum-gravity program", "domain": "cross-domain",
+      "aliases": [
+        {"text": "asymptotic safety"}, {"text": "asymptotically safe gravity"},
+        {"text": "asymptotic-safety scenario"}
+      ]
+    },
+    {
+      "id": "theory:axion_portal", "label": "Axion portal", "node_type": "theory",
+      "subtype": "portal framework", "domain": "microphysics",
+      "aliases": [{"text": "axion portal"}, {"text": "axion-portal model"}, {"text": "axion portal model"}]
+    }
+  ]
+}

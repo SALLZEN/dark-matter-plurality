@@ -1,0 +1,101 @@
+{
+  "2025_status": "complete",
+  "analysis_cutoff_year": 2025,
+  "analysis_name": "PNAS Nexus Research Report robustness analysis",
+  "analysis_start_year_for_candidate_trends": 1995,
+  "bootstrap_replicates": 2000,
+  "exclusions": {
+    "biology_filter_terms": [
+      "bacteria",
+      "bacterial",
+      "eukaryotic",
+      "genome",
+      "genomes",
+      "genomic",
+      "mags",
+      "metabolites",
+      "metagenomics",
+      "microbes",
+      "microbial",
+      "microorganisms",
+      "phyla"
+    ],
+    "candidate_excluded_doctypes": [
+      "abstract",
+      "bookreview",
+      "circular",
+      "dataset",
+      "editorial",
+      "erratum",
+      "mastersthesis",
+      "misc",
+      "newsletter",
+      "obituary",
+      "phdthesis",
+      "pressrelease",
+      "proceedings",
+      "proposal",
+      "software",
+      "talk",
+      "techreport"
+    ],
+    "records_without_abstracts_excluded_from_text_analyses": true,
+    "years_after": 2025
+  },
+  "indexing_snapshot_utc": "2026-05-21T22:17:06Z",
+  "inputs": {
+    "dm_model_candidates_long": {
+      "bytes": 298956,
+      "path": "data/dm_model_candidates_long.parquet",
+      "sha256": "174653a9d1faf17b51097c98605177e258262108eb1034b43815f599872e2be5"
+    },
+    "paper_arxiv_classes": {
+      "bytes": 1639795,
+      "path": "/Users/sallz/allzen/damadi/PNAS-rewrite-local/data/paper_arxiv_classes.parquet",
+      "sha256": "f43217ad0fd502e93f9048c6421481273b94ddcc618b290ec79ec9f0aaa47723"
+    },
+    "paper_metrics_long": {
+      "bytes": 5063000,
+      "path": "/Users/sallz/allzen/damadi/PNAS-rewrite-local/data/paper_metrics_long.parquet",
+      "sha256": "f8864858b55f05cf1c2014a15c7b5f3acf23e8d4851d9dbcc0c559a6af4b956f"
+    },
+    "papers": {
+      "bytes": 120821313,
+      "path": "/Users/sallz/allzen/damadi/PNAS-rewrite-local/data/papers.parquet",
+      "sha256": "346d75dd13e09691ad0fffdbe5e38f76b1946f5e01b383060d9e2cf76f43a109"
+    },
+    "papers_with_dm_models": {
+      "bytes": 108266210,
+      "path": "data/papers_with_dm_models.parquet",
+      "sha256": "ed0f91cb1d163978187f241970840f5a34518419d70c12d7a8972d473b4d0976"
+    },
+    "retained_ads_snapshot": {
+      "bytes": 79166407,
+      "path": "code/stage-outputs/001-collect-ads-records/ads_stage_001_snapshots.zip",
+      "sha256": "7c0c5b12ab920b6b7e37d6a6a3bb6cf31eff99c44de4f4df4e085fcb93093025"
+    },
+    "unigram_yearly": {
+      "bytes": 1629810,
+      "path": "data/unigram_yearly.parquet",
+      "sha256": "570dc4c7477cdf12a4f88662d828beece9a0d1b8b91283a15375df3935d7eacd"
+    }
+  },
+  "query": "full:\"dark matter\"",
+  "random_seed": 20250801,
+  "row_counts_after_cutoff": {
+    "arxiv_class_rows": 241650,
+    "candidate_papers": 22247,
+    "candidate_rows": 27680,
+    "classified_papers": 143390,
+    "lexical_rows": 401676,
+    "papers": 201627,
+    "papers_with_abstracts": 188691
+  },
+  "schema_version": 1,
+  "software": {
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "pyarrow": "24.0.0",
+    "python": "3.11.8"
+  }
+}

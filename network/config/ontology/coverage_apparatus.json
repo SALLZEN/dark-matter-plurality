@@ -1,0 +1,679 @@
+{
+  "schema_version": "2.1.0",
+  "description": "Source-verified apparatus gaps identified by the 2026-08 ontology coverage audit.",
+  "source_inventories": [
+    "Particle Data Group, Dark Matter review (2024)",
+    "Snowmass 2021 Observational Facilities to Study Dark Matter, arXiv:2203.06200",
+    "Snowmass 2021 low-threshold direct-detection report, arXiv:2203.08297",
+    "Snowmass 2021 accelerator-based dark-sector facilities report, arXiv:2206.04220",
+    "Dark photon review, arXiv:2005.01515",
+    "corpus audit of candidate-bearing abstracts"
+  ],
+  "entities": [
+    {
+      "id": "apparatus:atlas", "label": "ATLAS", "node_type": "apparatus",
+      "subtype": "collider experiment", "domain": "microphysics",
+      "aliases": [
+        {"text": "ATLAS", "case_sensitive": true},
+        {"text": "A Toroidal LHC ApparatuS", "case_sensitive": true},
+        {"text": "ATLAS experiment", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:cms", "label": "CMS", "node_type": "apparatus",
+      "subtype": "collider experiment", "domain": "microphysics",
+      "aliases": [
+        {"text": "CMS", "case_sensitive": true},
+        {"text": "Compact Muon Solenoid", "case_sensitive": true},
+        {"text": "CMS experiment", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:lhcb", "label": "LHCb", "node_type": "apparatus",
+      "subtype": "collider experiment", "domain": "microphysics",
+      "aliases": [
+        {"text": "LHCb", "case_sensitive": true},
+        {"text": "LHCb experiment", "case_sensitive": true},
+        {"text": "Large Hadron Collider beauty experiment"}
+      ]
+    },
+    {
+      "id": "apparatus:belle_ii", "label": "Belle II", "node_type": "apparatus",
+      "subtype": "collider experiment", "domain": "microphysics",
+      "aliases": [
+        {"text": "Belle II", "case_sensitive": true},
+        {"text": "Belle-II", "case_sensitive": true},
+        {"text": "Belle 2", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:babar", "label": "BaBar", "node_type": "apparatus",
+      "subtype": "collider experiment", "domain": "microphysics",
+      "aliases": [
+        {"text": "BaBar", "case_sensitive": true},
+        {"text": "BABAR", "case_sensitive": true},
+        {"text": "BaBar experiment", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:na62", "label": "NA62", "node_type": "apparatus",
+      "subtype": "fixed-target experiment", "domain": "microphysics",
+      "aliases": [{"text": "NA62", "case_sensitive": true}, {"text": "NA62 experiment", "case_sensitive": true}]
+    },
+    {
+      "id": "apparatus:na64", "label": "NA64", "node_type": "apparatus",
+      "subtype": "fixed-target experiment", "domain": "microphysics",
+      "aliases": [{"text": "NA64", "case_sensitive": true}, {"text": "NA64 experiment", "case_sensitive": true}]
+    },
+    {
+      "id": "apparatus:ldmx", "label": "LDMX", "node_type": "apparatus",
+      "subtype": "missing-momentum experiment", "domain": "microphysics",
+      "aliases": [
+        {"text": "LDMX", "case_sensitive": true},
+        {"text": "Light Dark Matter eXperiment", "case_sensitive": true},
+        {"text": "Light Dark Matter Experiment", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:ship", "label": "SHiP", "node_type": "apparatus",
+      "subtype": "beam-dump experiment", "domain": "microphysics",
+      "aliases": [
+        {"text": "SHiP", "case_sensitive": true},
+        {"text": "Search for Hidden Particles", "case_sensitive": true},
+        {"text": "SHiP experiment", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:mathusla", "label": "MATHUSLA", "node_type": "apparatus",
+      "subtype": "long-lived-particle detector", "domain": "microphysics",
+      "aliases": [
+        {"text": "MATHUSLA", "case_sensitive": true},
+        {"text": "MATHUSLA detector", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:moedal", "label": "MoEDAL", "node_type": "apparatus",
+      "subtype": "collider experiment", "domain": "microphysics",
+      "aliases": [
+        {"text": "MoEDAL", "case_sensitive": true},
+        {"text": "Monopole and Exotics Detector at the LHC", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:mesa", "label": "MESA", "node_type": "apparatus",
+      "subtype": "accelerator facility", "domain": "microphysics",
+      "aliases": [
+        {"text": "MESA accelerator", "case_sensitive": true},
+        {"text": "Mainz Energy-recovering Superconducting Accelerator", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:miniboone", "label": "MiniBooNE", "node_type": "apparatus",
+      "subtype": "neutrino experiment", "domain": "microphysics",
+      "aliases": [
+        {"text": "MiniBooNE", "case_sensitive": true},
+        {"text": "Mini Booster Neutrino Experiment", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:microboone", "label": "MicroBooNE", "node_type": "apparatus",
+      "subtype": "neutrino experiment", "domain": "microphysics",
+      "aliases": [{"text": "MicroBooNE", "case_sensitive": true}, {"text": "MicroBooNE experiment", "case_sensitive": true}]
+    },
+    {
+      "id": "apparatus:lsnd", "label": "LSND", "node_type": "apparatus",
+      "subtype": "neutrino experiment", "domain": "microphysics",
+      "aliases": [
+        {"text": "LSND", "case_sensitive": true},
+        {"text": "Liquid Scintillator Neutrino Detector", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:dune", "label": "DUNE", "node_type": "apparatus",
+      "subtype": "neutrino experiment", "domain": "microphysics",
+      "aliases": [
+        {"text": "DUNE", "case_sensitive": true},
+        {"text": "Deep Underground Neutrino Experiment", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:juno", "label": "JUNO", "node_type": "apparatus",
+      "subtype": "neutrino observatory", "domain": "microphysics",
+      "aliases": [
+        {"text": "JUNO", "case_sensitive": true},
+        {"text": "Jiangmen Underground Neutrino Observatory", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:hyper_kamiokande", "label": "Hyper-Kamiokande", "node_type": "apparatus",
+      "subtype": "neutrino observatory", "domain": "microphysics",
+      "aliases": [
+        {"text": "Hyper-Kamiokande", "case_sensitive": true},
+        {"text": "Hyper Kamiokande", "case_sensitive": true},
+        {"text": "Hyper-K", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:borexino", "label": "Borexino", "node_type": "apparatus",
+      "subtype": "neutrino detector", "domain": "microphysics",
+      "aliases": [{"text": "Borexino", "case_sensitive": true}, {"text": "Borexino detector", "case_sensitive": true}]
+    },
+    {
+      "id": "apparatus:sno", "label": "Sudbury Neutrino Observatory", "node_type": "apparatus",
+      "subtype": "neutrino observatory", "domain": "microphysics",
+      "aliases": [
+        {"text": "Sudbury Neutrino Observatory"},
+        {"text": "SNO", "case_sensitive": true},
+        {"text": "SNO+", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:coherent", "label": "COHERENT", "node_type": "apparatus",
+      "subtype": "neutrino experiment", "domain": "microphysics",
+      "aliases": [{"text": "COHERENT", "case_sensitive": true}, {"text": "COHERENT experiment", "case_sensitive": true}]
+    },
+    {
+      "id": "apparatus:katrin", "label": "KATRIN", "node_type": "apparatus",
+      "subtype": "neutrino-mass experiment", "domain": "microphysics",
+      "aliases": [
+        {"text": "KATRIN", "case_sensitive": true},
+        {"text": "Karlsruhe Tritium Neutrino experiment", "case_sensitive": true}
+      ]
+    },
+
+    {
+      "id": "apparatus:cogent", "label": "CoGeNT", "node_type": "apparatus",
+      "subtype": "direct-detection experiment", "domain": "microphysics",
+      "aliases": [{"text": "CoGeNT", "case_sensitive": true}, {"text": "CoGeNT experiment", "case_sensitive": true}]
+    },
+    {
+      "id": "apparatus:genius", "label": "GENIUS", "node_type": "apparatus",
+      "subtype": "direct-detection experiment", "domain": "microphysics",
+      "aliases": [
+        {"text": "GENIUS", "case_sensitive": true},
+        {"text": "Germanium in liquid nitrogen Underground Setup", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:eureca", "label": "EURECA", "node_type": "apparatus",
+      "subtype": "direct-detection experiment", "domain": "microphysics",
+      "aliases": [
+        {"text": "EURECA", "case_sensitive": true},
+        {"text": "European Underground Rare Event Calorimeter Array", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:kims", "label": "KIMS", "node_type": "apparatus",
+      "subtype": "direct-detection experiment", "domain": "microphysics",
+      "aliases": [
+        {"text": "KIMS", "case_sensitive": true},
+        {"text": "Korea Invisible Mass Search", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:mimac", "label": "MIMAC", "node_type": "apparatus",
+      "subtype": "directional-detection experiment", "domain": "microphysics",
+      "aliases": [
+        {"text": "MIMAC", "case_sensitive": true},
+        {"text": "MIcro-tpc MAtrix of Chambers", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:rosebud", "label": "ROSEBUD", "node_type": "apparatus",
+      "subtype": "direct-detection experiment", "domain": "microphysics",
+      "aliases": [{"text": "ROSEBUD", "case_sensitive": true}, {"text": "ROSEBUD experiment", "case_sensitive": true}]
+    },
+    {
+      "id": "apparatus:dmtpc", "label": "DMTPC", "node_type": "apparatus",
+      "subtype": "directional-detection experiment", "domain": "microphysics",
+      "aliases": [
+        {"text": "DMTPC", "case_sensitive": true},
+        {"text": "Dark Matter Time Projection Chamber", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:newage", "label": "NEWAGE", "node_type": "apparatus",
+      "subtype": "directional-detection experiment", "domain": "microphysics",
+      "aliases": [{"text": "NEWAGE", "case_sensitive": true}, {"text": "NEWAGE experiment", "case_sensitive": true}]
+    },
+    {
+      "id": "apparatus:warp", "label": "WARP", "node_type": "apparatus",
+      "subtype": "direct-detection experiment", "domain": "microphysics",
+      "aliases": [
+        {"text": "WARP", "case_sensitive": true},
+        {"text": "WIMP Argon Programme", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:cuore", "label": "CUORE", "node_type": "apparatus",
+      "subtype": "bolometric experiment", "domain": "microphysics",
+      "aliases": [
+        {"text": "CUORE", "case_sensitive": true},
+        {"text": "CUORICINO", "case_sensitive": true},
+        {"text": "Cryogenic Underground Observatory for Rare Events", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:pvlas", "label": "PVLAS", "node_type": "apparatus",
+      "subtype": "optical axion experiment", "domain": "microphysics",
+      "aliases": [
+        {"text": "PVLAS", "case_sensitive": true},
+        {"text": "Polarizzazione del Vuoto con LASer", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:texono", "label": "TEXONO", "node_type": "apparatus",
+      "subtype": "neutrino and dark-matter experiment", "domain": "microphysics",
+      "aliases": [
+        {"text": "TEXONO", "case_sensitive": true},
+        {"text": "Taiwan EXperiment On NeutrinO", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:trex_dm", "label": "TREX-DM", "node_type": "apparatus",
+      "subtype": "direct-detection experiment", "domain": "microphysics",
+      "aliases": [{"text": "TREX-DM", "case_sensitive": true}, {"text": "TREX DM", "case_sensitive": true}]
+    },
+    {
+      "id": "apparatus:oscura", "label": "Oscura", "node_type": "apparatus",
+      "subtype": "low-threshold direct-detection experiment", "domain": "microphysics",
+      "aliases": [{"text": "Oscura experiment", "case_sensitive": true}, {"text": "Oscura detector", "case_sensitive": true}]
+    },
+    {
+      "id": "apparatus:tesseract", "label": "TESSERACT", "node_type": "apparatus",
+      "subtype": "low-threshold direct-detection experiment", "domain": "microphysics",
+      "aliases": [{"text": "TESSERACT", "case_sensitive": true}, {"text": "TESSERACT experiment", "case_sensitive": true}]
+    },
+    {
+      "id": "apparatus:cosinus", "label": "COSINUS", "node_type": "apparatus",
+      "subtype": "direct-detection experiment", "domain": "microphysics",
+      "aliases": [
+        {"text": "COSINUS", "case_sensitive": true},
+        {"text": "Cryogenic Observatory for SIgnatures seen in Next-generation Underground Searches", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:cygnus", "label": "CYGNUS", "node_type": "apparatus",
+      "subtype": "directional-detection observatory", "domain": "microphysics",
+      "aliases": [{"text": "CYGNUS", "case_sensitive": true}, {"text": "CYGNUS observatory", "case_sensitive": true}]
+    },
+    {
+      "id": "apparatus:cygno", "label": "CYGNO", "node_type": "apparatus",
+      "subtype": "directional-detection experiment", "domain": "microphysics",
+      "aliases": [{"text": "CYGNO", "case_sensitive": true}, {"text": "CYGNO experiment", "case_sensitive": true}]
+    },
+    {
+      "id": "apparatus:ptolemy", "label": "PTOLEMY", "node_type": "apparatus",
+      "subtype": "low-threshold detector", "domain": "microphysics",
+      "aliases": [
+        {"text": "PTOLEMY", "case_sensitive": true},
+        {"text": "Princeton Tritium Observatory for Light, Early-universe, Massive-neutrino Yield", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:delight", "label": "DELight", "node_type": "apparatus",
+      "subtype": "low-threshold direct-detection experiment", "domain": "microphysics",
+      "aliases": [{"text": "DELight", "case_sensitive": true}, {"text": "Dark matter Experiment using Liquid Helium Target", "case_sensitive": true}]
+    },
+
+    {
+      "id": "apparatus:ams_02", "label": "AMS-02", "node_type": "apparatus",
+      "subtype": "cosmic-ray spectrometer", "domain": "cross-domain",
+      "aliases": [
+        {"text": "AMS-02", "case_sensitive": true},
+        {"text": "AMS 02", "case_sensitive": true},
+        {"text": "Alpha Magnetic Spectrometer", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:pamela", "label": "PAMELA", "node_type": "apparatus",
+      "subtype": "cosmic-ray observatory", "domain": "cross-domain",
+      "aliases": [
+        {"text": "PAMELA", "case_sensitive": true},
+        {"text": "Payload for Antimatter Matter Exploration and Light-nuclei Astrophysics", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:egret", "label": "EGRET", "node_type": "apparatus",
+      "subtype": "gamma-ray telescope", "domain": "macrophysics",
+      "aliases": [
+        {"text": "EGRET", "case_sensitive": true},
+        {"text": "Energetic Gamma Ray Experiment Telescope", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:hawc", "label": "HAWC", "node_type": "apparatus",
+      "subtype": "gamma-ray observatory", "domain": "macrophysics",
+      "aliases": [
+        {"text": "HAWC", "case_sensitive": true},
+        {"text": "High Altitude Water Cherenkov Observatory", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:lhaaso", "label": "LHAASO", "node_type": "apparatus",
+      "subtype": "gamma-ray observatory", "domain": "macrophysics",
+      "aliases": [
+        {"text": "LHAASO", "case_sensitive": true},
+        {"text": "Large High Altitude Air Shower Observatory", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:integral", "label": "INTEGRAL", "node_type": "apparatus",
+      "subtype": "gamma-ray observatory", "domain": "macrophysics",
+      "aliases": [
+        {"text": "INTEGRAL", "case_sensitive": true},
+        {"text": "International Gamma-Ray Astrophysics Laboratory", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:nustar", "label": "NuSTAR", "node_type": "apparatus",
+      "subtype": "x-ray telescope", "domain": "macrophysics",
+      "aliases": [
+        {"text": "NuSTAR", "case_sensitive": true},
+        {"text": "Nuclear Spectroscopic Telescope Array", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:comptel", "label": "COMPTEL", "node_type": "apparatus",
+      "subtype": "gamma-ray telescope", "domain": "macrophysics",
+      "aliases": [
+        {"text": "COMPTEL", "case_sensitive": true},
+        {"text": "Imaging Compton Telescope", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:gaps", "label": "GAPS", "node_type": "apparatus",
+      "subtype": "antiparticle experiment", "domain": "cross-domain",
+      "aliases": [
+        {"text": "GAPS", "case_sensitive": true},
+        {"text": "General Antiparticle Spectrometer", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:antares", "label": "ANTARES", "node_type": "apparatus",
+      "subtype": "neutrino telescope", "domain": "macrophysics",
+      "aliases": [{"text": "ANTARES", "case_sensitive": true}, {"text": "ANTARES neutrino telescope", "case_sensitive": true}]
+    },
+    {
+      "id": "apparatus:km3net", "label": "KM3NeT", "node_type": "apparatus",
+      "subtype": "neutrino telescope", "domain": "macrophysics",
+      "aliases": [
+        {"text": "KM3NeT", "case_sensitive": true},
+        {"text": "Cubic Kilometre Neutrino Telescope", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:amanda", "label": "AMANDA", "node_type": "apparatus",
+      "subtype": "neutrino telescope", "domain": "macrophysics",
+      "aliases": [
+        {"text": "AMANDA", "case_sensitive": true},
+        {"text": "Antarctic Muon And Neutrino Detector Array", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:deepcore", "label": "DeepCore", "node_type": "apparatus",
+      "subtype": "neutrino detector array", "domain": "macrophysics",
+      "aliases": [{"text": "DeepCore", "case_sensitive": true}, {"text": "IceCube DeepCore", "case_sensitive": true}]
+    },
+    {
+      "id": "apparatus:pingu", "label": "PINGU", "node_type": "apparatus",
+      "subtype": "neutrino detector array", "domain": "macrophysics",
+      "aliases": [
+        {"text": "PINGU", "case_sensitive": true},
+        {"text": "Precision IceCube Next Generation Upgrade", "case_sensitive": true}
+      ]
+    },
+
+    {
+      "id": "apparatus:cmb_s4", "label": "CMB-S4", "node_type": "apparatus",
+      "subtype": "cosmology experiment", "domain": "cosmology",
+      "aliases": [
+        {"text": "CMB-S4", "case_sensitive": true},
+        {"text": "CMB S4", "case_sensitive": true},
+        {"text": "cosmic microwave background-S4"},
+        {"text": "cosmic microwave background S4"}
+      ]
+    },
+    {
+      "id": "apparatus:bicep_keck", "label": "BICEP/Keck", "node_type": "apparatus",
+      "subtype": "cosmology experiment", "domain": "cosmology",
+      "aliases": [
+        {"text": "BICEP", "case_sensitive": true},
+        {"text": "BICEP2", "case_sensitive": true},
+        {"text": "BICEP3", "case_sensitive": true},
+        {"text": "BICEP/Keck", "case_sensitive": true},
+        {"text": "Keck Array", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:act", "label": "Atacama Cosmology Telescope", "node_type": "apparatus",
+      "subtype": "cosmology observatory", "domain": "cosmology",
+      "aliases": [
+        {"text": "Atacama Cosmology Telescope"},
+        {"text": "ACTPol", "case_sensitive": true},
+        {"text": "AdvACT", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:spt", "label": "South Pole Telescope", "node_type": "apparatus",
+      "subtype": "cosmology observatory", "domain": "cosmology",
+      "aliases": [
+        {"text": "South Pole Telescope"},
+        {"text": "SPTpol", "case_sensitive": true},
+        {"text": "SPT-3G", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:simons_observatory", "label": "Simons Observatory", "node_type": "apparatus",
+      "subtype": "cosmology observatory", "domain": "cosmology",
+      "aliases": [{"text": "Simons Observatory"}, {"text": "Simons Array", "case_sensitive": true}]
+    },
+    {
+      "id": "apparatus:litebird", "label": "LiteBIRD", "node_type": "apparatus",
+      "subtype": "cosmology mission", "domain": "cosmology",
+      "aliases": [
+        {"text": "LiteBIRD", "case_sensitive": true},
+        {"text": "Lite satellite for the studies of B-mode polarization and Inflation from cosmic background Radiation Detection", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:pixie", "label": "PIXIE", "node_type": "apparatus",
+      "subtype": "cosmology mission concept", "domain": "cosmology",
+      "aliases": [
+        {"text": "PIXIE", "case_sensitive": true},
+        {"text": "Primordial Inflation Explorer", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:cmb_hd", "label": "CMB-HD", "node_type": "apparatus",
+      "subtype": "cosmology observatory concept", "domain": "cosmology",
+      "aliases": [
+        {"text": "CMB-HD", "case_sensitive": true},
+        {"text": "CMB HD", "case_sensitive": true},
+        {"text": "cosmic microwave background-HD"},
+        {"text": "cosmic microwave background HD"}
+      ]
+    },
+
+    {
+      "id": "apparatus:lisa", "label": "LISA", "node_type": "apparatus",
+      "subtype": "space-based gravitational-wave observatory", "domain": "macrophysics",
+      "aliases": [
+        {"text": "LISA", "case_sensitive": true},
+        {"text": "Laser Interferometer Space Antenna", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:einstein_telescope", "label": "Einstein Telescope", "node_type": "apparatus",
+      "subtype": "gravitational-wave observatory", "domain": "macrophysics",
+      "aliases": [{"text": "Einstein Telescope"}, {"text": "Einstein gravitational-wave Telescope"}]
+    },
+    {
+      "id": "apparatus:cosmic_explorer", "label": "Cosmic Explorer", "node_type": "apparatus",
+      "subtype": "gravitational-wave observatory", "domain": "macrophysics",
+      "aliases": [{"text": "Cosmic Explorer"}, {"text": "Cosmic Explorer observatory"}]
+    },
+    {
+      "id": "apparatus:decigo", "label": "DECIGO", "node_type": "apparatus",
+      "subtype": "space-based gravitational-wave observatory", "domain": "macrophysics",
+      "aliases": [
+        {"text": "DECIGO", "case_sensitive": true},
+        {"text": "Deci-hertz Interferometer Gravitational-wave Observatory", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:bbo", "label": "Big Bang Observer", "node_type": "apparatus",
+      "subtype": "space-based gravitational-wave observatory", "domain": "macrophysics",
+      "aliases": [{"text": "Big Bang Observer"}, {"text": "BBO", "case_sensitive": true}]
+    },
+    {
+      "id": "apparatus:nanograv", "label": "NANOGrav", "node_type": "apparatus",
+      "subtype": "pulsar-timing array", "domain": "macrophysics",
+      "aliases": [
+        {"text": "NANOGrav", "case_sensitive": true},
+        {"text": "North American Nanohertz Observatory for Gravitational Waves", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:ipta", "label": "International Pulsar Timing Array", "node_type": "apparatus",
+      "subtype": "pulsar-timing array", "domain": "macrophysics",
+      "aliases": [{"text": "International Pulsar Timing Array"}, {"text": "IPTA", "case_sensitive": true}]
+    },
+    {
+      "id": "apparatus:epta", "label": "European Pulsar Timing Array", "node_type": "apparatus",
+      "subtype": "pulsar-timing array", "domain": "macrophysics",
+      "aliases": [{"text": "European Pulsar Timing Array"}, {"text": "EPTA", "case_sensitive": true}]
+    },
+    {
+      "id": "apparatus:ppta", "label": "Parkes Pulsar Timing Array", "node_type": "apparatus",
+      "subtype": "pulsar-timing array", "domain": "macrophysics",
+      "aliases": [{"text": "Parkes Pulsar Timing Array"}, {"text": "PPTA", "case_sensitive": true}]
+    },
+
+    {
+      "id": "apparatus:ogle", "label": "OGLE", "node_type": "apparatus",
+      "subtype": "microlensing survey", "domain": "macrophysics",
+      "aliases": [
+        {"text": "OGLE", "case_sensitive": true},
+        {"text": "Optical Gravitational Lensing Experiment", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:eros", "label": "EROS", "node_type": "apparatus",
+      "subtype": "microlensing survey", "domain": "macrophysics",
+      "aliases": [
+        {"text": "EROS", "case_sensitive": true},
+        {"text": "Expérience de Recherche d'Objets Sombres", "case_sensitive": true},
+        {"text": "Experience de Recherche d'Objets Sombres", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:subaru_hsc", "label": "Subaru/HSC", "node_type": "apparatus",
+      "subtype": "optical observatory and survey", "domain": "macrophysics",
+      "aliases": [
+        {"text": "Subaru Telescope", "case_sensitive": true},
+        {"text": "Subaru Hyper Suprime-Cam", "case_sensitive": true},
+        {"text": "Hyper Suprime-Cam", "case_sensitive": true},
+        {"text": "Subaru/HSC", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:roman", "label": "Nancy Grace Roman Space Telescope", "node_type": "apparatus",
+      "subtype": "space telescope", "domain": "macrophysics",
+      "aliases": [
+        {"text": "Nancy Grace Roman Space Telescope"},
+        {"text": "Roman Space Telescope"},
+        {"text": "WFIRST", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:erosita", "label": "eROSITA", "node_type": "apparatus",
+      "subtype": "x-ray telescope", "domain": "macrophysics",
+      "aliases": [{"text": "eROSITA", "case_sensitive": true}, {"text": "extended ROentgen Survey with an Imaging Telescope Array", "case_sensitive": true}]
+    },
+    {
+      "id": "apparatus:xrism", "label": "XRISM", "node_type": "apparatus",
+      "subtype": "x-ray telescope", "domain": "macrophysics",
+      "aliases": [
+        {"text": "XRISM", "case_sensitive": true},
+        {"text": "X-Ray Imaging and Spectroscopy Mission", "case_sensitive": true}
+      ]
+    },
+
+    {
+      "id": "apparatus:babyiaxo", "label": "BabyIAXO", "node_type": "apparatus",
+      "subtype": "axion helioscope", "domain": "microphysics",
+      "aliases": [{"text": "BabyIAXO", "case_sensitive": true}, {"text": "Baby-IAXO", "case_sensitive": true}]
+    },
+    {
+      "id": "apparatus:bread", "label": "BREAD", "node_type": "apparatus",
+      "subtype": "axion and dark-photon experiment", "domain": "microphysics",
+      "aliases": [
+        {"text": "BREAD", "case_sensitive": true},
+        {"text": "Broadband Radiometric Axion Detection", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:capp", "label": "CAPP/CULTASK", "node_type": "apparatus",
+      "subtype": "axion experiment program", "domain": "microphysics",
+      "aliases": [
+        {"text": "CAPP", "case_sensitive": true},
+        {"text": "CULTASK", "case_sensitive": true},
+        {"text": "Center for Axion and Precision Physics Research", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:rades", "label": "RADES", "node_type": "apparatus",
+      "subtype": "axion haloscope", "domain": "microphysics",
+      "aliases": [
+        {"text": "RADES", "case_sensitive": true},
+        {"text": "Relic Axion Detector Exploratory Setup", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:klash", "label": "KLASH", "node_type": "apparatus",
+      "subtype": "axion haloscope", "domain": "microphysics",
+      "aliases": [
+        {"text": "KLASH", "case_sensitive": true},
+        {"text": "KLoe magnet for Axion SearcHes", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:dali", "label": "DALI", "node_type": "apparatus",
+      "subtype": "axion haloscope", "domain": "microphysics",
+      "aliases": [
+        {"text": "DALI", "case_sensitive": true},
+        {"text": "Dark-photons and Axion-Like particles Interferometer", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:taseh", "label": "TASEH", "node_type": "apparatus",
+      "subtype": "axion haloscope", "domain": "microphysics",
+      "aliases": [
+        {"text": "TASEH", "case_sensitive": true},
+        {"text": "Taiwan Axion Search Experiment Haloscope", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:ariadne", "label": "ARIADNE", "node_type": "apparatus",
+      "subtype": "axion force experiment", "domain": "microphysics",
+      "aliases": [
+        {"text": "ARIADNE", "case_sensitive": true},
+        {"text": "Axion Resonant InterAction DetectioN Experiment", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:osqar", "label": "OSQAR", "node_type": "apparatus",
+      "subtype": "light-shining-through-walls experiment", "domain": "microphysics",
+      "aliases": [
+        {"text": "OSQAR", "case_sensitive": true},
+        {"text": "Optical Search for QED vacuum magnetic birefringence, Axions and photon Regeneration", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "apparatus:orpheus", "label": "ORPHEUS", "node_type": "apparatus",
+      "subtype": "axion and dark-photon haloscope", "domain": "microphysics",
+      "aliases": [{"text": "ORPHEUS", "case_sensitive": true}, {"text": "ORPHEUS experiment", "case_sensitive": true}]
+    }
+  ]
+}

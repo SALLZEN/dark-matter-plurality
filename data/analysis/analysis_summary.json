@@ -1,0 +1,29 @@
+{
+  "analysis_cutoff_year": 2025,
+  "candidate_divergence": {
+    "contrast_high": -0.017945282085068855,
+    "contrast_low": -0.09545852389901764,
+    "early_mean_js": 0.32562969942574266,
+    "early_period": "1995-2004",
+    "late_mean_js": 0.2929495335672642,
+    "late_minus_early": -0.03268016585847844,
+    "late_period": "2016-2025",
+    "supports_increasing_divergence": false
+  },
+  "candidate_validation": {
+    "scope": "paper-level dictionary mentions; no performance claim",
+    "status": "optional audit not run"
+  },
+  "claim_language": "persistently different",
+  "classified_papers": 143390,
+  "corpus_papers": 201627,
+  "first_hep_ph_above_astro_ph_co_year": 2015,
+  "primary_category_validation": {
+    "agreement_high": 1.0,
+    "agreement_low": 0.992375659538448,
+    "agreement_rate": 1.0,
+    "n_agree": 500.0,
+    "n_sampled": 500.0,
+    "n_validated": 500.0
+  }
+}

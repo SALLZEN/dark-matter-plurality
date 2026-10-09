@@ -1,0 +1,531 @@
+{
+  "schema_version": "2.0.0",
+  "description": "Additional dark-matter-relevant problems, mechanisms, and methods.",
+  "source_inventories": [
+    "damadi/lib/python/003-h-method-plots.ipynb",
+    "damadi/lib/python/003-j-inferences-plot.ipynb"
+  ],
+  "entities": [
+    {
+      "id": "problem:dark_matter_problem",
+      "label": "Dark-matter problem",
+      "node_type": "problem",
+      "subtype": "identity and explanation",
+      "domain": "cross-domain",
+      "aliases": [
+        {"text": "dark matter problem"},
+        {"text": "dark-matter problem"},
+        {"text": "nature of dark matter"},
+        {"text": "identity of dark matter"}
+      ]
+    },
+    {
+      "id": "problem:hierarchy_problem",
+      "label": "Hierarchy problem",
+      "node_type": "problem",
+      "subtype": "particle-theory problem",
+      "domain": "microphysics",
+      "aliases": [
+        {"text": "hierarchy problem"},
+        {"text": "electroweak hierarchy problem"},
+        {"text": "gauge hierarchy problem"}
+      ]
+    },
+    {
+      "id": "problem:naturalness_problem",
+      "label": "Naturalness problem",
+      "node_type": "problem",
+      "subtype": "particle-theory problem",
+      "domain": "microphysics",
+      "aliases": [
+        {"text": "naturalness problem"},
+        {"text": "electroweak naturalness"},
+        {"text": "fine-tuning problem"},
+        {"text": "fine tuning problem"}
+      ]
+    },
+    {
+      "id": "problem:strong_cp_problem",
+      "label": "Strong CP problem",
+      "node_type": "problem",
+      "subtype": "particle-theory problem",
+      "domain": "microphysics",
+      "aliases": [
+        {"text": "strong CP problem", "case_sensitive": true},
+        {"text": "strong-CP problem", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "problem:baryon_asymmetry",
+      "label": "Baryon asymmetry",
+      "node_type": "problem",
+      "subtype": "cosmological asymmetry",
+      "domain": "cross-domain",
+      "aliases": [
+        {"text": "baryon asymmetry"},
+        {"text": "baryon asymmetry of the universe"},
+        {"text": "matter-antimatter asymmetry"},
+        {"text": "matter antimatter asymmetry"}
+      ]
+    },
+    {
+      "id": "problem:cosmological_constant_problem",
+      "label": "Cosmological-constant problem",
+      "node_type": "problem",
+      "subtype": "cosmological theory problem",
+      "domain": "cosmology",
+      "aliases": [
+        {"text": "cosmological constant problem"},
+        {"text": "vacuum energy problem"}
+      ]
+    },
+    {
+      "id": "problem:coincidence_problem",
+      "label": "Cosmic coincidence problem",
+      "node_type": "problem",
+      "subtype": "cosmological theory problem",
+      "domain": "cosmology",
+      "aliases": [
+        {"text": "cosmic coincidence problem"},
+        {"text": "cosmological coincidence problem"},
+        {"text": "dark matter-dark energy coincidence"}
+      ]
+    },
+    {
+      "id": "problem:hubble_tension",
+      "label": "Hubble tension",
+      "node_type": "problem",
+      "subtype": "cosmological tension",
+      "domain": "cosmology",
+      "aliases": [
+        {"text": "Hubble tension"},
+        {"text": "H0 tension", "case_sensitive": true},
+        {"text": "Hubble constant tension"}
+      ]
+    },
+    {
+      "id": "problem:s8_tension",
+      "label": "S8 tension",
+      "node_type": "problem",
+      "subtype": "cosmological tension",
+      "domain": "cosmology",
+      "aliases": [
+        {"text": "S8 tension", "case_sensitive": true},
+        {"text": "sigma8 tension", "case_sensitive": true},
+        {"text": "growth tension"}
+      ]
+    },
+    {
+      "id": "problem:diversity_problem",
+      "label": "Diversity problem",
+      "node_type": "problem",
+      "subtype": "small-scale structure",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "diversity problem"},
+        {"text": "rotation curve diversity problem"},
+        {"text": "diversity of rotation curves"}
+      ]
+    },
+    {
+      "id": "problem:satellite_planes",
+      "label": "Planes-of-satellites problem",
+      "node_type": "problem",
+      "subtype": "small-scale structure",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "planes of satellites problem"},
+        {"text": "plane of satellites problem"},
+        {"text": "satellite plane problem"},
+        {"text": "vast polar structure"}
+      ]
+    },
+    {
+      "id": "mechanism:coannihilation",
+      "label": "Coannihilation",
+      "node_type": "mechanism",
+      "subtype": "relic-production mechanism",
+      "domain": "microphysics",
+      "aliases": [
+        {"text": "coannihilation"},
+        {"text": "co-annihilation"},
+        {"text": "coannihilations"}
+      ]
+    },
+    {
+      "id": "mechanism:misalignment",
+      "label": "Misalignment mechanism",
+      "node_type": "mechanism",
+      "subtype": "bosonic-production mechanism",
+      "domain": "cross-domain",
+      "aliases": [
+        {"text": "misalignment mechanism"},
+        {"text": "vacuum misalignment"},
+        {"text": "vacuum realignment"},
+        {"text": "axion misalignment"}
+      ]
+    },
+    {
+      "id": "mechanism:topological_defect_production",
+      "label": "Topological-defect production",
+      "node_type": "mechanism",
+      "subtype": "bosonic-production mechanism",
+      "domain": "cosmology",
+      "aliases": [
+        {"text": "topological defect production"},
+        {"text": "production from cosmic strings"},
+        {"text": "axion string decay"},
+        {"text": "domain wall decay"}
+      ]
+    },
+    {
+      "id": "mechanism:asymmetric_production",
+      "label": "Asymmetric dark-matter production",
+      "node_type": "mechanism",
+      "subtype": "relic-production mechanism",
+      "domain": "cross-domain",
+      "aliases": [
+        {"text": "asymmetric dark matter production"},
+        {"text": "dark matter asymmetry"},
+        {"text": "asymmetric freeze-out"}
+      ]
+    },
+    {
+      "id": "mechanism:gravitational_production",
+      "label": "Gravitational production",
+      "node_type": "mechanism",
+      "subtype": "nonthermal-production mechanism",
+      "domain": "cross-domain",
+      "aliases": [
+        {"text": "gravitational production"},
+        {"text": "gravitational particle production"},
+        {"text": "purely gravitational production"}
+      ]
+    },
+    {
+      "id": "mechanism:freeze_out_3_to_2",
+      "label": "3-to-2 freeze-out",
+      "node_type": "mechanism",
+      "subtype": "number-changing mechanism",
+      "domain": "microphysics",
+      "aliases": [
+        {"regex": "(?<![A-Za-z0-9])3\\s*(?:→|->|to)\\s*2\\s+(?:freeze[-\\s]?out|process|annihilation)(?![A-Za-z0-9])"},
+        {"text": "SIMP mechanism", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "mechanism:cannibalization",
+      "label": "Dark-sector cannibalization",
+      "node_type": "mechanism",
+      "subtype": "number-changing mechanism",
+      "domain": "microphysics",
+      "aliases": [
+        {"text": "dark matter cannibalization"},
+        {"text": "dark-sector cannibalism"},
+        {"text": "cannibal dark matter"}
+      ]
+    },
+    {
+      "id": "mechanism:kinetic_decoupling",
+      "label": "Kinetic decoupling",
+      "node_type": "mechanism",
+      "subtype": "thermal-history mechanism",
+      "domain": "cross-domain",
+      "aliases": [
+        {"text": "kinetic decoupling"},
+        {"text": "kinetically decoupled"}
+      ]
+    },
+    {
+      "id": "mechanism:entropy_dilution",
+      "label": "Entropy dilution",
+      "node_type": "mechanism",
+      "subtype": "relic-abundance modification",
+      "domain": "cosmology",
+      "aliases": [
+        {"text": "entropy dilution"},
+        {"text": "late entropy injection"},
+        {"text": "entropy production dilution"}
+      ]
+    },
+    {
+      "id": "mechanism:dodelson_widrow",
+      "label": "Dodelson-Widrow production",
+      "node_type": "mechanism",
+      "subtype": "sterile-neutrino production",
+      "domain": "cross-domain",
+      "aliases": [
+        {"text": "Dodelson-Widrow mechanism"},
+        {"text": "Dodelson-Widrow production"},
+        {"text": "non-resonant sterile neutrino production"}
+      ]
+    },
+    {
+      "id": "mechanism:shi_fuller",
+      "label": "Shi-Fuller production",
+      "node_type": "mechanism",
+      "subtype": "sterile-neutrino production",
+      "domain": "cross-domain",
+      "aliases": [
+        {"text": "Shi-Fuller mechanism"},
+        {"text": "Shi-Fuller production"},
+        {"text": "resonant sterile neutrino production"}
+      ]
+    },
+    {
+      "id": "mechanism:primordial_black_hole_formation",
+      "label": "Primordial-black-hole formation",
+      "node_type": "mechanism",
+      "subtype": "compact-object formation",
+      "domain": "cosmology",
+      "aliases": [
+        {"text": "primordial black hole formation"},
+        {"text": "formation of primordial black holes"},
+        {"text": "PBH formation", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "mechanism:dark_matter_capture",
+      "label": "Dark-matter capture",
+      "node_type": "mechanism",
+      "subtype": "astrophysical accumulation",
+      "domain": "cross-domain",
+      "aliases": [
+        {"text": "dark matter capture"},
+        {"text": "capture of dark matter"},
+        {"text": "captured dark matter"}
+      ]
+    },
+    {
+      "id": "mechanism:dark_matter_scattering",
+      "label": "Dark-matter scattering",
+      "node_type": "mechanism",
+      "subtype": "interaction",
+      "domain": "cross-domain",
+      "aliases": [
+        {"text": "dark matter scattering"},
+        {"text": "dark-matter scattering"},
+        {"text": "dark matter-nucleon scattering"},
+        {"text": "dark matter-electron scattering"}
+      ]
+    },
+    {
+      "id": "mechanism:axion_photon_conversion",
+      "label": "Axion-photon conversion",
+      "node_type": "mechanism",
+      "subtype": "particle conversion",
+      "domain": "cross-domain",
+      "aliases": [
+        {"text": "axion-photon conversion"},
+        {"text": "axion photon conversion"},
+        {"text": "photon-axion conversion"},
+        {"text": "Primakoff conversion"},
+        {"text": "Primakoff effect"},
+        {"text": "Primakoff process"},
+        {"text": "Primakoff production"}
+      ]
+    },
+    {
+      "id": "mechanism:neutrino_oscillation",
+      "label": "Neutrino oscillation",
+      "node_type": "mechanism",
+      "subtype": "flavor conversion",
+      "domain": "microphysics",
+      "aliases": [
+        {"text": "neutrino oscillation"},
+        {"text": "neutrino oscillations"},
+        {"text": "active-sterile oscillation"},
+        {"text": "active-sterile oscillations"}
+      ]
+    },
+    {
+      "id": "method:monte_carlo",
+      "label": "Monte Carlo simulation",
+      "node_type": "method",
+      "subtype": "computational method",
+      "domain": "cross-domain",
+      "aliases": [
+        {"text": "Monte Carlo simulation"},
+        {"text": "Monte Carlo simulations"},
+        {"text": "Monte Carlo method"},
+        {"text": "Monte Carlo methods"}
+      ]
+    },
+    {
+      "id": "method:bayesian_inference",
+      "label": "Bayesian inference",
+      "node_type": "method",
+      "subtype": "statistical inference",
+      "domain": "cross-domain",
+      "aliases": [
+        {"text": "Bayesian inference"},
+        {"text": "Bayesian analysis"},
+        {"text": "Bayesian parameter estimation"}
+      ]
+    },
+    {
+      "id": "method:mcmc",
+      "label": "Markov-chain Monte Carlo",
+      "node_type": "method",
+      "subtype": "statistical inference",
+      "domain": "cross-domain",
+      "aliases": [
+        {"text": "Markov chain Monte Carlo"},
+        {"text": "Markov-chain Monte Carlo"},
+        {"text": "MCMC", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "method:likelihood_analysis",
+      "label": "Likelihood analysis",
+      "node_type": "method",
+      "subtype": "statistical inference",
+      "domain": "cross-domain",
+      "aliases": [
+        {"text": "likelihood analysis"},
+        {"text": "likelihood fit"},
+        {"text": "profile likelihood"},
+        {"text": "maximum likelihood analysis"}
+      ]
+    },
+    {
+      "id": "method:model_fitting",
+      "label": "Model fitting",
+      "node_type": "method",
+      "subtype": "statistical inference",
+      "domain": "cross-domain",
+      "aliases": [
+        {"text": "model fitting"},
+        {"text": "model fit"},
+        {"text": "fitting procedure"}
+      ]
+    },
+    {
+      "id": "method:jeans_analysis",
+      "label": "Jeans analysis",
+      "node_type": "method",
+      "subtype": "dynamical inference",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "Jeans analysis"},
+        {"text": "Jeans modeling"},
+        {"text": "Jeans modelling"},
+        {"text": "Jeans equation"}
+      ]
+    },
+    {
+      "id": "method:abundance_matching",
+      "label": "Abundance matching",
+      "node_type": "method",
+      "subtype": "galaxy-halo inference",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "abundance matching"},
+        {"text": "subhalo abundance matching"}
+      ]
+    },
+    {
+      "id": "method:halo_occupation_distribution",
+      "label": "Halo-occupation modeling",
+      "node_type": "method",
+      "subtype": "galaxy-halo inference",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "halo occupation distribution"},
+        {"text": "halo occupation model"},
+        {"text": "halo-occupation distribution"},
+        {"text": "HOD modeling", "case_sensitive": true},
+        {"text": "HOD modelling", "case_sensitive": true}
+      ]
+    },
+    {
+      "id": "method:rotation_curve_fitting",
+      "label": "Rotation-curve fitting",
+      "node_type": "method",
+      "subtype": "dynamical inference",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "rotation curve fitting"},
+        {"text": "rotation-curve fitting"},
+        {"text": "fit to the rotation curve"},
+        {"text": "fits to rotation curves"}
+      ]
+    },
+    {
+      "id": "method:lensing_reconstruction",
+      "label": "Gravitational-lensing reconstruction",
+      "node_type": "method",
+      "subtype": "mass inference",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "lensing reconstruction"},
+        {"text": "lensing mass reconstruction"},
+        {"text": "weak-lensing reconstruction"},
+        {"text": "strong-lensing model"},
+        {"text": "strong-lensing models"}
+      ]
+    },
+    {
+      "id": "method:spectral_analysis",
+      "label": "Spectral analysis",
+      "node_type": "method",
+      "subtype": "observational analysis",
+      "domain": "cross-domain",
+      "aliases": [
+        {"text": "spectral analysis"},
+        {"text": "spectroscopic analysis"},
+        {"text": "spectrum fitting"},
+        {"text": "spectral fitting"}
+      ]
+    },
+    {
+      "id": "method:annual_modulation",
+      "label": "Annual-modulation search",
+      "node_type": "method",
+      "subtype": "direct-detection method",
+      "domain": "microphysics",
+      "aliases": [
+        {"text": "annual modulation search"},
+        {"text": "annual modulation analysis"},
+        {"text": "annual modulation signature"}
+      ]
+    },
+    {
+      "id": "method:directional_detection",
+      "label": "Directional detection",
+      "node_type": "method",
+      "subtype": "direct-detection method",
+      "domain": "microphysics",
+      "aliases": [
+        {"text": "directional detection"},
+        {"text": "directional dark matter detection"},
+        {"text": "directional recoil detection"}
+      ]
+    },
+    {
+      "id": "method:pulsar_timing",
+      "label": "Pulsar timing",
+      "node_type": "method",
+      "subtype": "timing observation",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "pulsar timing"},
+        {"text": "pulsar timing array"},
+        {"text": "pulsar timing arrays"}
+      ]
+    },
+    {
+      "id": "method:gravitational_wave_search",
+      "label": "Gravitational-wave search",
+      "node_type": "method",
+      "subtype": "observational search",
+      "domain": "macrophysics",
+      "aliases": [
+        {"text": "gravitational-wave search"},
+        {"text": "gravitational wave search"},
+        {"text": "gravitational-wave observation"},
+        {"text": "gravitational wave observation"}
+      ]
+    }
+  ]
+}

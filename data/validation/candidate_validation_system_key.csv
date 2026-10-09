@@ -1,0 +1,841 @@
+sample_id,bibcode,split,target_family,system_any_candidate,system_candidates
+candidate_validation_development-0001,2014JHEP...02..129H,development,Axion + ALP,True,Axion + ALP;Higgsino;LSP;Wino
+candidate_validation_development-0002,2018JHEP...05..180M,development,Axion + ALP,True,Axion + ALP
+candidate_validation_development-0003,2023ForPh..71b0192G,development,Axion + ALP,True,Axion + ALP
+candidate_validation_development-0004,2019BAAS...51c.567G,development,Axion + ALP,True,Axion + ALP;ULA / Fuzzy
+candidate_validation_development-0005,2016IJMPD..2543005H,development,Axion + ALP,True,Axion + ALP
+candidate_validation_development-0006,2025A&A...694A.319K,development,Axion + ALP,True,Axion + ALP
+candidate_validation_development-0007,2022PhRvD.106i5025B,development,Axion + ALP,True,Axion + ALP
+candidate_validation_development-0008,2022arXiv220502605S,development,Axion + ALP,True,Axion + ALP
+candidate_validation_development-0009,2013JCAP...04..041B,development,Axion + ALP,True,Axino;Axion + ALP;Generic WIMP;Neutralino
+candidate_validation_development-0010,2020PhLB..80735603L,development,Axion + ALP,True,Axion + ALP
+candidate_validation_development-0011,2024JCAP...05..129W,development,Axion + ALP,True,Axion + ALP
+candidate_validation_development-0012,2022EPJC...82..856S,development,Axion + ALP,True,Axion + ALP
+candidate_validation_development-0013,2021JHEP...04..297A,development,Axion + ALP,True,Axion + ALP
+candidate_validation_development-0014,2024arXiv240414489M,development,Axion + ALP,True,Axion + ALP
+candidate_validation_development-0015,2025JHEP...01..070W,development,Axion + ALP,True,Axion + ALP;Sterile nu
+candidate_validation_development-0016,2019arXiv191014586O,development,Axion + ALP,True,Axion + ALP
+candidate_validation_development-0017,2000PhRvD..62d3509C,development,Axion + ALP,True,Axion + ALP
+candidate_validation_development-0018,2025JHEP...07..154D,development,Axion + ALP,True,Axion + ALP
+candidate_validation_development-0019,2025arXiv250608610G,development,Axion + ALP,True,Axion + ALP
+candidate_validation_development-0020,2024ApJ...970...95U,development,Axion + ALP,True,Axion + ALP
+candidate_validation_development-0021,2020JCAP...07..030N,development,Axion + ALP,True,Axion + ALP;ULA / Fuzzy
+candidate_validation_development-0022,2025arXiv250701962D,development,Axion + ALP,True,Axion + ALP;Sterile nu
+candidate_validation_development-0023,2021JCAP...02..048A,development,Axion + ALP,True,Axion + ALP
+candidate_validation_development-0024,2021NewAR..9301632O,development,Axion + ALP,True,Axion + ALP;PBH;Sterile nu
+candidate_validation_development-0025,2024arXiv241104749C,development,Axion + ALP,True,Axion + ALP
+candidate_validation_development-0026,2025JCAP...08..087E,development,Axion + ALP,True,Axion + ALP
+candidate_validation_development-0027,2014A&A...571A..22P,development,Axion + ALP,True,Axion + ALP
+candidate_validation_development-0028,2011PhRvD..83l3531H,development,Axion + ALP,True,Axion + ALP
+candidate_validation_development-0029,2013JCAP...12..047G,development,Axion + ALP,True,Axino;Axion + ALP;Gravitino
+candidate_validation_development-0030,2013JHEP...03..052L,development,Axion + ALP,True,Axion + ALP
+candidate_validation_development-0031,2020ApJ...893...15A,development,Generic WIMP,True,Generic WIMP
+candidate_validation_development-0032,2005PhLB..624..186B,development,Generic WIMP,True,Generic WIMP
+candidate_validation_development-0033,2007NIMPA.573..204S,development,Generic WIMP,True,Generic WIMP
+candidate_validation_development-0034,2012EPJC...72.1971A,development,Generic WIMP,True,Generic WIMP
+candidate_validation_development-0035,2007AIPC..903..599W,development,Generic WIMP,True,Generic WIMP
+candidate_validation_development-0036,2018EPJC...78..390S,development,Generic WIMP,True,Generic WIMP;Neutralino
+candidate_validation_development-0037,2004PhRvD..69c7302B,development,Generic WIMP,True,Generic WIMP;Neutralino
+candidate_validation_development-0038,2012JCAP...06..037B,development,Generic WIMP,True,Generic WIMP
+candidate_validation_development-0039,2020PhLB..80435364C,development,Generic WIMP,True,Generic WIMP;Higgsino;Wino
+candidate_validation_development-0040,2019arXiv191111254R,development,Generic WIMP,True,Generic WIMP
+candidate_validation_development-0041,2012PhRvL.109r1301A,development,Generic WIMP,True,Generic WIMP
+candidate_validation_development-0042,2008PhRvD..77d7301F,development,Generic WIMP,True,Generic WIMP
+candidate_validation_development-0043,2016PhLB..757..376L,development,Generic WIMP,True,Generic WIMP;Quark Nugget / AQN
+candidate_validation_development-0044,2009A&A...496..351P,development,Generic WIMP,True,Generic WIMP;LSP
+candidate_validation_development-0045,2011PhRvD..83h3524C,development,Generic WIMP,True,Generic WIMP
+candidate_validation_development-0046,2017arXiv170808869S,development,Generic WIMP,True,Generic WIMP
+candidate_validation_development-0047,2024PhRvD.109b3532D,development,Generic WIMP,True,Generic WIMP
+candidate_validation_development-0048,2012qchs.confE.236S,development,Generic WIMP,True,Generic WIMP
+candidate_validation_development-0049,2020JHEP...07..192B,development,Generic WIMP,True,Generic WIMP
+candidate_validation_development-0050,2010JCAP...06..032L,development,Generic WIMP,True,Generic WIMP
+candidate_validation_development-0051,2011PhRvD..84e1702F,development,Generic WIMP,True,Generic WIMP;LSP
+candidate_validation_development-0052,2007arXiv0710.1493B,development,Generic WIMP,True,Generic WIMP
+candidate_validation_development-0053,2017PhRvL.118b1303A,development,Generic WIMP,True,Generic WIMP
+candidate_validation_development-0054,2011PhRvL.107m1302A,development,Generic WIMP,True,Generic WIMP
+candidate_validation_development-0055,2013arXiv1305.5183M,development,Generic WIMP,True,Generic WIMP
+candidate_validation_development-0056,2020PhLB..80135149K,development,Generic WIMP,True,Glueball
+candidate_validation_development-0057,2011NuPhB.850..505K,development,Generic WIMP,True,Generic WIMP
+candidate_validation_development-0058,2008PhRvD..78j3524N,development,Generic WIMP,True,Generic WIMP
+candidate_validation_development-0059,2012JHEP...02..131K,development,Generic WIMP,True,Generic WIMP
+candidate_validation_development-0060,2017AIPC.1792c0002C,development,Generic WIMP,True,Generic WIMP;Higgsino;Minimal SU(2)L;Wino
+candidate_validation_development-0061,2008JHEP...12..099E,development,Neutralino,True,Neutralino;Sneutrino
+candidate_validation_development-0062,2011arXiv1103.0140P,development,Neutralino,True,Gravitino;LSP;Neutralino
+candidate_validation_development-0063,2015arXiv151007616G,development,Neutralino,True,Neutralino;Wino
+candidate_validation_development-0064,2014JCAP...03..022E,development,Neutralino,True,Gravitino;Neutralino
+candidate_validation_development-0065,1996astro.ph..1161T,development,Neutralino,True,Neutralino
+candidate_validation_development-0066,2001PhRvD..64g5004B,development,Neutralino,True,Generic WIMP;Neutralino
+candidate_validation_development-0067,2000PhLB..491..161B,development,Neutralino,True,Neutralino
+candidate_validation_development-0068,1999hep.ph...10205K,development,Neutralino,True,Neutralino
+candidate_validation_development-0069,2004NuPhB.678..233B,development,Neutralino,True,Neutralino
+candidate_validation_development-0070,2013arXiv1306.2986B,development,Neutralino,True,Axino;Axion + ALP;Generic WIMP;Neutralino
+candidate_validation_development-0071,2021arXiv210712553C,development,Neutralino,True,LSP;Neutralino
+candidate_validation_development-0072,2019arXiv191001457A,development,Neutralino,True,LSP;Neutralino
+candidate_validation_development-0073,2006EPJC...47..805L,development,Neutralino,True,Neutralino
+candidate_validation_development-0074,2017arXiv170707274C,development,Neutralino,True,Neutralino
+candidate_validation_development-0075,2011PhRvD..84i5001M,development,Neutralino,True,Neutralino
+candidate_validation_development-0076,2018JHEP...10..052D,development,Neutralino,True,Higgsino;Neutralino
+candidate_validation_development-0077,2014arXiv1409.7000H,development,Neutralino,True,Bino;Higgsino;LSP;Neutralino;Wino
+candidate_validation_development-0078,2005PhLB..615..111D,development,Neutralino,True,Neutralino
+candidate_validation_development-0079,2022arXiv220504378M,development,Neutralino,True,Neutralino
+candidate_validation_development-0080,1999astro.ph..6034B,development,Neutralino,True,Neutralino
+candidate_validation_development-0081,2013NuPhB.870..323K,development,Neutralino,True,Neutralino
+candidate_validation_development-0082,2002hep.ph...12227B,development,Neutralino,True,Neutralino
+candidate_validation_development-0083,2012EPJP..127....2A,development,Neutralino,True,Higgsino;Neutralino
+candidate_validation_development-0084,2015JHEP...10..178C,development,Neutralino,True,Bino;Neutralino
+candidate_validation_development-0085,2018IJMPA..3350035Z,development,Neutralino,True,Axion + ALP;Neutralino;Wino
+candidate_validation_development-0086,2009PhRvL.103h1802A,development,Neutralino,True,Neutralino
+candidate_validation_development-0087,2019PhLB..789..106C,development,Neutralino,True,Higgsino;Neutralino
+candidate_validation_development-0088,2008JHEP...07..058M,development,Neutralino,True,Neutralino
+candidate_validation_development-0089,2007JHEP...01..024K,development,Neutralino,True,Bino;Higgsino;Neutralino;Wino
+candidate_validation_development-0090,2004PhRvL..92t1304M,development,Neutralino,True,Neutralino
+candidate_validation_development-0091,2011NewA...16...33C,development,PBH,True,PBH
+candidate_validation_development-0092,2021MNRAS.501.3727L,development,PBH,True,PBH
+candidate_validation_development-0093,2023PhRvD.107h3501C,development,PBH,True,PBH
+candidate_validation_development-0094,2024arXiv240809303T,development,PBH,True,PBH
+candidate_validation_development-0095,2001AstL...27..759D,development,PBH,True,PBH
+candidate_validation_development-0096,2024MNRAS.529...32E,development,PBH,True,PBH
+candidate_validation_development-0097,2020ApJ...904..176E,development,PBH,True,PBH
+candidate_validation_development-0098,2020PhRvD.101l3533I,development,PBH,True,PBH
+candidate_validation_development-0099,2021PhRvD.103h3504B,development,PBH,True,PBH
+candidate_validation_development-0100,2020PDU....2700440G,development,PBH,True,Axion + ALP;PBH
+candidate_validation_development-0101,2024PhLB..84938465J,development,PBH,True,PBH
+candidate_validation_development-0102,2020JCAP...03..017M,development,PBH,True,PBH
+candidate_validation_development-0103,2020JPhCS1690a2183D,development,PBH,True,PBH
+candidate_validation_development-0104,2012JCAP...09..017A,development,PBH,True,PBH
+candidate_validation_development-0105,2016PhRvD..94h3523K,development,PBH,True,PBH
+candidate_validation_development-0106,2021EPJC...81..460G,development,PBH,True,PBH
+candidate_validation_development-0107,2015PhRvD..92b3524C,development,PBH,True,PBH
+candidate_validation_development-0108,2023PhRvD.108b3507U,development,PBH,True,PBH
+candidate_validation_development-0109,2008ApJ...680..829R,development,PBH,True,PBH
+candidate_validation_development-0110,2025arXiv250615496K,development,PBH,True,PBH
+candidate_validation_development-0111,2025SCPMA..6810411H,development,PBH,True,PBH
+candidate_validation_development-0112,2002A&A...388..676B,development,PBH,True,PBH
+candidate_validation_development-0113,2022JCAP...08..030C,development,PBH,True,PBH
+candidate_validation_development-0114,2019BAAS...51c.248S,development,PBH,True,PBH
+candidate_validation_development-0115,2011PrPNP..66..266B,development,PBH,True,PBH
+candidate_validation_development-0116,2023PhRvD.107f3519H,development,PBH,True,PBH;SFDM
+candidate_validation_development-0117,2021JCAP...03..068H,development,PBH,True,PBH
+candidate_validation_development-0118,2001PhRvD..64b1301G,development,PBH,True,PBH
+candidate_validation_development-0119,2021JCAP...03..078B,development,PBH,True,PBH
+candidate_validation_development-0120,2024arXiv240214069A,development,PBH,True,PBH
+candidate_validation_development-0121,2020arXiv200607782T,development,Sterile nu,True,Sterile nu
+candidate_validation_development-0122,2007MNRAS.375.1399R,development,Sterile nu,True,Sterile nu
+candidate_validation_development-0123,2017PhRvD..96a5012L,development,Sterile nu,True,Sterile nu
+candidate_validation_development-0124,2014PhRvD..90d3507G,development,Sterile nu,True,Axion + ALP;Sterile nu
+candidate_validation_development-0125,2013JHEP...05..081A,development,Sterile nu,True,Sterile nu
+candidate_validation_development-0126,2025arXiv250719278Y,development,Sterile nu,True,Sterile nu
+candidate_validation_development-0127,1999hep.ph....7222V,development,Sterile nu,True,Sterile nu
+candidate_validation_development-0128,2021JHEP...04..246F,development,Sterile nu,True,Sterile nu
+candidate_validation_development-0129,2020JCAP...08..018S,development,Sterile nu,True,Sterile nu
+candidate_validation_development-0130,2012JHEP...06..149C,development,Sterile nu,True,Sterile nu
+candidate_validation_development-0131,2024JCAP...01..069L,development,Sterile nu,True,Sterile nu;Vector DM
+candidate_validation_development-0132,2023JHEP...11..054P,development,Sterile nu,True,Sterile nu
+candidate_validation_development-0133,2013PhRvD..87e3007D,development,Sterile nu,True,Sterile nu
+candidate_validation_development-0134,2014JCAP...09..007K,development,Sterile nu,True,Sterile nu
+candidate_validation_development-0135,2023JHEP...02..022M,development,Sterile nu,True,Sterile nu
+candidate_validation_development-0136,2016ApJ...825L...1M,development,Sterile nu,True,Sterile nu
+candidate_validation_development-0137,2018PhRvD..97g5016B,development,Sterile nu,True,Sterile nu
+candidate_validation_development-0138,2006A&A...458L...9M,development,Sterile nu,True,Sterile nu
+candidate_validation_development-0139,2024PhLB..85238609C,development,Sterile nu,True,Sterile nu
+candidate_validation_development-0140,1998PhRvD..58j5010B,development,Sterile nu,True,Sterile nu
+candidate_validation_development-0141,2022PhRvD.105e5024E,development,Sterile nu,True,Sterile nu
+candidate_validation_development-0142,2020JHEP...03..046A,development,Sterile nu,True,Bino;Sneutrino;Sterile nu
+candidate_validation_development-0143,2016JHEP...11..025K,development,Sterile nu,True,Sterile nu
+candidate_validation_development-0144,2007AIPC..903..315P,development,Sterile nu,True,Sterile nu
+candidate_validation_development-0145,2011JHEP...04..011A,development,Sterile nu,True,Sterile nu
+candidate_validation_development-0146,2000hep.ph....6274D,development,Sterile nu,True,Sterile nu
+candidate_validation_development-0147,2021PhRvD.104f3019S,development,Sterile nu,True,Axion + ALP;Sterile nu
+candidate_validation_development-0148,2024JHEP...07..153B,development,Sterile nu,True,Sterile nu
+candidate_validation_development-0149,2018arXiv181000605L,development,Sterile nu,True,Sterile nu
+candidate_validation_development-0150,2021JHEP...12..191M,development,Sterile nu,True,Sterile nu
+candidate_validation_development-0151,2000PhLB..478..262K,development,LSP,True,LSP;Neutralino;Sneutrino
+candidate_validation_development-0152,2010JHEP...12..030I,development,LSP,True,LSP
+candidate_validation_development-0153,2010JHEP...04..054H,development,LSP,True,Axino;Axion + ALP;Gravitino;LSP
+candidate_validation_development-0154,2007PhRvD..75b5026C,development,LSP,True,Bino;Higgsino;LSP;Neutralino;Wino
+candidate_validation_development-0155,2015arXiv150907031A,development,LSP,True,LSP;Neutralino
+candidate_validation_development-0156,2006JHEP...05..005E,development,LSP,True,Gravitino;LSP;Neutralino
+candidate_validation_development-0157,2010PhRvD..82a5012F,development,LSP,True,Gravitino
+candidate_validation_development-0158,2023arXiv230500779B,development,LSP,True,LSP
+candidate_validation_development-0159,2014PhRvD..90a5034M,development,LSP,True,LSP
+candidate_validation_development-0160,2004PhRvD..70k5007H,development,LSP,True,Gravitino;LSP
+candidate_validation_development-0161,2015JHEP...11..189K,development,LSP,True,LSP;Neutralino
+candidate_validation_development-0162,2008JHEP...05..048D,development,LSP,True,LSP
+candidate_validation_development-0163,2002PhRvD..66h3501F,development,LSP,True,Bino;Higgsino;LSP;Q-ball;Wino
+candidate_validation_development-0164,2005PhRvD..72g7701W,development,LSP,True,Gravitino;LSP
+candidate_validation_development-0165,2011PhLB..705...87A,development,LSP,True,LSP;Neutralino
+candidate_validation_development-0166,2007arXiv0710.2508G,development,LSP,True,LSP;Sneutrino
+candidate_validation_development-0167,2020ForPh..6800028H,development,LSP,True,LSP;Neutralino
+candidate_validation_development-0168,2019PhRvD..99g5020C,development,LSP,True,Bino;Higgsino;LSP
+candidate_validation_development-0169,2011PhRvD..84c5005O,development,LSP,True,Gravitino;LSP
+candidate_validation_development-0170,2011PhRvD..83k5005K,development,LSP,True,LSP;Neutralino
+candidate_validation_development-0171,2001IJMPA..16S.849M,development,LSP,True,Axion + ALP;Gravitino;LSP
+candidate_validation_development-0172,2009PhRvD..79i1701C,development,LSP,True,LSP;Neutralino
+candidate_validation_development-0173,2015EPJC...75..500B,development,LSP,True,Higgsino;LSP;Neutralino
+candidate_validation_development-0174,2012JHEP...07..149G,development,LSP,True,LSP
+candidate_validation_development-0175,2002dmap.conf..217V,development,LSP,True,LSP
+candidate_validation_development-0176,2024EPJC...84..788E,development,LSP,True,Higgsino;LSP;Neutralino
+candidate_validation_development-0177,2002hep.ph...10142D,development,LSP,True,LSP
+candidate_validation_development-0178,2010JHEP...05..051A,development,LSP,True,LSP
+candidate_validation_development-0179,2003idm..conf...45H,development,LSP,True,Axion + ALP;LSP;Neutralino
+candidate_validation_development-0180,2003PhLB..565..176E,development,LSP,True,LSP
+candidate_validation_holdout_population-0001,2001ApJ...557..137J,holdout-population,population sample,False,
+candidate_validation_holdout_population-0002,1999NuPhS..72...88B,holdout-population,population sample,True,Axion + ALP
+candidate_validation_holdout_population-0003,1997idm..work...73G,holdout-population,population sample,False,
+candidate_validation_holdout_population-0004,1999ASPC..181..227H,holdout-population,population sample,False,
+candidate_validation_holdout_population-0005,2001A&A...375..761B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0006,2003ApJ...597L..89F,holdout-population,population sample,False,
+candidate_validation_holdout_population-0007,1996astro.ph..6166Z,holdout-population,population sample,True,MACHO
+candidate_validation_holdout_population-0008,2003RMxAC..17...22G,holdout-population,population sample,False,
+candidate_validation_holdout_population-0009,2004GReGr..36.2559F,holdout-population,population sample,False,
+candidate_validation_holdout_population-0010,2000AJ....119.2789K,holdout-population,population sample,False,
+candidate_validation_holdout_population-0011,2002ApJ...566....9Z,holdout-population,population sample,False,
+candidate_validation_holdout_population-0012,2004bdmh.confE..55S,holdout-population,population sample,False,
+candidate_validation_holdout_population-0013,2003ApJ...583..695G,holdout-population,population sample,False,
+candidate_validation_holdout_population-0014,2003PhRvD..67f3501K,holdout-population,population sample,False,
+candidate_validation_holdout_population-0015,1998ApJ...497..573G,holdout-population,population sample,False,
+candidate_validation_holdout_population-0016,2002ApJ...572..178S,holdout-population,population sample,False,
+candidate_validation_holdout_population-0017,2003astro.ph.10302H,holdout-population,population sample,False,
+candidate_validation_holdout_population-0018,2001astro.ph..4055R,holdout-population,population sample,False,
+candidate_validation_holdout_population-0019,1995A&A...303...27K,holdout-population,population sample,False,
+candidate_validation_holdout_population-0020,2004AJ....127..914S,holdout-population,population sample,False,
+candidate_validation_holdout_population-0021,2004PhRvD..70f1501F,holdout-population,population sample,False,
+candidate_validation_holdout_population-0022,2000MNRAS.318.1189D,holdout-population,population sample,False,
+candidate_validation_holdout_population-0023,2001canp.book..287P,holdout-population,population sample,False,
+candidate_validation_holdout_population-0024,2001AJ....121..625B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0025,1997ApJ...490..473Z,holdout-population,population sample,False,
+candidate_validation_holdout_population-0026,2001PhRvD..64l3512W,holdout-population,population sample,False,
+candidate_validation_holdout_population-0027,1999ApJ...510..523P,holdout-population,population sample,False,
+candidate_validation_holdout_population-0028,1999astro.ph..3033Z,holdout-population,population sample,False,
+candidate_validation_holdout_population-0029,2004ApJ...602...12Z,holdout-population,population sample,False,
+candidate_validation_holdout_population-0030,2004PhRvL..93l1301M,holdout-population,population sample,True,Axion + ALP
+candidate_validation_holdout_population-0031,2002ApJ...577...22C,holdout-population,population sample,False,
+candidate_validation_holdout_population-0032,2001ApJ...555..563C,holdout-population,population sample,False,
+candidate_validation_holdout_population-0033,2001PhRvL..88b1302B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0034,1999PhRvL..83.1719G,holdout-population,population sample,False,
+candidate_validation_holdout_population-0035,1996MNRAS.278..829G,holdout-population,population sample,False,
+candidate_validation_holdout_population-0036,2003sf2a.conf..243C,holdout-population,population sample,False,
+candidate_validation_holdout_population-0037,1997ASPC..116..545K,holdout-population,population sample,False,
+candidate_validation_holdout_population-0038,1999MNRAS.306..575D,holdout-population,population sample,False,
+candidate_validation_holdout_population-0039,1997ApJ...475..393B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0040,2004AJ....128..121V,holdout-population,population sample,False,
+candidate_validation_holdout_population-0041,2004astro.ph..2290D,holdout-population,population sample,False,
+candidate_validation_holdout_population-0042,1995A&A...298..661B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0043,2003ApJ...588..311W,holdout-population,population sample,False,
+candidate_validation_holdout_population-0044,2002PhRvD..66f3502H,holdout-population,population sample,False,
+candidate_validation_holdout_population-0045,1995ApJ...454...15S,holdout-population,population sample,False,
+candidate_validation_holdout_population-0046,2003AJ....125..188B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0047,2014ApJ...782..115M,holdout-population,population sample,False,
+candidate_validation_holdout_population-0048,2011ApJ...727L..31S,holdout-population,population sample,False,
+candidate_validation_holdout_population-0049,2009MNRAS.394L..11S,holdout-population,population sample,False,
+candidate_validation_holdout_population-0050,2008PhRvD..77b5007A,holdout-population,population sample,False,
+candidate_validation_holdout_population-0051,2012PhLB..712..147C,holdout-population,population sample,False,
+candidate_validation_holdout_population-0052,2010amjs.conf..127K,holdout-population,population sample,False,
+candidate_validation_holdout_population-0053,2010EPJC...69..581P,holdout-population,population sample,False,
+candidate_validation_holdout_population-0054,2013arXiv1303.3211S,holdout-population,population sample,False,
+candidate_validation_holdout_population-0055,2014JPhCS.496a2023M,holdout-population,population sample,True,Generic WIMP
+candidate_validation_holdout_population-0056,2012JCAP...07..032H,holdout-population,population sample,False,
+candidate_validation_holdout_population-0057,2006ApJ...652..857K,holdout-population,population sample,False,
+candidate_validation_holdout_population-0058,2014arXiv1403.6835V,holdout-population,population sample,False,
+candidate_validation_holdout_population-0059,2009MNRAS.397.2070M,holdout-population,population sample,False,
+candidate_validation_holdout_population-0060,2014MNRAS.443.1973V,holdout-population,population sample,False,
+candidate_validation_holdout_population-0061,2012ApJ...752..120A,holdout-population,population sample,False,
+candidate_validation_holdout_population-0062,2005A&A...438..491D,holdout-population,population sample,False,
+candidate_validation_holdout_population-0063,2009MNRAS.400..183K,holdout-population,population sample,False,
+candidate_validation_holdout_population-0064,2014ApJ...783...49H,holdout-population,population sample,False,
+candidate_validation_holdout_population-0065,2011AJ....142...35P,holdout-population,population sample,False,
+candidate_validation_holdout_population-0066,2014BrJPh..44..600T,holdout-population,population sample,False,
+candidate_validation_holdout_population-0067,2014MNRAS.439..342G,holdout-population,population sample,False,
+candidate_validation_holdout_population-0068,2009MNRAS.398..591S,holdout-population,population sample,False,
+candidate_validation_holdout_population-0069,2008ApJ...679L..65C,holdout-population,population sample,False,
+candidate_validation_holdout_population-0070,2010MNRAS.406..896B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0071,2009A&A...499..737B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0072,2007PASA...24...95F,holdout-population,population sample,False,
+candidate_validation_holdout_population-0073,2006MNRAS.365..902M,holdout-population,population sample,False,
+candidate_validation_holdout_population-0074,2009JCAP...10..010G,holdout-population,population sample,False,
+candidate_validation_holdout_population-0075,2010APh....32..318L,holdout-population,population sample,False,
+candidate_validation_holdout_population-0076,2011RMxAA..47..235R,holdout-population,population sample,False,
+candidate_validation_holdout_population-0077,2012ApJ...753...56B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0078,2013MNRAS.431.1528B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0079,2005NewA...10..491H,holdout-population,population sample,False,
+candidate_validation_holdout_population-0080,2008AJ....136.1013K,holdout-population,population sample,False,
+candidate_validation_holdout_population-0081,2013NewA...19...89D,holdout-population,population sample,False,
+candidate_validation_holdout_population-0082,2005PhLB..609..194P,holdout-population,population sample,False,
+candidate_validation_holdout_population-0083,2009MNRAS.393..808M,holdout-population,population sample,False,
+candidate_validation_holdout_population-0084,2007ApJ...670.1000H,holdout-population,population sample,False,
+candidate_validation_holdout_population-0085,2014Ap&SS.354..525J,holdout-population,population sample,False,
+candidate_validation_holdout_population-0086,2013ApJ...763...52H,holdout-population,population sample,False,
+candidate_validation_holdout_population-0087,2008NuPhB.805..207D,holdout-population,population sample,False,
+candidate_validation_holdout_population-0088,2005ApJ...630..689B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0089,2009MNRAS.400L..61S,holdout-population,population sample,False,
+candidate_validation_holdout_population-0090,2012IJMPD..2150005L,holdout-population,population sample,False,
+candidate_validation_holdout_population-0091,2005PhRvD..72d3006L,holdout-population,population sample,False,
+candidate_validation_holdout_population-0092,2008MPLA...23.2125B,holdout-population,population sample,True,Axino;Gravitino;Sterile nu
+candidate_validation_holdout_population-0093,2005pmbh.confE...1A,holdout-population,population sample,False,
+candidate_validation_holdout_population-0094,2009ApJ...691..633T,holdout-population,population sample,False,
+candidate_validation_holdout_population-0095,2014PhRvL.112y1301X,holdout-population,population sample,False,
+candidate_validation_holdout_population-0096,2005IAUS..225..123A,holdout-population,population sample,False,
+candidate_validation_holdout_population-0097,2011MNRAS.413.2621F,holdout-population,population sample,False,
+candidate_validation_holdout_population-0098,2008NewA...13..599B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0099,2006PhRvL..96b1301C,holdout-population,population sample,False,
+candidate_validation_holdout_population-0100,2006MNRAS.370.1125D,holdout-population,population sample,False,
+candidate_validation_holdout_population-0101,2009arXiv0904.3393M,holdout-population,population sample,True,Quark Nugget / AQN
+candidate_validation_holdout_population-0102,2009astro2010S.314S,holdout-population,population sample,False,
+candidate_validation_holdout_population-0103,2008SerAJ.177...15C,holdout-population,population sample,False,
+candidate_validation_holdout_population-0104,2014MNRAS.441L..11B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0105,2006ApJ...650..669V,holdout-population,population sample,False,
+candidate_validation_holdout_population-0106,2013MNRAS.436..854B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0107,2013arXiv1306.5259A,holdout-population,population sample,False,
+candidate_validation_holdout_population-0108,2007ApJ...659...69A,holdout-population,population sample,False,
+candidate_validation_holdout_population-0109,2008A&A...487...63W,holdout-population,population sample,False,
+candidate_validation_holdout_population-0110,2013AJ....145..138B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0111,2005gbha.conf..386S,holdout-population,population sample,False,
+candidate_validation_holdout_population-0112,2014PhRvD..89l3507B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0113,2008A&A...478..335B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0114,2005astro.ph..7399K,holdout-population,population sample,False,
+candidate_validation_holdout_population-0115,2011ApJ...727L..39T,holdout-population,population sample,False,
+candidate_validation_holdout_population-0116,2013A&A...556A..54V,holdout-population,population sample,False,
+candidate_validation_holdout_population-0117,2012MPLA...2730034H,holdout-population,population sample,False,
+candidate_validation_holdout_population-0118,2008MNRAS.384.1567M,holdout-population,population sample,False,
+candidate_validation_holdout_population-0119,2012ApJ...753L..15M,holdout-population,population sample,False,
+candidate_validation_holdout_population-0120,2009PhRvD..79d3502C,holdout-population,population sample,False,
+candidate_validation_holdout_population-0121,2006ApJ...650L..41Z,holdout-population,population sample,False,
+candidate_validation_holdout_population-0122,2012MNRAS.423.2279C,holdout-population,population sample,False,
+candidate_validation_holdout_population-0123,2009ApJ...697.1946L,holdout-population,population sample,False,
+candidate_validation_holdout_population-0124,2011MNRAS.412.1081W,holdout-population,population sample,False,
+candidate_validation_holdout_population-0125,2009MNRAS.394.1109C,holdout-population,population sample,False,
+candidate_validation_holdout_population-0126,2012PhRvD..85j3502M,holdout-population,population sample,False,
+candidate_validation_holdout_population-0127,2011MNRAS.415.1549G,holdout-population,population sample,False,
+candidate_validation_holdout_population-0128,2010PNAS..107.7168W,holdout-population,population sample,False,
+candidate_validation_holdout_population-0129,2010ApJ...711..907M,holdout-population,population sample,False,
+candidate_validation_holdout_population-0130,2010CQGra..27l4008C,holdout-population,population sample,False,
+candidate_validation_holdout_population-0131,2011PhRvD..83d3502E,holdout-population,population sample,False,
+candidate_validation_holdout_population-0132,2005ApJ...633..589S,holdout-population,population sample,False,
+candidate_validation_holdout_population-0133,2005ASPC..339..140M,holdout-population,population sample,False,
+candidate_validation_holdout_population-0134,2008PASJ...60.1249N,holdout-population,population sample,False,
+candidate_validation_holdout_population-0135,2005PhLB..628....1A,holdout-population,population sample,False,
+candidate_validation_holdout_population-0136,2007ApJS..172..203R,holdout-population,population sample,False,
+candidate_validation_holdout_population-0137,2011ApJ...730...38V,holdout-population,population sample,False,
+candidate_validation_holdout_population-0138,2013MNRAS.434.1964S,holdout-population,population sample,False,
+candidate_validation_holdout_population-0139,2005dmap.conf..523S,holdout-population,population sample,True,Axion + ALP
+candidate_validation_holdout_population-0140,2014A&A...563A..37B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0141,2014MNRAS.438.1377S,holdout-population,population sample,False,
+candidate_validation_holdout_population-0142,2007PhRvD..76d3527K,holdout-population,population sample,False,
+candidate_validation_holdout_population-0143,2015MNRAS.449.1897O,holdout-population,population sample,False,
+candidate_validation_holdout_population-0144,2020A&A...634A..81B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0145,2024MNRAS.529.4325B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0146,2024ApJ...961...92S,holdout-population,population sample,False,
+candidate_validation_holdout_population-0147,2025PhRvD.112f3517Y,holdout-population,population sample,False,
+candidate_validation_holdout_population-0148,2016MNRAS.456.3542T,holdout-population,population sample,False,
+candidate_validation_holdout_population-0149,2021ApJ...910..152Z,holdout-population,population sample,False,
+candidate_validation_holdout_population-0150,2025MNRAS.543.4286B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0151,2025ApJ...990L..13U,holdout-population,population sample,False,
+candidate_validation_holdout_population-0152,2024arXiv240606827B,holdout-population,population sample,True,PBH
+candidate_validation_holdout_population-0153,2022MNRAS.515.3383D,holdout-population,population sample,False,
+candidate_validation_holdout_population-0154,2017MNRAS.472.2009Q,holdout-population,population sample,False,
+candidate_validation_holdout_population-0155,2025arXiv250702046V,holdout-population,population sample,True,PBH
+candidate_validation_holdout_population-0156,2020ARA&A..58..617O,holdout-population,population sample,False,
+candidate_validation_holdout_population-0157,2024ApJ...970..102C,holdout-population,population sample,False,
+candidate_validation_holdout_population-0158,2021MNRAS.501.2704J,holdout-population,population sample,False,
+candidate_validation_holdout_population-0159,2017ApJ...849...54L,holdout-population,population sample,False,
+candidate_validation_holdout_population-0160,2024MNRAS.528.3992N,holdout-population,population sample,False,
+candidate_validation_holdout_population-0161,2023arXiv230212917C,holdout-population,population sample,False,
+candidate_validation_holdout_population-0162,2019JCAP...09..020O,holdout-population,population sample,False,
+candidate_validation_holdout_population-0163,2016RAA....16..125L,holdout-population,population sample,False,
+candidate_validation_holdout_population-0164,2019Galax...7...65S,holdout-population,population sample,False,
+candidate_validation_holdout_population-0165,2016ASSL..418..431K,holdout-population,population sample,False,
+candidate_validation_holdout_population-0166,2015arXiv150801851T,holdout-population,population sample,False,
+candidate_validation_holdout_population-0167,2020MNRAS.498..235H,holdout-population,population sample,False,
+candidate_validation_holdout_population-0168,2018IAUS..333..228L,holdout-population,population sample,False,
+candidate_validation_holdout_population-0169,2019MNRAS.490.4292B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0170,2017nacs.book..125S,holdout-population,population sample,False,
+candidate_validation_holdout_population-0171,2024arXiv241108113P,holdout-population,population sample,False,
+candidate_validation_holdout_population-0172,2021MNRAS.507.3089D,holdout-population,population sample,False,
+candidate_validation_holdout_population-0173,2023A&A...679A.144E,holdout-population,population sample,False,
+candidate_validation_holdout_population-0174,2016SPIE.9906E..5XN,holdout-population,population sample,False,
+candidate_validation_holdout_population-0175,2018A&A...614A..48B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0176,2015AcASn..56S..82X,holdout-population,population sample,False,
+candidate_validation_holdout_population-0177,2016JCAP...02..001O,holdout-population,population sample,False,
+candidate_validation_holdout_population-0178,2023chep.confE..95T,holdout-population,population sample,False,
+candidate_validation_holdout_population-0179,2020arXiv200616263W,holdout-population,population sample,False,
+candidate_validation_holdout_population-0180,2018AdSpR..62.2828M,holdout-population,population sample,False,
+candidate_validation_holdout_population-0181,2024MNRAS.535.1625J,holdout-population,population sample,False,
+candidate_validation_holdout_population-0182,2024ApJ...965..154G,holdout-population,population sample,False,
+candidate_validation_holdout_population-0183,2016arXiv160200818H,holdout-population,population sample,False,
+candidate_validation_holdout_population-0184,2015Ap&SS.356..347M,holdout-population,population sample,False,
+candidate_validation_holdout_population-0185,2025arXiv250722793Q,holdout-population,population sample,False,
+candidate_validation_holdout_population-0186,2019MNRAS.485.2026B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0187,2022MNRAS.509.3004E,holdout-population,population sample,False,
+candidate_validation_holdout_population-0188,2024MNRAS.530.3458V,holdout-population,population sample,False,
+candidate_validation_holdout_population-0189,2023MNRAS.525.3790D,holdout-population,population sample,False,
+candidate_validation_holdout_population-0190,2019MNRAS.490..135L,holdout-population,population sample,False,
+candidate_validation_holdout_population-0191,2023MNRAS.524.2015R,holdout-population,population sample,True,ULA / Fuzzy
+candidate_validation_holdout_population-0192,2018APh...102...51K,holdout-population,population sample,False,
+candidate_validation_holdout_population-0193,2025arXiv250911846M,holdout-population,population sample,False,
+candidate_validation_holdout_population-0194,2021MNRAS.506.1595G,holdout-population,population sample,False,
+candidate_validation_holdout_population-0195,2019MNRAS.489.4347O,holdout-population,population sample,False,
+candidate_validation_holdout_population-0196,2024MNRAS.534.3155P,holdout-population,population sample,False,
+candidate_validation_holdout_population-0197,2018MNRAS.473..585R,holdout-population,population sample,False,
+candidate_validation_holdout_population-0198,2018ApJS..237...32A,holdout-population,population sample,False,
+candidate_validation_holdout_population-0199,2019MNRAS.483.3950H,holdout-population,population sample,False,
+candidate_validation_holdout_population-0200,2022arXiv221009532N,holdout-population,population sample,False,
+candidate_validation_holdout_population-0201,2024EPJP..139..185Y,holdout-population,population sample,False,
+candidate_validation_holdout_population-0202,2016ApJ...824..140R,holdout-population,population sample,False,
+candidate_validation_holdout_population-0203,2020MNRAS.493..337B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0204,2015aska.confE..67P,holdout-population,population sample,False,
+candidate_validation_holdout_population-0205,2019BAAS...51c.249H,holdout-population,population sample,False,
+candidate_validation_holdout_population-0206,2021MNRAS.502.5104L,holdout-population,population sample,False,
+candidate_validation_holdout_population-0207,2025A&A...697A.138S,holdout-population,population sample,False,
+candidate_validation_holdout_population-0208,2025arXiv250118813M,holdout-population,population sample,False,
+candidate_validation_holdout_population-0209,2025arXiv250907453Z,holdout-population,population sample,False,
+candidate_validation_holdout_population-0210,2018JCAP...10..039C,holdout-population,population sample,False,
+candidate_validation_holdout_population-0211,2022A&A...663A.171W,holdout-population,population sample,False,
+candidate_validation_holdout_population-0212,2015A&A...575A..69A,holdout-population,population sample,False,
+candidate_validation_holdout_population-0213,2017MNRAS.466..921C,holdout-population,population sample,False,
+candidate_validation_holdout_population-0214,2023A&A...675A..76M,holdout-population,population sample,False,
+candidate_validation_holdout_population-0215,2017ApJ...849..156C,holdout-population,population sample,False,
+candidate_validation_holdout_population-0216,2020MNRAS.493.3676O,holdout-population,population sample,False,
+candidate_validation_holdout_population-0217,2018ApJ...855....4K,holdout-population,population sample,False,
+candidate_validation_holdout_population-0218,2024A&A...686A.212H,holdout-population,population sample,False,
+candidate_validation_holdout_population-0219,2015MNRAS.450.3472R,holdout-population,population sample,False,
+candidate_validation_holdout_population-0220,2019arXiv190110690B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0221,2025ApJ...992L..35B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0222,2015JCAP...09..029A,holdout-population,population sample,False,
+candidate_validation_holdout_population-0223,2015JCAP...10..068A,holdout-population,population sample,True,Generic WIMP
+candidate_validation_holdout_population-0224,2019MNRAS.483..947D,holdout-population,population sample,False,
+candidate_validation_holdout_population-0225,2019ARep...63..527B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0226,2021MNRAS.505.4762J,holdout-population,population sample,False,
+candidate_validation_holdout_population-0227,2019arXiv190909815L,holdout-population,population sample,False,
+candidate_validation_holdout_population-0228,2015MNRAS.453..899M,holdout-population,population sample,False,
+candidate_validation_holdout_population-0229,2025arXiv250718054C,holdout-population,population sample,False,
+candidate_validation_holdout_population-0230,2020ApJ...895..130B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0231,2015MNRAS.446..299M,holdout-population,population sample,False,
+candidate_validation_holdout_population-0232,2020MNRAS.498.2645M,holdout-population,population sample,False,
+candidate_validation_holdout_population-0233,2023arXiv230914202H,holdout-population,population sample,False,
+candidate_validation_holdout_population-0234,2019PhRvD.100d3013Y,holdout-population,population sample,False,
+candidate_validation_holdout_population-0235,2015ApJ...805....1B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0236,2019MNRAS.489.4669S,holdout-population,population sample,False,
+candidate_validation_holdout_population-0237,2018ApJ...863...21Y,holdout-population,population sample,False,
+candidate_validation_holdout_population-0238,2023ApJ...956..128G,holdout-population,population sample,False,
+candidate_validation_holdout_population-0239,2023PhRvD.107f3526V,holdout-population,population sample,True,Axion + ALP;ULA / Fuzzy
+candidate_validation_holdout_population-0240,2021inas.book..245A,holdout-population,population sample,False,
+candidate_validation_holdout_population-0241,2025MNRAS.538.1415S,holdout-population,population sample,False,
+candidate_validation_holdout_population-0242,2024AJ....167...49W,holdout-population,population sample,False,
+candidate_validation_holdout_population-0243,2023arXiv231006265U,holdout-population,population sample,False,
+candidate_validation_holdout_population-0244,2025ApJ...994..124C,holdout-population,population sample,False,
+candidate_validation_holdout_population-0245,2021PhRvD.103j3522J,holdout-population,population sample,False,
+candidate_validation_holdout_population-0246,2019MNRAS.482.4906P,holdout-population,population sample,False,
+candidate_validation_holdout_population-0247,2023MNRAS.522.2801T,holdout-population,population sample,False,
+candidate_validation_holdout_population-0248,2016pcre.conf..411R,holdout-population,population sample,False,
+candidate_validation_holdout_population-0249,2021RAA....21..152L,holdout-population,population sample,False,
+candidate_validation_holdout_population-0250,2023MNRAS.520.5746A,holdout-population,population sample,False,
+candidate_validation_holdout_population-0251,2019A&A...625A.119M,holdout-population,population sample,False,
+candidate_validation_holdout_population-0252,2020IAUS..352...55A,holdout-population,population sample,False,
+candidate_validation_holdout_population-0253,2015AN....336..505P,holdout-population,population sample,False,
+candidate_validation_holdout_population-0254,2017MNRAS.464.1948F,holdout-population,population sample,False,
+candidate_validation_holdout_population-0255,2015arXiv151107597Y,holdout-population,population sample,True,Generic WIMP
+candidate_validation_holdout_population-0256,2020PhRvD.102d3507H,holdout-population,population sample,False,
+candidate_validation_holdout_population-0257,2025ApJ...990...75H,holdout-population,population sample,False,
+candidate_validation_holdout_population-0258,2024arXiv240816579Y,holdout-population,population sample,True,PBH
+candidate_validation_holdout_population-0259,2022PhRvD.106d3516Y,holdout-population,population sample,True,Generic WIMP;PBH
+candidate_validation_holdout_population-0260,2017MNRAS.470.4646S,holdout-population,population sample,False,
+candidate_validation_holdout_population-0261,2018NIMPA.884...40L,holdout-population,population sample,False,
+candidate_validation_holdout_population-0262,2018MNRAS.481.3266D,holdout-population,population sample,False,
+candidate_validation_holdout_population-0263,2016A&A...588A..21R,holdout-population,population sample,False,
+candidate_validation_holdout_population-0264,2016EPJC...76..531A,holdout-population,population sample,False,
+candidate_validation_holdout_population-0265,2017IAUS..325..166C,holdout-population,population sample,False,
+candidate_validation_holdout_population-0266,2021ApJ...923L..27S,holdout-population,population sample,False,
+candidate_validation_holdout_population-0267,2025MNRAS.542.3346B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0268,2020arXiv200507281B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0269,2018arXiv181205228R,holdout-population,population sample,False,
+candidate_validation_holdout_population-0270,2025PhRvD.111d1303W,holdout-population,population sample,False,
+candidate_validation_holdout_population-0271,2020MNRAS.496.2262K,holdout-population,population sample,False,
+candidate_validation_holdout_population-0272,2017JCAP...10..038B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0273,2025MNRAS.543.3849E,holdout-population,population sample,False,
+candidate_validation_holdout_population-0274,2024A&A...689A.146B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0275,2025arXiv251024669V,holdout-population,population sample,False,
+candidate_validation_holdout_population-0276,2020MPLA...3550155L,holdout-population,population sample,False,
+candidate_validation_holdout_population-0277,2018MNRAS.474.4039M,holdout-population,population sample,False,
+candidate_validation_holdout_population-0278,2023A&A...673A..88A,holdout-population,population sample,True,PBH
+candidate_validation_holdout_population-0279,2022MNRAS.511.5878G,holdout-population,population sample,False,
+candidate_validation_holdout_population-0280,2022ApJ...937L..21Z,holdout-population,population sample,False,
+candidate_validation_holdout_population-0281,2019MNRAS.489.4992D,holdout-population,population sample,False,
+candidate_validation_holdout_population-0282,2020MNRAS.497.4311E,holdout-population,population sample,False,
+candidate_validation_holdout_population-0283,2020JAI.....950008D,holdout-population,population sample,False,
+candidate_validation_holdout_population-0284,2022MNRAS.511.1484I,holdout-population,population sample,False,
+candidate_validation_holdout_population-0285,2023A&A...669A.125T,holdout-population,population sample,False,
+candidate_validation_holdout_population-0286,2024CQGra..41o5002L,holdout-population,population sample,False,
+candidate_validation_holdout_population-0287,2024arXiv241001471A,holdout-population,population sample,False,
+candidate_validation_holdout_population-0288,2023arXiv231017810A,holdout-population,population sample,False,
+candidate_validation_holdout_population-0289,2019JCAP...12..049R,holdout-population,population sample,False,
+candidate_validation_holdout_population-0290,2024arXiv241100057P,holdout-population,population sample,False,
+candidate_validation_holdout_population-0291,2021MNRAS.505.5327T,holdout-population,population sample,False,
+candidate_validation_holdout_population-0292,2020MNRAS.493.5913L,holdout-population,population sample,False,
+candidate_validation_holdout_population-0293,2025arXiv250412460L,holdout-population,population sample,False,
+candidate_validation_holdout_population-0294,2018RNAAS...2...62L,holdout-population,population sample,False,
+candidate_validation_holdout_population-0295,2019MNRAS.485.5010B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0296,2020ApJ...895...95P,holdout-population,population sample,False,
+candidate_validation_holdout_population-0297,2025ApJ...980L..27I,holdout-population,population sample,False,
+candidate_validation_holdout_population-0298,2021MNRAS.502.3685A,holdout-population,population sample,False,
+candidate_validation_holdout_population-0299,2022MNRAS.514.1335S,holdout-population,population sample,False,
+candidate_validation_holdout_population-0300,2025arXiv251025824B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0301,2017PhRvD..95l3514S,holdout-population,population sample,False,
+candidate_validation_holdout_population-0302,2020PDU....2700462Y,holdout-population,population sample,False,
+candidate_validation_holdout_population-0303,2025arXiv250315307E,holdout-population,population sample,False,
+candidate_validation_holdout_population-0304,2016IJMPD..2550056B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0305,2019MNRAS.488.4779C,holdout-population,population sample,False,
+candidate_validation_holdout_population-0306,2024PhRvD.109f3031S,holdout-population,population sample,False,
+candidate_validation_holdout_population-0307,2022JCAP...03..066W,holdout-population,population sample,False,
+candidate_validation_holdout_population-0308,2016A&A...591A..56B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0309,2023ApJ...943...68L,holdout-population,population sample,False,
+candidate_validation_holdout_population-0310,2025MNRAS.538..114S,holdout-population,population sample,False,
+candidate_validation_holdout_population-0311,2019A&A...625A..70Q,holdout-population,population sample,False,
+candidate_validation_holdout_population-0312,2016MNRAS.463..170C,holdout-population,population sample,False,
+candidate_validation_holdout_population-0313,2004PhLB..581....9E,holdout-population,population sample,True,Gravitino;Sneutrino
+candidate_validation_holdout_population-0314,2000PhLB..489..163C,holdout-population,population sample,True,LSP;Neutralino;Sneutrino
+candidate_validation_holdout_population-0315,2004NuPhB.700..205G,holdout-population,population sample,False,
+candidate_validation_holdout_population-0316,2001PhLB..512..203K,holdout-population,population sample,False,
+candidate_validation_holdout_population-0317,2000PrPNP..45....1F,holdout-population,population sample,False,
+candidate_validation_holdout_population-0318,2001PhRvD..64d3502S,holdout-population,population sample,True,Generic WIMP;Sneutrino
+candidate_validation_holdout_population-0319,1999PhRvD..61b3509S,holdout-population,population sample,True,Generic WIMP
+candidate_validation_holdout_population-0320,2002PhR...363..223B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0321,1999AcPPB..30..227K,holdout-population,population sample,True,Sterile nu
+candidate_validation_holdout_population-0322,2002PhRvD..65f3509K,holdout-population,population sample,False,
+candidate_validation_holdout_population-0323,1998PhLB..439..345M,holdout-population,population sample,True,Axion + ALP
+candidate_validation_holdout_population-0324,2000EPJC...13..117H,holdout-population,population sample,False,
+candidate_validation_holdout_population-0325,1999PhRvD..60g3010W,holdout-population,population sample,False,
+candidate_validation_holdout_population-0326,1997PhRvD..56.1522W,holdout-population,population sample,False,
+candidate_validation_holdout_population-0327,2001PhLB..518..252M,holdout-population,population sample,True,Sterile nu
+candidate_validation_holdout_population-0328,1999hep.ex....1018P,holdout-population,population sample,False,
+candidate_validation_holdout_population-0329,1997NuPhS..52...97P,holdout-population,population sample,False,
+candidate_validation_holdout_population-0330,2003NuPhB.674..271D,holdout-population,population sample,False,
+candidate_validation_holdout_population-0331,2003hep.ph....7187C,holdout-population,population sample,False,
+candidate_validation_holdout_population-0332,2001JPhG...27.2275C,holdout-population,population sample,False,
+candidate_validation_holdout_population-0333,2001NuPhB.603..231C,holdout-population,population sample,True,Neutralino
+candidate_validation_holdout_population-0334,2003IJMPA..18....7L,holdout-population,population sample,False,
+candidate_validation_holdout_population-0335,1998NCimB.113..621P,holdout-population,population sample,False,
+candidate_validation_holdout_population-0336,2004PhRvD..69k5009P,holdout-population,population sample,True,Bino;LSP;Neutralino
+candidate_validation_holdout_population-0337,2001hep.ph...11030H,holdout-population,population sample,False,
+candidate_validation_holdout_population-0338,2001EPJC...22..535B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0339,2000PhLB..487..294I,holdout-population,population sample,True,Mirror DM
+candidate_validation_holdout_population-0340,2003hep.th....6269N,holdout-population,population sample,False,
+candidate_validation_holdout_population-0341,2002PhRvC..66a5802S,holdout-population,population sample,False,
+candidate_validation_holdout_population-0342,2001PhLB..502..171E,holdout-population,population sample,True,Neutralino
+candidate_validation_holdout_population-0343,2010PhRvD..82a3004B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0344,2013JHEP...07..158W,holdout-population,population sample,True,Sneutrino
+candidate_validation_holdout_population-0345,2008PhRvD..78i4022H,holdout-population,population sample,False,
+candidate_validation_holdout_population-0346,2005PhRvD..72d3512D,holdout-population,population sample,False,
+candidate_validation_holdout_population-0347,2007arXiv0708.4089B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0348,2006AIPC..847..140V,holdout-population,population sample,False,
+candidate_validation_holdout_population-0349,2008PhRvD..77f3514B,holdout-population,population sample,True,Generic WIMP;Gravitino;Sneutrino
+candidate_validation_holdout_population-0350,2014PhRvD..89b4021C,holdout-population,population sample,False,
+candidate_validation_holdout_population-0351,2013PTEP.2013d3B02N,holdout-population,population sample,False,
+candidate_validation_holdout_population-0352,2010PhRvL.104j1301C,holdout-population,population sample,False,
+candidate_validation_holdout_population-0353,2005AcPPB..36..699W,holdout-population,population sample,False,
+candidate_validation_holdout_population-0354,2011JCAP...05..018F,holdout-population,population sample,True,Neutralino
+candidate_validation_holdout_population-0355,2009PhRvD..80c5026M,holdout-population,population sample,False,
+candidate_validation_holdout_population-0356,2014NuPhB.884..632D,holdout-population,population sample,False,
+candidate_validation_holdout_population-0357,2014PhLB..728..489F,holdout-population,population sample,True,Sterile nu
+candidate_validation_holdout_population-0358,2012PhRvD..85e4510B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0359,2011EPJC...71.1662M,holdout-population,population sample,False,
+candidate_validation_holdout_population-0360,2011AIPC.1343..595C,holdout-population,population sample,True,Generic WIMP
+candidate_validation_holdout_population-0361,2010JHEP...02..018K,holdout-population,population sample,False,
+candidate_validation_holdout_population-0362,2006hep.ph...11056Y,holdout-population,population sample,False,
+candidate_validation_holdout_population-0363,2013arXiv1304.4279C,holdout-population,population sample,True,Generic WIMP
+candidate_validation_holdout_population-0364,2007PhRvD..76l5023J,holdout-population,population sample,False,
+candidate_validation_holdout_population-0365,2005PhRvD..71g3014M,holdout-population,population sample,True,Higgsino;Neutralino
+candidate_validation_holdout_population-0366,2012JHEP...05..155C,holdout-population,population sample,False,
+candidate_validation_holdout_population-0367,2013arXiv1311.1724A,holdout-population,population sample,False,
+candidate_validation_holdout_population-0368,2011JCAP...09..004A,holdout-population,population sample,False,
+candidate_validation_holdout_population-0369,2005hep.ph....7003S,holdout-population,population sample,True,Axino;Gravitino;LSP
+candidate_validation_holdout_population-0370,2013JHEP...01..122C,holdout-population,population sample,False,
+candidate_validation_holdout_population-0371,2010NCimC..33b.151A,holdout-population,population sample,False,
+candidate_validation_holdout_population-0372,2013PhRvD..87g4004S,holdout-population,population sample,True,Gravitino;Neutralino
+candidate_validation_holdout_population-0373,2008PhRvD..78g1701B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0374,2013arXiv1305.1235B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0375,2013arXiv1301.1457D,holdout-population,population sample,True,Generic WIMP
+candidate_validation_holdout_population-0376,2007PhRvD..75i5003H,holdout-population,population sample,False,
+candidate_validation_holdout_population-0377,2014JHEP...01..072C,holdout-population,population sample,True,Higgsino;Neutralino
+candidate_validation_holdout_population-0378,2009arXiv0902.0108M,holdout-population,population sample,False,
+candidate_validation_holdout_population-0379,2009CoPhC.180..312L,holdout-population,population sample,True,Neutralino
+candidate_validation_holdout_population-0380,2013JHEP...08..068C,holdout-population,population sample,True,Bino
+candidate_validation_holdout_population-0381,2014arXiv1410.5462G,holdout-population,population sample,False,
+candidate_validation_holdout_population-0382,2007AcPPB..38..645M,holdout-population,population sample,True,Gravitino
+candidate_validation_holdout_population-0383,2010EPJC...69..599D,holdout-population,population sample,False,
+candidate_validation_holdout_population-0384,2011PhRvL.107s1803A,holdout-population,population sample,False,
+candidate_validation_holdout_population-0385,2025arXiv250922564B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0386,2021arXiv210213290C,holdout-population,population sample,False,
+candidate_validation_holdout_population-0387,2020arXiv200709143O,holdout-population,population sample,False,
+candidate_validation_holdout_population-0388,2018PhRvD..97i5013P,holdout-population,population sample,False,
+candidate_validation_holdout_population-0389,2024arXiv240504983S,holdout-population,population sample,True,Axion + ALP
+candidate_validation_holdout_population-0390,2023JPhG...50a5202H,holdout-population,population sample,False,
+candidate_validation_holdout_population-0391,2022slft.confE.506A,holdout-population,population sample,False,
+candidate_validation_holdout_population-0392,2015PhRvD..92f6008N,holdout-population,population sample,False,
+candidate_validation_holdout_population-0393,2024EPJC...84..999G,holdout-population,population sample,True,Axion + ALP
+candidate_validation_holdout_population-0394,2024arXiv240407258K,holdout-population,population sample,False,
+candidate_validation_holdout_population-0395,2023arXiv231216532A,holdout-population,population sample,False,
+candidate_validation_holdout_population-0396,2019JHEP...05..039T,holdout-population,population sample,True,Generic WIMP
+candidate_validation_holdout_population-0397,2023PhRvL.130q1003A,holdout-population,population sample,False,
+candidate_validation_holdout_population-0398,2015JHEP...10..182B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0399,2018JHEP...07..113C,holdout-population,population sample,True,Axion + ALP
+candidate_validation_holdout_population-0400,2016PhLB..759..223A,holdout-population,population sample,False,
+candidate_validation_holdout_population-0401,2022arXiv221001446C,holdout-population,population sample,False,
+candidate_validation_holdout_population-0402,2022PhRvD.106i6017D,holdout-population,population sample,True,Generic WIMP
+candidate_validation_holdout_population-0403,2025NuPhB102117137H,holdout-population,population sample,False,
+candidate_validation_holdout_population-0404,2019PhRvD..99a2006A,holdout-population,population sample,False,
+candidate_validation_holdout_population-0405,2022arXiv221104722P,holdout-population,population sample,True,Asymmetric DM;Sterile nu
+candidate_validation_holdout_population-0406,2024arXiv240109529K,holdout-population,population sample,True,Axion + ALP
+candidate_validation_holdout_population-0407,2015JHEP...02..073A,holdout-population,population sample,False,
+candidate_validation_holdout_population-0408,2016IJMPD..2550094F,holdout-population,population sample,False,
+candidate_validation_holdout_population-0409,2025arXiv250722113B,holdout-population,population sample,True,Generic WIMP
+candidate_validation_holdout_population-0410,2023PhRvD.108i5017M,holdout-population,population sample,False,
+candidate_validation_holdout_population-0411,2025arXiv251024114W,holdout-population,population sample,True,Dark Photon
+candidate_validation_holdout_population-0412,2021PhLB..82036531A,holdout-population,population sample,False,
+candidate_validation_holdout_population-0413,2021arXiv210413734L,holdout-population,population sample,False,
+candidate_validation_holdout_population-0414,2024EPJC...84..919F,holdout-population,population sample,False,
+candidate_validation_holdout_population-0415,2017PhLB..774..575N,holdout-population,population sample,False,
+candidate_validation_holdout_population-0416,2022JHEP...11..089L,holdout-population,population sample,False,
+candidate_validation_holdout_population-0417,2017ehep.confE.392B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0418,2024arXiv240804100M,holdout-population,population sample,True,Axion + ALP
+candidate_validation_holdout_population-0419,2015PhRvD..92k5006A,holdout-population,population sample,True,Bino;Gravitino;LSP
+candidate_validation_holdout_population-0420,2024arXiv241118402H,holdout-population,population sample,False,
+candidate_validation_holdout_population-0421,2019PhRvD..99a5006B,holdout-population,population sample,True,Vector DM
+candidate_validation_holdout_population-0422,2015arXiv150205935G,holdout-population,population sample,True,LSP;Neutralino
+candidate_validation_holdout_population-0423,2016PhRvD..93e4030H,holdout-population,population sample,False,
+candidate_validation_holdout_population-0424,2023JHEP...03..222F,holdout-population,population sample,False,
+candidate_validation_holdout_population-0425,2015CQGra..32i5002K,holdout-population,population sample,False,
+candidate_validation_holdout_population-0426,2024PhLB..85138576K,holdout-population,population sample,False,
+candidate_validation_holdout_population-0427,2021PhRvD.103e5017C,holdout-population,population sample,False,
+candidate_validation_holdout_population-0428,2017PhRvD..96j3521G,holdout-population,population sample,True,SuperWIMP
+candidate_validation_holdout_population-0429,2023JHEP...12..166K,holdout-population,population sample,False,
+candidate_validation_holdout_population-0430,2025arXiv250917129K,holdout-population,population sample,True,Dark Photon;Vector DM
+candidate_validation_holdout_population-0431,2018JHEP...02..160K,holdout-population,population sample,False,
+candidate_validation_holdout_population-0432,2021ChPhC..45e3101C,holdout-population,population sample,False,
+candidate_validation_holdout_population-0433,2015JHEP...01..111F,holdout-population,population sample,False,
+candidate_validation_holdout_population-0434,2022cthe.confE...9A,holdout-population,population sample,False,
+candidate_validation_holdout_population-0435,2018PhRvD..97l3518M,holdout-population,population sample,False,
+candidate_validation_holdout_population-0436,2025PhRvD.111a6025C,holdout-population,population sample,False,
+candidate_validation_holdout_population-0437,2024CmPhy...7..226X,holdout-population,population sample,True,Axion + ALP
+candidate_validation_holdout_population-0438,2023PDU....4201289V,holdout-population,population sample,False,
+candidate_validation_holdout_population-0439,2025PhRvD.111e5005M,holdout-population,population sample,False,
+candidate_validation_holdout_population-0440,2022JHEP...12..057L,holdout-population,population sample,False,
+candidate_validation_holdout_population-0441,2022PhRvD.106g5002K,holdout-population,population sample,True,Inert Doublet Model
+candidate_validation_holdout_population-0442,2016JHEP...03..190M,holdout-population,population sample,False,
+candidate_validation_holdout_population-0443,2022arXiv220104183Y,holdout-population,population sample,False,
+candidate_validation_holdout_population-0444,2017PhLB..765..127B,holdout-population,population sample,True,Asymmetric DM
+candidate_validation_holdout_population-0445,2021arXiv210515088D,holdout-population,population sample,False,
+candidate_validation_holdout_population-0446,2015JHEP...12..002B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0447,2021PhRvL.126q1301R,holdout-population,population sample,True,Axion + ALP
+candidate_validation_holdout_population-0448,2023MLS&T...4d5040C,holdout-population,population sample,False,
+candidate_validation_holdout_population-0449,2017arXiv170602129H,holdout-population,population sample,False,
+candidate_validation_holdout_population-0450,2024PhRvD.110i5013F,holdout-population,population sample,False,
+candidate_validation_holdout_population-0451,2018arXiv180110157B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0452,2025arXiv250604370K,holdout-population,population sample,False,
+candidate_validation_holdout_population-0453,2017JHEP...09..064C,holdout-population,population sample,True,Higgsino;LSP;Wino
+candidate_validation_holdout_population-0454,2024arXiv240113734C,holdout-population,population sample,False,
+candidate_validation_holdout_population-0455,2021ChJPh..71..506P,holdout-population,population sample,False,
+candidate_validation_holdout_population-0456,2019PhRvD..99j4047G,holdout-population,population sample,False,
+candidate_validation_holdout_population-0457,2022PhRvD.105e2009A,holdout-population,population sample,False,
+candidate_validation_holdout_population-0458,2017arXiv171206401S,holdout-population,population sample,False,
+candidate_validation_holdout_population-0459,2017EPJC...77...67B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0460,2020JPhCS1468a2030M,holdout-population,population sample,True,Generic WIMP
+candidate_validation_holdout_population-0461,2019arXiv191208841A,holdout-population,population sample,False,
+candidate_validation_holdout_population-0462,2018JHEP...03..143E,holdout-population,population sample,False,
+candidate_validation_holdout_population-0463,2022JHEP...09..229C,holdout-population,population sample,False,
+candidate_validation_holdout_population-0464,2020PhRvD.101a2003A,holdout-population,population sample,True,Dark Photon;Mirror DM
+candidate_validation_holdout_population-0465,2018PhRvD..97a5007M,holdout-population,population sample,False,
+candidate_validation_holdout_population-0466,2023ChPhC..47l3102L,holdout-population,population sample,False,
+candidate_validation_holdout_population-0467,2023arXiv231210828K,holdout-population,population sample,True,Generic WIMP
+candidate_validation_holdout_population-0468,2017arXiv170601301D,holdout-population,population sample,False,
+candidate_validation_holdout_population-0469,2018NPPP..303...37M,holdout-population,population sample,False,
+candidate_validation_holdout_population-0470,2017JCAP...03..018A,holdout-population,population sample,False,
+candidate_validation_holdout_population-0471,2024PhRvL.132j1005J,holdout-population,population sample,False,
+candidate_validation_holdout_population-0472,2019PhRvD.100g6015N,holdout-population,population sample,False,
+candidate_validation_holdout_population-0473,2023arXiv230613567A,holdout-population,population sample,False,
+candidate_validation_holdout_population-0474,2024JCAP...04..045B,holdout-population,population sample,True,Axion + ALP
+candidate_validation_holdout_population-0475,2024PhRvD.109d3008M,holdout-population,population sample,False,
+candidate_validation_holdout_population-0476,2019FrP.....7..174V,holdout-population,population sample,False,
+candidate_validation_holdout_population-0477,2023arXiv231203597M,holdout-population,population sample,True,Generic WIMP
+candidate_validation_holdout_population-0478,2024arXiv240501388B,holdout-population,population sample,False,
+candidate_validation_holdout_population-0479,2023arXiv230616468A,holdout-population,population sample,False,
+candidate_validation_holdout_population-0480,2023NuPhA103722701B,holdout-population,population sample,False,
+candidate_validation_holdout_positive-0001,2023JCAP...01..021M,holdout-positive,Axion + ALP,True,Axion + ALP;PBH
+candidate_validation_holdout_positive-0002,2025arXiv250108391D,holdout-positive,Axion + ALP,True,Axion + ALP
+candidate_validation_holdout_positive-0003,2021PhRvD.104l3536B,holdout-positive,Axion + ALP,True,Axion + ALP;PBH
+candidate_validation_holdout_positive-0004,2015JCAP...12..012G,holdout-positive,Axion + ALP,True,Axion + ALP
+candidate_validation_holdout_positive-0005,2020PhRvL.125v1302J,holdout-positive,Axion + ALP,True,Axion + ALP
+candidate_validation_holdout_positive-0006,2019PDU....24..272T,holdout-positive,Axion + ALP,True,Axion + ALP
+candidate_validation_holdout_positive-0007,1999dmap.conf..471C,holdout-positive,Axion + ALP,True,Axion + ALP
+candidate_validation_holdout_positive-0008,2005JCAP...09..003R,holdout-positive,Axion + ALP,True,Axion + ALP
+candidate_validation_holdout_positive-0009,2008LNP...741...83M,holdout-positive,Axion + ALP,True,Axion + ALP
+candidate_validation_holdout_positive-0010,2021A&ARv..29....7F,holdout-positive,Axion + ALP,True,Axion + ALP;ULA / Fuzzy
+candidate_validation_holdout_positive-0011,2017arXiv171011262Y,holdout-positive,Axion + ALP,True,Axion + ALP
+candidate_validation_holdout_positive-0012,2025arXiv250821813G,holdout-positive,Axion + ALP,True,Axion + ALP
+candidate_validation_holdout_positive-0013,2023PhRvD.108h3536X,holdout-positive,Axion + ALP,True,Axion + ALP
+candidate_validation_holdout_positive-0014,2024PhLB..85839075L,holdout-positive,Axion + ALP,True,Axion + ALP
+candidate_validation_holdout_positive-0015,2025JHEP...07..142Y,holdout-positive,Axion + ALP,True,Axion + ALP
+candidate_validation_holdout_positive-0016,2025arXiv251101655Y,holdout-positive,Axion + ALP,True,Axion + ALP
+candidate_validation_holdout_positive-0017,2017JCAP...04..042A,holdout-positive,Axion + ALP,True,Axion + ALP
+candidate_validation_holdout_positive-0018,2017PhRvD..95l3511H,holdout-positive,Axion + ALP,True,Axion + ALP;ULA / Fuzzy
+candidate_validation_holdout_positive-0019,2023arXiv231002820L,holdout-positive,Axion + ALP,True,Axion + ALP
+candidate_validation_holdout_positive-0020,2025arXiv250106294L,holdout-positive,Axion + ALP,True,Axion + ALP
+candidate_validation_holdout_positive-0021,2025PhRvD.112g5027B,holdout-positive,Axion + ALP,True,Axion + ALP
+candidate_validation_holdout_positive-0022,2022PhLB..83337324S,holdout-positive,Axion + ALP,True,Axion + ALP;Dark Photon
+candidate_validation_holdout_positive-0023,2016PhLB..762..498P,holdout-positive,Axion + ALP,True,Axion + ALP
+candidate_validation_holdout_positive-0024,2017MNRAS.472.1346G,holdout-positive,Axion + ALP,True,Axion + ALP;ULA / Fuzzy
+candidate_validation_holdout_positive-0025,2018arXiv180102072V,holdout-positive,Axion + ALP,True,Axion + ALP
+candidate_validation_holdout_positive-0026,2021PhRvL.127p1101Z,holdout-positive,Axion + ALP,True,Axion + ALP
+candidate_validation_holdout_positive-0027,2018JHEP...02..103E,holdout-positive,Axion + ALP,True,Axion + ALP
+candidate_validation_holdout_positive-0028,2025arXiv250412852M,holdout-positive,Axion + ALP,True,Axion + ALP;ULA / Fuzzy
+candidate_validation_holdout_positive-0029,2024JHEP...06..156B,holdout-positive,Axion + ALP,True,Axion + ALP
+candidate_validation_holdout_positive-0030,2004hep.ph....6021B,holdout-positive,Axion + ALP,True,Axino;Axion + ALP;LSP
+candidate_validation_holdout_positive-0031,2018arXiv181200691B,holdout-positive,Generic WIMP,True,Generic WIMP
+candidate_validation_holdout_positive-0032,2017PhLB..775..196A,holdout-positive,Generic WIMP,True,Generic WIMP
+candidate_validation_holdout_positive-0033,2015PhLB..747..331A,holdout-positive,Generic WIMP,True,Dark Photon;Generic WIMP
+candidate_validation_holdout_positive-0034,2010ApJ...710.1825E,holdout-positive,Generic WIMP,True,Generic WIMP
+candidate_validation_holdout_positive-0035,2018arXiv181102302T,holdout-positive,Generic WIMP,True,Generic WIMP
+candidate_validation_holdout_positive-0036,2008PhRvL.101w1301F,holdout-positive,Generic WIMP,True,Generic WIMP
+candidate_validation_holdout_positive-0037,2010APh....34...90G,holdout-positive,Generic WIMP,True,Generic WIMP
+candidate_validation_holdout_positive-0038,2008arXiv0806.2673S,holdout-positive,Generic WIMP,True,Generic WIMP
+candidate_validation_holdout_positive-0039,2013JPhG...40g5201P,holdout-positive,Generic WIMP,True,Generic WIMP;LSP;Neutralino
+candidate_validation_holdout_positive-0040,2024arXiv240714704S,holdout-positive,Generic WIMP,True,Axion + ALP;Generic WIMP
+candidate_validation_holdout_positive-0041,2013arXiv1308.1510C,holdout-positive,Generic WIMP,True,Generic WIMP
+candidate_validation_holdout_positive-0042,2021MNRAS.501.4238B,holdout-positive,Generic WIMP,True,Generic WIMP
+candidate_validation_holdout_positive-0043,2010JCAP...10..034G,holdout-positive,Generic WIMP,True,Generic WIMP
+candidate_validation_holdout_positive-0044,2022icrc.confE.577S,holdout-positive,Generic WIMP,True,Generic WIMP
+candidate_validation_holdout_positive-0045,2025arXiv250917692S,holdout-positive,Generic WIMP,True,Generic WIMP;PBH
+candidate_validation_holdout_positive-0046,2025arXiv251119385A,holdout-positive,Generic WIMP,True,Generic WIMP
+candidate_validation_holdout_positive-0047,2024arXiv241016275B,holdout-positive,Generic WIMP,True,Generic WIMP
+candidate_validation_holdout_positive-0048,2012nuco.confE.191G,holdout-positive,Generic WIMP,True,Generic WIMP;Neutralino
+candidate_validation_holdout_positive-0049,2016JPhCS.718d2059V,holdout-positive,Generic WIMP,True,Generic WIMP
+candidate_validation_holdout_positive-0050,2015ApJS..221...29C,holdout-positive,Generic WIMP,True,Generic WIMP
+candidate_validation_holdout_positive-0051,2013SPPhy.148..129C,holdout-positive,Generic WIMP,True,Generic WIMP
+candidate_validation_holdout_positive-0052,2024PhRvC.110c4002F,holdout-positive,Generic WIMP,True,Generic WIMP
+candidate_validation_holdout_positive-0053,2019arXiv191203117B,holdout-positive,Generic WIMP,True,Generic WIMP
+candidate_validation_holdout_positive-0054,2021JInst..16P6022B,holdout-positive,Generic WIMP,True,Generic WIMP
+candidate_validation_holdout_positive-0055,2020PhRvD.102h2001A,holdout-positive,Generic WIMP,True,Generic WIMP
+candidate_validation_holdout_positive-0056,2001psc..conf..405M,holdout-positive,Generic WIMP,True,Generic WIMP
+candidate_validation_holdout_positive-0057,2021PPNL...18..196A,holdout-positive,Generic WIMP,True,Generic WIMP
+candidate_validation_holdout_positive-0058,2013PhLB..726..330B,holdout-positive,Generic WIMP,True,Axion + ALP;Generic WIMP;Higgsino;Neutralino
+candidate_validation_holdout_positive-0059,2013PhRvD..88c3006C,holdout-positive,Generic WIMP,True,Generic WIMP
+candidate_validation_holdout_positive-0060,2009PhLB..677....6K,holdout-positive,Generic WIMP,True,Generic WIMP
+candidate_validation_holdout_positive-0061,2002sf2a.conf..279N,holdout-positive,Neutralino,True,Neutralino
+candidate_validation_holdout_positive-0062,2014PhRvD..90g3002A,holdout-positive,Neutralino,True,Neutralino
+candidate_validation_holdout_positive-0063,2019PhRvD.100k5051C,holdout-positive,Neutralino,True,Neutralino;Sneutrino
+candidate_validation_holdout_positive-0064,1997PhLB..390..234C,holdout-positive,Neutralino,True,Neutralino;Sneutrino
+candidate_validation_holdout_positive-0065,2025arXiv250207539T,holdout-positive,Neutralino,True,Bino;Gravitino;Higgsino;LSP;Neutralino;Wino
+candidate_validation_holdout_positive-0066,2002hep.ph...10339A,holdout-positive,Neutralino,True,Neutralino
+candidate_validation_holdout_positive-0067,2012JCAP...05..035N,holdout-positive,Neutralino,True,Axion + ALP;Gravitino;Neutralino
+candidate_validation_holdout_positive-0068,2014arXiv1405.3884C,holdout-positive,Neutralino,True,Neutralino
+candidate_validation_holdout_positive-0069,2009PhLB..671...87C,holdout-positive,Neutralino,True,Axino;Axion + ALP;Neutralino
+candidate_validation_holdout_positive-0070,2018JHEP...06..126A,holdout-positive,Neutralino,True,Bino;Higgsino;Neutralino
+candidate_validation_holdout_positive-0071,2009JHEP...08..052D,holdout-positive,Neutralino,True,Neutralino
+candidate_validation_holdout_positive-0072,2013arXiv1308.0355D,holdout-positive,Neutralino,True,Bino;Higgsino;Neutralino;Wino
+candidate_validation_holdout_positive-0073,2011PhRvD..84a5007F,holdout-positive,Neutralino,True,LSP;Neutralino
+candidate_validation_holdout_positive-0074,2017arXiv171208677R,holdout-positive,Neutralino,True,Neutralino
+candidate_validation_holdout_positive-0075,2000PhRvD..62k5006F,holdout-positive,Neutralino,True,Neutralino
+candidate_validation_holdout_positive-0076,2014arXiv1407.0350A,holdout-positive,Neutralino,True,Neutralino
+candidate_validation_holdout_positive-0077,2018JHEP...06..108A,holdout-positive,Neutralino,True,Neutralino
+candidate_validation_holdout_positive-0078,2000PhLB..489...38A,holdout-positive,Neutralino,True,LSP;Neutralino;Sneutrino
+candidate_validation_holdout_positive-0079,1995albu.meet.1043T,holdout-positive,Neutralino,True,Neutralino
+candidate_validation_holdout_positive-0080,2015arXiv150707446K,holdout-positive,Neutralino,True,Higgsino;Neutralino
+candidate_validation_holdout_positive-0081,2004hep.ex...11002G,holdout-positive,Neutralino,True,Neutralino
+candidate_validation_holdout_positive-0082,2013EPJC...73.2656F,holdout-positive,Neutralino,True,Neutralino
+candidate_validation_holdout_positive-0083,1998cosm.work..195A,holdout-positive,Neutralino,True,Neutralino
+candidate_validation_holdout_positive-0084,2001PhRvD..64k3010A,holdout-positive,Neutralino,True,Bino;Neutralino
+candidate_validation_holdout_positive-0085,2020JHEP...09..073L,holdout-positive,Neutralino,True,Bino;Higgsino;Neutralino;Wino
+candidate_validation_holdout_positive-0086,2007PhLB..650..407B,holdout-positive,Neutralino,True,Bino;Higgsino;Neutralino
+candidate_validation_holdout_positive-0087,2012JHEP...12..076B,holdout-positive,Neutralino,True,Neutralino
+candidate_validation_holdout_positive-0088,2017PhRvL.118b1802K,holdout-positive,Neutralino,True,Neutralino
+candidate_validation_holdout_positive-0089,2015JHEP...02..124C,holdout-positive,Neutralino,True,Bino;Neutralino;Sterile nu
+candidate_validation_holdout_positive-0090,2021JCAP...04..067L,holdout-positive,Neutralino,True,LSP;Neutralino;Sneutrino
+candidate_validation_holdout_positive-0091,2020PhRvD.102d3522B,holdout-positive,PBH,True,PBH
+candidate_validation_holdout_positive-0092,2023PhRvD.107j3532P,holdout-positive,PBH,True,PBH
+candidate_validation_holdout_positive-0093,2024arXiv240313581D,holdout-positive,PBH,True,Axion + ALP;PBH
+candidate_validation_holdout_positive-0094,2021PhLB..81536129B,holdout-positive,PBH,True,PBH
+candidate_validation_holdout_positive-0095,2021JCAP...10..019T,holdout-positive,PBH,True,PBH
+candidate_validation_holdout_positive-0096,2015JCAP...04..034Y,holdout-positive,PBH,True,PBH
+candidate_validation_holdout_positive-0097,2024JHEP...06..198D,holdout-positive,PBH,True,Axion + ALP;PBH
+candidate_validation_holdout_positive-0098,2018PhRvD..97e5013A,holdout-positive,PBH,True,PBH
+candidate_validation_holdout_positive-0099,2024PhRvD.109h3501Y,holdout-positive,PBH,True,PBH
+candidate_validation_holdout_positive-0100,2025A&A...700A..49M,holdout-positive,PBH,True,PBH
+candidate_validation_holdout_positive-0101,2022PhLB..82436791K,holdout-positive,PBH,True,PBH
+candidate_validation_holdout_positive-0102,2022FrP....1005333F,holdout-positive,PBH,True,PBH
+candidate_validation_holdout_positive-0103,2003PhRvD..67b4024B,holdout-positive,PBH,True,PBH
+candidate_validation_holdout_positive-0104,2021JCAP...10..033H,holdout-positive,PBH,True,PBH;WIMPzilla
+candidate_validation_holdout_positive-0105,2025arXiv251017473C,holdout-positive,PBH,True,Axion + ALP;PBH
+candidate_validation_holdout_positive-0106,2022PhRvD.106h6001A,holdout-positive,PBH,True,PBH
+candidate_validation_holdout_positive-0107,2024PhRvD.109l3030G,holdout-positive,PBH,True,Axion + ALP;PBH
+candidate_validation_holdout_positive-0108,2021ApJ...915...54N,holdout-positive,PBH,True,PBH
+candidate_validation_holdout_positive-0109,2025arXiv250902165M,holdout-positive,PBH,True,PBH
+candidate_validation_holdout_positive-0110,2019JCAP...10..031K,holdout-positive,PBH,True,PBH
+candidate_validation_holdout_positive-0111,2001ApJ...563..172D,holdout-positive,PBH,True,Neutralino;PBH
+candidate_validation_holdout_positive-0112,2013JCAP...12..015L,holdout-positive,PBH,True,PBH
+candidate_validation_holdout_positive-0113,2024PhRvD.110g5011G,holdout-positive,PBH,True,MACHO;PBH
+candidate_validation_holdout_positive-0114,2021JCAP...09..016G,holdout-positive,PBH,True,PBH
+candidate_validation_holdout_positive-0115,2022ApJ...935L..28A,holdout-positive,PBH,True,PBH
+candidate_validation_holdout_positive-0116,2025arXiv250507586B,holdout-positive,PBH,True,PBH
+candidate_validation_holdout_positive-0117,2021PhRvD.103h1303B,holdout-positive,PBH,True,PBH
+candidate_validation_holdout_positive-0118,2023Univ....9..203O,holdout-positive,PBH,True,Axion + ALP;PBH
+candidate_validation_holdout_positive-0119,2020PhRvL.125r1304K,holdout-positive,PBH,True,PBH
+candidate_validation_holdout_positive-0120,2023JHEP...04..006M,holdout-positive,PBH,True,PBH
+candidate_validation_holdout_positive-0121,2014arXiv1404.6160G,holdout-positive,Sterile nu,True,Sterile nu
+candidate_validation_holdout_positive-0122,2022arXiv220803790F,holdout-positive,Sterile nu,True,Sterile nu
+candidate_validation_holdout_positive-0123,2012JHEP...07..112A,holdout-positive,Sterile nu,True,Sterile nu
+candidate_validation_holdout_positive-0124,2025PDU....4701801B,holdout-positive,Sterile nu,True,Sterile nu
+candidate_validation_holdout_positive-0125,2024EPJC...84.1234K,holdout-positive,Sterile nu,True,Sterile nu
+candidate_validation_holdout_positive-0126,2007ApJ...658..859C,holdout-positive,Sterile nu,True,Sterile nu
+candidate_validation_holdout_positive-0127,2024arXiv240500119F,holdout-positive,Sterile nu,True,Sterile nu
+candidate_validation_holdout_positive-0128,2015JCAP...04..023G,holdout-positive,Sterile nu,True,Sterile nu
+candidate_validation_holdout_positive-0129,2023JHEP...12..096A,holdout-positive,Sterile nu,True,Sterile nu
+candidate_validation_holdout_positive-0130,2022JCAP...09..036C,holdout-positive,Sterile nu,True,Sterile nu
+candidate_validation_holdout_positive-0131,2015ApJ...810...48R,holdout-positive,Sterile nu,True,Sterile nu
+candidate_validation_holdout_positive-0132,2020PhRvD.101e5034H,holdout-positive,Sterile nu,True,Sterile nu
+candidate_validation_holdout_positive-0133,2011arXiv1110.6479F,holdout-positive,Sterile nu,True,Sterile nu
+candidate_validation_holdout_positive-0134,2001fpam.symp..374C,holdout-positive,Sterile nu,True,Sterile nu
+candidate_validation_holdout_positive-0135,2025arXiv250613864D,holdout-positive,Sterile nu,True,Axion + ALP;Sterile nu
+candidate_validation_holdout_positive-0136,2022arXiv220301981P,holdout-positive,Sterile nu,True,Axion + ALP;Sterile nu
+candidate_validation_holdout_positive-0137,2005PhRvD..71e3001M,holdout-positive,Sterile nu,True,Sterile nu
+candidate_validation_holdout_positive-0138,2015lpih.confE..17Z,holdout-positive,Sterile nu,True,Sterile nu
+candidate_validation_holdout_positive-0139,2020MNRAS.498..702L,holdout-positive,Sterile nu,True,Sterile nu
+candidate_validation_holdout_positive-0140,2024arXiv240907184M,holdout-positive,Sterile nu,True,Sterile nu
+candidate_validation_holdout_positive-0141,2007PhRvD..75d3521W,holdout-positive,Sterile nu,True,Sterile nu
+candidate_validation_holdout_positive-0142,2008MNRAS.387.1470A,holdout-positive,Sterile nu,True,Sterile nu
+candidate_validation_holdout_positive-0143,2025arXiv251115325S,holdout-positive,Sterile nu,True,Sterile nu
+candidate_validation_holdout_positive-0144,2007MNRAS.374.1067R,holdout-positive,Sterile nu,True,Sterile nu
+candidate_validation_holdout_positive-0145,2022PhRvL.128v1103C,holdout-positive,Sterile nu,True,Axion + ALP;Sterile nu
+candidate_validation_holdout_positive-0146,2015JCAP...02..024L,holdout-positive,Sterile nu,True,Sterile nu
+candidate_validation_holdout_positive-0147,2024PhRvD.109j3028L,holdout-positive,Sterile nu,True,Axion + ALP;Sterile nu
+candidate_validation_holdout_positive-0148,2016Ap&SS.361..116C,holdout-positive,Sterile nu,True,Sterile nu
+candidate_validation_holdout_positive-0149,2004astro.ph..3529M,holdout-positive,Sterile nu,True,Sterile nu
+candidate_validation_holdout_positive-0150,2020JHEP...12..068E,holdout-positive,Sterile nu,True,Sterile nu
+candidate_validation_holdout_positive-0151,2023PhRvD.108g5002H,holdout-positive,LSP,True,LSP;Neutralino
+candidate_validation_holdout_positive-0152,2011arXiv1103.3520C,holdout-positive,LSP,True,LSP;Sneutrino
+candidate_validation_holdout_positive-0153,2009arXiv0912.3121V,holdout-positive,LSP,True,Generic WIMP;LKP Kaluza-Klein;LSP
+candidate_validation_holdout_positive-0154,1997PhRvD..56.2852R,holdout-positive,LSP,True,LSP
+candidate_validation_holdout_positive-0155,2008JHEP...02..035C,holdout-positive,LSP,True,LSP
+candidate_validation_holdout_positive-0156,2019PhRvD..99g5014G,holdout-positive,LSP,True,LSP;Sneutrino;Wino
+candidate_validation_holdout_positive-0157,2016PhRvD..93k5014L,holdout-positive,LSP,True,Axino;LSP;Neutralino
+candidate_validation_holdout_positive-0158,2017JHEP...02..051E,holdout-positive,LSP,True,Higgsino;LSP;Neutralino
+candidate_validation_holdout_positive-0159,2002PhRvD..66b3509T,holdout-positive,LSP,True,Generic WIMP;LSP;Neutralino
+candidate_validation_holdout_positive-0160,1996astro.ph..9081D,holdout-positive,LSP,True,LSP
+candidate_validation_holdout_positive-0161,2003PhRvD..67j3003V,holdout-positive,LSP,True,LSP
+candidate_validation_holdout_positive-0162,2025PhRvD.112g5026C,holdout-positive,LSP,True,Gravitino;Q-ball
+candidate_validation_holdout_positive-0163,2022JCAP...06..027A,holdout-positive,LSP,True,Gravitino;Higgsino;LSP
+candidate_validation_holdout_positive-0164,2000JHEP...06..020K,holdout-positive,LSP,True,LSP;Neutralino
+candidate_validation_holdout_positive-0165,2019EPJC...79..934K,holdout-positive,LSP,True,LSP;Sneutrino
+candidate_validation_holdout_positive-0166,2011arXiv1107.5322S,holdout-positive,LSP,True,LSP
+candidate_validation_holdout_positive-0167,2011PhRvD..84d3520A,holdout-positive,LSP,True,Generic WIMP;LSP
+candidate_validation_holdout_positive-0168,2008JCAP...10..026R,holdout-positive,LSP,True,Gravitino;LSP
+candidate_validation_holdout_positive-0169,2011JHEP...08..027B,holdout-positive,LSP,True,Gravitino;LSP;Neutralino
+candidate_validation_holdout_positive-0170,2007PhRvD..75g5007G,holdout-positive,LSP,True,LSP;Sneutrino
+candidate_validation_holdout_positive-0171,2015PhRvD..91e5028K,holdout-positive,LSP,True,LSP
+candidate_validation_holdout_positive-0172,1996hep.ph....1280E,holdout-positive,LSP,True,Axion + ALP;LSP
+candidate_validation_holdout_positive-0173,2014arXiv1409.4533H,holdout-positive,LSP,True,Bino;Higgsino;LSP;Wino
+candidate_validation_holdout_positive-0174,2018JHEP...10..062G,holdout-positive,LSP,True,LSP
+candidate_validation_holdout_positive-0175,2011PhLB..702...64A,holdout-positive,LSP,True,LSP
+candidate_validation_holdout_positive-0176,2016arXiv160100768B,holdout-positive,LSP,True,Higgsino;LSP;Neutralino
+candidate_validation_holdout_positive-0177,2003PhLB..571..115C,holdout-positive,LSP,True,LSP
+candidate_validation_holdout_positive-0178,2014PhRvD..90k5020E,holdout-positive,LSP,True,Bino;Gravitino;LSP;Wino
+candidate_validation_holdout_positive-0179,2024EPJC...84..104K,holdout-positive,LSP,True,LSP
+candidate_validation_holdout_positive-0180,2008JHEP...08..102E,holdout-positive,LSP,True,LSP;Neutralino
