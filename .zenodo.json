@@ -32,5 +32,5 @@
       "scheme": "doi"
     }
   ],
-  "notes": "Version 3.0.0. The version-specific DOI is assigned when this GitHub release is archived by Zenodo. The concept DOI identifies the archive lineage."
+  "notes": "Version 3.0.0 is archived at https://doi.org/10.5281/zenodo.23263996. The concept DOI 10.5281/zenodo.20241725 identifies the archive lineage. Manuscript source and compiled preprint are maintained separately."
 }

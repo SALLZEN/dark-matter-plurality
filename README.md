@@ -4,7 +4,7 @@
 
 This repository is the code and data bundle for the preprint *Diverging paths to dark-matter discovery*. It preserves the frozen ADS retrieval, rebuilds the canonical analysis tables, performs robustness and validation analyses, and includes the network analyses and all five main and five supplementary figure assets. The manuscript source and compiled preprint are maintained separately.
 
-Version 3.0.0 accompanies the arXiv preprint. The Zenodo badge intentionally uses the concept DOI, [10.5281/zenodo.20241725](https://doi.org/10.5281/zenodo.20241725), which resolves across versions. The exact v3.0.0 version DOI will be added after the connected Zenodo release is minted.
+Version 3.0.0 accompanies the arXiv preprint. The Zenodo badge intentionally uses the concept DOI, [10.5281/zenodo.20241725](https://doi.org/10.5281/zenodo.20241725), which resolves across versions. The archived v3.0.0 release is identified by the version DOI [10.5281/zenodo.23263996](https://doi.org/10.5281/zenodo.23263996).
 
 ## Frozen analysis contract
 
@@ -133,6 +133,7 @@ The frozen ontology and regenerated outputs are recorded in `data/validation/can
 - Citation metadata: [CITATION.cff](CITATION.cff)
 - Zenodo metadata: [.zenodo.json](.zenodo.json)
 - GitHub: [SALLZEN/dark-matter-plurality](https://github.com/SALLZEN/dark-matter-plurality)
+- Zenodo v3.0.0 DOI: [10.5281/zenodo.23263996](https://doi.org/10.5281/zenodo.23263996)
 - Zenodo concept DOI: [10.5281/zenodo.20241725](https://doi.org/10.5281/zenodo.20241725)
 - License: [MIT](LICENSE)
 

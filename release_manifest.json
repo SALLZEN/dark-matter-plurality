@@ -269,5 +269,13 @@
     ],
     "validation": "19 core tests and 24 network tests passed; 549 entities and 7 relation classes validated. A separate current-code extraction completed, confirming differences from the historical archive. No replacement of the paper\u2019s archived network results is part of this release.",
     "author_scope": "Exact reproduction of the network is not available."
+  },
+  "published_archive": {
+    "release_tag": "v3.0.0",
+    "release_commit": "e882b37b4b9af5dde2a20e557e0981656492381f",
+    "github_release_url": "https://github.com/SALLZEN/dark-matter-plurality/releases/tag/v3.0.0",
+    "zenodo_version_doi": "10.5281/zenodo.23263996",
+    "zenodo_concept_doi": "10.5281/zenodo.20241725",
+    "zenodo_record_url": "https://zenodo.org/records/23263996"
   }
 }
