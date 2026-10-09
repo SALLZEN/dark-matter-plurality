@@ -268,6 +268,6 @@
       }
     ],
     "validation": "19 core tests and 24 network tests passed; 549 entities and 7 relation classes validated. A separate current-code extraction completed, confirming differences from the historical archive. No replacement of the paper\u2019s archived network results is part of this release.",
-    "author_scope": "The author does not require a claim that exact reproduction of the network is available."
+    "author_scope": "Exact reproduction of the network is not available."
   }
 }
